@@ -1,6 +1,7 @@
 const topics = [
   {
     name: 'World News',
+    image: 'https://images.unsplash.com/photo-1526778548025-fa2f459cd5ce?auto=format&fit=crop&w=1400&q=80',
     links: [
       ['Reuters World', 'https://www.reuters.com/world/'],
       ['AP World', 'https://apnews.com/world-news'],
@@ -10,6 +11,7 @@ const topics = [
   },
   {
     name: 'US News',
+    image: 'https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=1400&q=80',
     links: [
       ['NPR', 'https://www.npr.org/sections/news/'],
       ['AP US', 'https://apnews.com/us-news'],
@@ -19,6 +21,7 @@ const topics = [
   },
   {
     name: 'Technology',
+    image: 'https://images.unsplash.com/photo-1518773553398-650c184e0bb3?auto=format&fit=crop&w=1400&q=80',
     links: [
       ['The Verge', 'https://www.theverge.com/tech'],
       ['Ars Technica', 'https://arstechnica.com/'],
@@ -28,6 +31,7 @@ const topics = [
   },
   {
     name: 'Business & Markets',
+    image: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=80',
     links: [
       ['Bloomberg Markets', 'https://www.bloomberg.com/markets'],
       ['CNBC', 'https://www.cnbc.com/world/?region=world'],
@@ -37,6 +41,7 @@ const topics = [
   },
   {
     name: 'Science & Climate',
+    image: 'https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=1400&q=80',
     links: [
       ['Nature News', 'https://www.nature.com/news'],
       ['ScienceDaily', 'https://www.sciencedaily.com/news/'],
@@ -46,6 +51,7 @@ const topics = [
   },
   {
     name: 'Policy & Geopolitics',
+    image: 'https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?auto=format&fit=crop&w=1400&q=80',
     links: [
       ['Foreign Policy', 'https://foreignpolicy.com/'],
       ['Council on Foreign Relations', 'https://www.cfr.org/'],
@@ -74,6 +80,7 @@ function render() {
 
     const article = document.createElement('article');
     article.className = 'card topic';
+    article.style.setProperty('--topic-image', `url('${topic.image}')`);
 
     const h2 = document.createElement('h2');
     h2.textContent = topic.name;
