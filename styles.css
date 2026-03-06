@@ -55,4 +55,24 @@ button {
 input { background: rgba(0,0,0,.12); color: var(--text); }
 ul { padding-left: 1.2rem; }
 li { margin: .35rem 0; }
+
+.cat {
+  margin-top: .5rem;
+  font-size: 3.2rem;
+  width: fit-content;
+  transform-origin: center bottom;
+}
+
+.cat.dancing {
+  animation: catDance 0.7s ease-in-out infinite;
+}
+
+@keyframes catDance {
+  0% { transform: translateY(0) rotate(-8deg) scale(1); }
+  25% { transform: translateY(-8px) rotate(8deg) scale(1.06); }
+  50% { transform: translateY(0) rotate(-6deg) scale(1); }
+  75% { transform: translateY(-6px) rotate(6deg) scale(1.05); }
+  100% { transform: translateY(0) rotate(-8deg) scale(1); }
+}
+
 @media (max-width: 760px) { .grid { grid-template-columns: 1fr; } }

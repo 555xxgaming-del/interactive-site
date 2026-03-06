@@ -5,6 +5,9 @@ const todoInput = document.getElementById('todoInput');
 const nameInput = document.getElementById('name');
 const hello = document.getElementById('hello');
 const accentInput = document.getElementById('accent');
+const cat = document.getElementById('cat');
+const catToggle = document.getElementById('catToggle');
+const catSpeed = document.getElementById('catSpeed');
 
 let count = Number(localStorage.getItem('count') || 0);
 let todos = JSON.parse(localStorage.getItem('todos') || '[]');
@@ -57,3 +60,20 @@ nameInput.oninput = (e) => {
 
 renderCount();
 renderTodos();
+
+let catIsDancing = false;
+
+function setCatSpeed() {
+  const speed = Number(catSpeed.value || 1);
+  cat.style.animationDuration = `${Math.max(0.2, 0.7 / speed)}s`;
+}
+
+catToggle.onclick = () => {
+  catIsDancing = !catIsDancing;
+  cat.classList.toggle('dancing', catIsDancing);
+  catToggle.textContent = catIsDancing ? 'Stop Dance' : 'Start Dance';
+  cat.textContent = catIsDancing ? '😸' : '🐱';
+};
+
+catSpeed.oninput = setCatSpeed;
+setCatSpeed();
