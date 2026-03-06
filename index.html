@@ -3,60 +3,26 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Levon Interactive Site</title>
+  <title>Levon Current Events Hub</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <main class="wrap">
-    <header class="card">
-      <h1>Interactive Starter <span>🍁</span></h1>
-      <p>Local-first, fast, and actually fun.</p>
+    <header class="card hero">
+      <h1>Current Events Hub <span>🍁</span></h1>
+      <p>Fast links to major live news sources.</p>
+      <p id="now" class="now"></p>
+      <div class="row">
+        <input id="filter" placeholder="Filter links (e.g., tech, world, business)" />
+        <button id="clear">Clear</button>
+      </div>
     </header>
 
-    <section class="grid">
-      <article class="card">
-        <h2>Counter</h2>
-        <p id="count" class="big">0</p>
-        <div class="row">
-          <button id="dec">-1</button>
-          <button id="inc">+1</button>
-          <button id="reset">Reset</button>
-        </div>
-      </article>
+    <section class="grid" id="cards"></section>
 
-      <article class="card">
-        <h2>Theme + Accent</h2>
-        <div class="row">
-          <button id="theme">Toggle Theme</button>
-          <input id="accent" type="color" value="#ff7a1a" title="Accent color" />
-        </div>
-      </article>
-
-      <article class="card">
-        <h2>Todo (saved locally)</h2>
-        <form id="todoForm" class="row">
-          <input id="todoInput" placeholder="Add task..." required />
-          <button>Add</button>
-        </form>
-        <ul id="todos"></ul>
-      </article>
-
-      <article class="card">
-        <h2>Live Message</h2>
-        <input id="name" placeholder="Type your name" />
-        <p id="hello">Hey there.</p>
-      </article>
-
-      <article class="card">
-        <h2>Dancing Cat</h2>
-        <div class="row">
-          <button id="catToggle">Start Dance</button>
-          <label for="catSpeed">Speed</label>
-          <input id="catSpeed" type="range" min="0.4" max="2.2" step="0.1" value="1" />
-        </div>
-        <div id="cat" class="cat" aria-label="Dancing cat">🐱</div>
-      </article>
-    </section>
+    <footer class="foot">
+      <small>Tip: open multiple links in new tabs to create your daily briefing flow.</small>
+    </footer>
   </main>
 
   <script src="app.js"></script>

@@ -1,79 +1,108 @@
-const countEl = document.getElementById('count');
-const todosEl = document.getElementById('todos');
-const todoForm = document.getElementById('todoForm');
-const todoInput = document.getElementById('todoInput');
-const nameInput = document.getElementById('name');
-const hello = document.getElementById('hello');
-const accentInput = document.getElementById('accent');
-const cat = document.getElementById('cat');
-const catToggle = document.getElementById('catToggle');
-const catSpeed = document.getElementById('catSpeed');
+const topics = [
+  {
+    name: 'World News',
+    links: [
+      ['Reuters World', 'https://www.reuters.com/world/'],
+      ['AP World', 'https://apnews.com/world-news'],
+      ['BBC World', 'https://www.bbc.com/news/world'],
+      ['Al Jazeera', 'https://www.aljazeera.com/news/']
+    ]
+  },
+  {
+    name: 'US News',
+    links: [
+      ['NPR', 'https://www.npr.org/sections/news/'],
+      ['AP US', 'https://apnews.com/us-news'],
+      ['CBS News', 'https://www.cbsnews.com/latest/'],
+      ['ABC News', 'https://abcnews.go.com/US']
+    ]
+  },
+  {
+    name: 'Technology',
+    links: [
+      ['The Verge', 'https://www.theverge.com/tech'],
+      ['Ars Technica', 'https://arstechnica.com/'],
+      ['TechCrunch', 'https://techcrunch.com/'],
+      ['Wired', 'https://www.wired.com/']
+    ]
+  },
+  {
+    name: 'Business & Markets',
+    links: [
+      ['Bloomberg Markets', 'https://www.bloomberg.com/markets'],
+      ['CNBC', 'https://www.cnbc.com/world/?region=world'],
+      ['Financial Times', 'https://www.ft.com/markets'],
+      ['WSJ Markets', 'https://www.wsj.com/news/markets']
+    ]
+  },
+  {
+    name: 'Science & Climate',
+    links: [
+      ['Nature News', 'https://www.nature.com/news'],
+      ['ScienceDaily', 'https://www.sciencedaily.com/news/'],
+      ['NOAA News', 'https://www.noaa.gov/news'],
+      ['NASA News', 'https://www.nasa.gov/news/']
+    ]
+  },
+  {
+    name: 'Policy & Geopolitics',
+    links: [
+      ['Foreign Policy', 'https://foreignpolicy.com/'],
+      ['Council on Foreign Relations', 'https://www.cfr.org/'],
+      ['Brookings', 'https://www.brookings.edu/topic/international-affairs/'],
+      ['CSIS', 'https://www.csis.org/']
+    ]
+  }
+];
 
-let count = Number(localStorage.getItem('count') || 0);
-let todos = JSON.parse(localStorage.getItem('todos') || '[]');
+const cards = document.getElementById('cards');
+const filter = document.getElementById('filter');
+const clearBtn = document.getElementById('clear');
+const now = document.getElementById('now');
 
-function save() {
-  localStorage.setItem('count', String(count));
-  localStorage.setItem('todos', JSON.stringify(todos));
+function render() {
+  cards.innerHTML = '';
+  const q = filter.value.trim().toLowerCase();
+
+  for (const topic of topics) {
+    const matchesTopic = topic.name.toLowerCase().includes(q);
+    const filteredLinks = q
+      ? topic.links.filter(([name]) => name.toLowerCase().includes(q))
+      : topic.links;
+
+    if (q && !matchesTopic && filteredLinks.length === 0) continue;
+
+    const article = document.createElement('article');
+    article.className = 'card topic';
+
+    const h2 = document.createElement('h2');
+    h2.textContent = topic.name;
+
+    const ul = document.createElement('ul');
+    for (const [name, url] of filteredLinks) {
+      const li = document.createElement('li');
+      const a = document.createElement('a');
+      a.href = url;
+      a.target = '_blank';
+      a.rel = 'noopener noreferrer';
+      a.textContent = name;
+      li.appendChild(a);
+      ul.appendChild(li);
+    }
+
+    article.append(h2, ul);
+    cards.appendChild(article);
+  }
 }
 
-function renderCount() { countEl.textContent = count; }
-function renderTodos() {
-  todosEl.innerHTML = '';
-  todos.forEach((t, i) => {
-    const li = document.createElement('li');
-    const btn = document.createElement('button');
-    btn.textContent = 'Done';
-    btn.onclick = () => { todos.splice(i, 1); save(); renderTodos(); };
-    li.textContent = t + ' ';
-    li.appendChild(btn);
-    todosEl.appendChild(li);
-  });
+function tick() {
+  const d = new Date();
+  now.textContent = `Local time: ${d.toLocaleString()}`;
 }
 
-document.getElementById('inc').onclick = () => { count++; save(); renderCount(); };
-document.getElementById('dec').onclick = () => { count--; save(); renderCount(); };
-document.getElementById('reset').onclick = () => { count = 0; save(); renderCount(); };
+filter.addEventListener('input', render);
+clearBtn.addEventListener('click', () => { filter.value = ''; render(); });
 
-document.getElementById('theme').onclick = () => {
-  document.body.classList.toggle('light');
-};
-
-accentInput.oninput = (e) => {
-  document.documentElement.style.setProperty('--accent', e.target.value);
-};
-
-todoForm.onsubmit = (e) => {
-  e.preventDefault();
-  const v = todoInput.value.trim();
-  if (!v) return;
-  todos.push(v);
-  todoInput.value = '';
-  save();
-  renderTodos();
-};
-
-nameInput.oninput = (e) => {
-  const n = e.target.value.trim();
-  hello.textContent = n ? `Hey ${n}, welcome to your interactive site.` : 'Hey there.';
-};
-
-renderCount();
-renderTodos();
-
-let catIsDancing = false;
-
-function setCatSpeed() {
-  const speed = Number(catSpeed.value || 1);
-  cat.style.animationDuration = `${Math.max(0.2, 0.7 / speed)}s`;
-}
-
-catToggle.onclick = () => {
-  catIsDancing = !catIsDancing;
-  cat.classList.toggle('dancing', catIsDancing);
-  catToggle.textContent = catIsDancing ? 'Stop Dance' : 'Start Dance';
-  cat.textContent = catIsDancing ? '😸' : '🐱';
-};
-
-catSpeed.oninput = setCatSpeed;
-setCatSpeed();
+render();
+tick();
+setInterval(tick, 1000);
