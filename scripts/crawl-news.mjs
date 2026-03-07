@@ -9,8 +9,19 @@ const statePath = path.join(ROOT, 'crawler-state.json');
 const metricsPath = path.join(ROOT, 'crawler-metrics.json');
 
 const cfg = JSON.parse(await fs.readFile(cfgPath, 'utf8'));
+const args = process.argv.slice(2);
+const argMode = (() => {
+  const i = args.indexOf('--mode');
+  return i >= 0 ? String(args[i + 1] || '').toLowerCase() : '';
+})();
+const mode = argMode === 'enrich' ? 'enrich' : 'fast';
+const argMax = (() => {
+  const i = args.indexOf('--maxItems');
+  return i >= 0 ? Number(args[i + 1]) : NaN;
+})();
+
 const keywords = cfg.keywords || [];
-const maxItems = Number(cfg.maxItems || 24);
+const maxItems = Number.isFinite(argMax) && argMax > 0 ? argMax : Number(cfg.maxItems || 24);
 const keywordWeights = cfg.keywordWeights || {};
 const sourceWeights = cfg.sourceWeights || {
   reuters: 1.35,
@@ -127,6 +138,23 @@ function clusterStories(items) {
     });
   }
   return representatives;
+}
+
+function deriveTopic(title = '') {
+  const t = title.toLowerCase();
+  if (/\b(oil|brent|wti|barrel|crude)\b/.test(t)) return 'oil';
+  if (/\b(natural gas|gas|lng|henry hub)\b/.test(t)) return 'gas-lng';
+  if (/\b(power|electricity|grid|utility)\b/.test(t)) return 'power';
+  if (/\b(sanction|ofac|war|conflict|strait|shipping|geopolitic)\b/.test(t)) return 'geopolitics';
+  if (/\b(earnings|profit|capex|debt|market|stock|finance)\b/.test(t)) return 'financials';
+  return 'general-energy';
+}
+
+function urgencyScore(item) {
+  const rec = scoreRecency(item.pubDate);
+  const cluster = Math.min(1, Number(item.clusterSize || 1) / 6);
+  const src = Math.min(1, Number(item.sourceCount || 1) / 4);
+  return Number((rec * 0.5 + cluster * 0.3 + src * 0.2).toFixed(3));
 }
 
 async function readJsonSafe(file, fallback) {
@@ -248,6 +276,7 @@ const trendingSubjects = Array.from(scores.values())
   .slice(0, 8);
 
 const payload = {
+  mode,
   generatedAt: new Date().toISOString(),
   keywords,
   count: processed.length,
@@ -262,8 +291,31 @@ const nextTraction = Object.fromEntries(trendingSubjects.map((x) => [x.keyword, 
 await fs.writeFile(outPath, JSON.stringify(payload, null, 2), 'utf8');
 await fs.writeFile(statePath, JSON.stringify({ seenHashes: nextSeen, lastTraction: nextTraction, updatedAt: new Date().toISOString() }, null, 2), 'utf8');
 
+if (mode === 'enrich') {
+  const enrichedPath = path.join(ROOT, 'enriched-top-stories.json');
+  const enriched = processed.slice(0, 12).map((item, rank) => ({
+    rank: rank + 1,
+    title: item.title,
+    link: item.link,
+    source: item.source,
+    pubDate: item.pubDate,
+    topic: deriveTopic(item.title),
+    urgency: urgencyScore(item),
+    score: item.score,
+    clusterSize: item.clusterSize,
+    sourceCount: item.sourceCount,
+    whyItMatters: `${deriveTopic(item.title)} story with ${item.clusterSize || 1} matching headline(s) across ${item.sourceCount || 1} source(s).`
+  }));
+  await fs.writeFile(
+    enrichedPath,
+    JSON.stringify({ generatedAt: new Date().toISOString(), mode, items: enriched }, null, 2),
+    'utf8'
+  );
+}
+
 const durationMs = Date.now() - startedAt;
 const metrics = {
+  mode,
   generatedAt: new Date().toISOString(),
   durationMs,
   totalParsed,
