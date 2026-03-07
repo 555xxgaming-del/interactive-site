@@ -66,6 +66,7 @@ const filter = document.getElementById('filter');
 const clearBtn = document.getElementById('clear');
 const now = document.getElementById('now');
 const liveFeed = document.getElementById('liveFeed');
+const trendingSubjectsEl = document.getElementById('trendingSubjects');
 const uniqueCountEl = document.getElementById('uniqueCount');
 const totalCountEl = document.getElementById('totalCount');
 
@@ -143,8 +144,21 @@ async function loadLiveFeed() {
       li.append(a, source);
       liveFeed.appendChild(li);
     }
+
+    const trends = (data.trendingSubjects || []).slice(0, 8);
+    if (!trends.length) {
+      trendingSubjectsEl.innerHTML = '<li>No trending subjects yet.</li>';
+    } else {
+      trendingSubjectsEl.innerHTML = '';
+      for (const t of trends) {
+        const li = document.createElement('li');
+        li.innerHTML = `<strong>${t.keyword}</strong> — score ${Number(t.tractionScore).toFixed(2)} · mentions ${t.mentions} · sources ${t.sourceDiversity}`;
+        trendingSubjectsEl.appendChild(li);
+      }
+    }
   } catch {
     liveFeed.innerHTML = '<li>Live feed unavailable. Run crawler script and push update.</li>';
+    trendingSubjectsEl.innerHTML = '<li>Trending subjects unavailable.</li>';
   }
 }
 
