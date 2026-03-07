@@ -7,6 +7,7 @@ const cfgPath = path.join(ROOT, 'crawler-keywords.json');
 const outPath = path.join(ROOT, 'dynamic-headlines.json');
 const statePath = path.join(ROOT, 'crawler-state.json');
 const metricsPath = path.join(ROOT, 'crawler-metrics.json');
+const publishFlagPath = path.join(ROOT, 'crawler-publish.json');
 
 const cfg = JSON.parse(await fs.readFile(cfgPath, 'utf8'));
 const args = process.argv.slice(2);
@@ -166,7 +167,7 @@ async function readJsonSafe(file, fallback) {
 }
 
 const startedAt = Date.now();
-const previousState = await readJsonSafe(statePath, { seenHashes: [], lastTraction: {} });
+const previousState = await readJsonSafe(statePath, { seenHashes: [], lastTraction: {}, lastTopSignature: '' });
 const seenSet = new Set(previousState.seenHashes || []);
 
 const res = await fetch(rssUrl, {
@@ -238,6 +239,29 @@ const processed = clustered
     hash: x.hash
   }));
 
+// Starvation guard: if delta mode yields too few stories, backfill with top scored items (can include seen hashes).
+if (processed.length < Math.max(6, Math.floor(maxItems * 0.25))) {
+  const existing = new Set(processed.map((x) => x.hash));
+  const backfill = clustered
+    .filter((x) => !existing.has(x.hash))
+    .sort((a, b) => b.score - a.score)
+    .slice(0, maxItems - processed.length)
+    .map((x, i) => ({
+      id: processed.length + i + 1,
+      title: x.title,
+      link: x.link,
+      pubDate: x.pubDate,
+      source: x.source,
+      score: x.score,
+      clusterSize: x.clusterSize,
+      sourceCount: x.sourceCount,
+      clusterSources: x.clusterSources,
+      fetchedAt: new Date().toISOString(),
+      hash: x.hash
+    }));
+  processed.push(...backfill);
+}
+
 const scores = new Map();
 for (const kw of keywords) {
   scores.set(kw, { keyword: kw, mentions: 0, recency: 0, sources: new Set() });
@@ -284,12 +308,28 @@ const payload = {
   trendingSubjects
 };
 
+const topSignature = JSON.stringify({
+  items: processed.slice(0, 8).map((x) => ({ h: x.hash, s: x.score })),
+  trends: trendingSubjects.slice(0, 8).map((x) => ({ k: x.keyword, t: x.tractionScore, d: x.delta }))
+});
+const prevSig = String(previousState.lastTopSignature || '');
+const changed = prevSig !== topSignature;
+
 const newHashes = processed.map((x) => x.hash);
 const nextSeen = Array.from(new Set([...(previousState.seenHashes || []), ...newHashes])).slice(-3000);
 const nextTraction = Object.fromEntries(trendingSubjects.map((x) => [x.keyword, x.tractionScore]));
 
 await fs.writeFile(outPath, JSON.stringify(payload, null, 2), 'utf8');
-await fs.writeFile(statePath, JSON.stringify({ seenHashes: nextSeen, lastTraction: nextTraction, updatedAt: new Date().toISOString() }, null, 2), 'utf8');
+await fs.writeFile(
+  statePath,
+  JSON.stringify({ seenHashes: nextSeen, lastTraction: nextTraction, lastTopSignature: topSignature, updatedAt: new Date().toISOString() }, null, 2),
+  'utf8'
+);
+await fs.writeFile(
+  publishFlagPath,
+  JSON.stringify({ generatedAt: new Date().toISOString(), mode, changed }, null, 2),
+  'utf8'
+);
 
 if (mode === 'enrich') {
   const enrichedPath = path.join(ROOT, 'enriched-top-stories.json');
@@ -325,6 +365,8 @@ const metrics = {
   staleDropped,
   freshnessRatio: totalParsed ? Number((processed.length / totalParsed).toFixed(3)) : 0,
   suggestedNextCrawlMinutes: processed.length >= Math.ceil(maxItems * 0.75) ? 20 : processed.length >= Math.ceil(maxItems * 0.4) ? 30 : 60
+  ,
+  changed
 };
 await fs.writeFile(metricsPath, JSON.stringify(metrics, null, 2), 'utf8');
 

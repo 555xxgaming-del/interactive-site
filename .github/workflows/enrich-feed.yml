@@ -23,10 +23,21 @@ jobs:
       - name: Run enrich crawl
         run: node scripts/crawl-news.mjs --mode enrich --maxItems 40
 
+      - name: Detect change-only publish
+        id: change
+        run: |
+          CHANGED=$(node -e "const fs=require('fs');const p=JSON.parse(fs.readFileSync('crawler-publish.json','utf8'));process.stdout.write(String(!!p.changed));")
+          echo "changed=$CHANGED" >> "$GITHUB_OUTPUT"
+
       - name: Commit updates
+        if: steps.change.outputs.changed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add dynamic-headlines.json crawler-state.json crawler-metrics.json enriched-top-stories.json
+          git add dynamic-headlines.json crawler-state.json crawler-metrics.json enriched-top-stories.json crawler-publish.json
           git diff --cached --quiet || git commit -m "chore: enrich top stories"
           git push
+
+      - name: No-op notice
+        if: steps.change.outputs.changed != 'true'
+        run: echo "No material top-feed change detected; skipping commit."
