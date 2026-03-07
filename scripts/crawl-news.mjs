@@ -95,6 +95,40 @@ function hashItem(x) {
   return crypto.createHash('sha1').update(`${x.title}|${x.link}`).digest('hex');
 }
 
+function titleSignature(title = '') {
+  return title
+    .toLowerCase()
+    .replace(/[^a-z0-9\s]/g, ' ')
+    .split(/\s+/)
+    .filter(Boolean)
+    .filter((w) => !['the', 'a', 'an', 'and', 'or', 'to', 'of', 'in', 'for', 'with', 'on', 'at', 'from'].includes(w))
+    .slice(0, 8)
+    .join(' ');
+}
+
+function clusterStories(items) {
+  const groups = new Map();
+  for (const item of items) {
+    const sig = titleSignature(item.title) || item.title.toLowerCase();
+    if (!groups.has(sig)) groups.set(sig, []);
+    groups.get(sig).push(item);
+  }
+
+  const representatives = [];
+  for (const group of groups.values()) {
+    group.sort((a, b) => b.score - a.score);
+    const best = group[0];
+    const sourceSet = new Set(group.map((g) => g.source).filter(Boolean));
+    representatives.push({
+      ...best,
+      clusterSize: group.length,
+      sourceCount: sourceSet.size,
+      clusterSources: Array.from(sourceSet).slice(0, 6)
+    });
+  }
+  return representatives;
+}
+
 async function readJsonSafe(file, fallback) {
   try {
     return JSON.parse(await fs.readFile(file, 'utf8'));
@@ -124,7 +158,7 @@ const linkSeen = new Set();
 const parsed = parseItems(xml);
 totalParsed = parsed.length;
 
-const processed = parsed
+const scored = parsed
   .filter((x) => x.title && x.link)
   .filter((x) => {
     const key = x.link.toLowerCase();
@@ -148,6 +182,11 @@ const processed = parsed
     const hash = hashItem(x);
     return { ...x, score, recency, srcBoost, hash };
   })
+  .sort((a, b) => b.score - a.score);
+
+const clustered = clusterStories(scored);
+
+const processed = clustered
   .filter((x) => {
     if (seenSet.has(x.hash)) {
       staleDropped += 1;
@@ -164,6 +203,9 @@ const processed = parsed
     pubDate: x.pubDate,
     source: x.source,
     score: x.score,
+    clusterSize: x.clusterSize,
+    sourceCount: x.sourceCount,
+    clusterSources: x.clusterSources,
     fetchedAt: new Date().toISOString(),
     hash: x.hash
   }));
@@ -226,6 +268,7 @@ const metrics = {
   durationMs,
   totalParsed,
   emitted: processed.length,
+  clusteredFrom: scored.length,
   dedupDropped,
   staleDropped,
   freshnessRatio: totalParsed ? Number((processed.length / totalParsed).toFixed(3)) : 0,
