@@ -66,6 +66,13 @@ const filter = document.getElementById('filter');
 const clearBtn = document.getElementById('clear');
 const now = document.getElementById('now');
 const liveFeed = document.getElementById('liveFeed');
+const uniqueCountEl = document.getElementById('uniqueCount');
+const totalCountEl = document.getElementById('totalCount');
+
+const COUNTER_NAMESPACE = 'levon-current-events-hub';
+const UNIQUE_KEY = 'unique-visitors';
+const TOTAL_KEY = 'total-visits';
+const UNIQUE_SEEN_LOCAL_KEY = 'ceh_unique_seen_v1';
 
 function render() {
   cards.innerHTML = '';
@@ -141,7 +148,37 @@ async function loadLiveFeed() {
   }
 }
 
+async function callCountApi(path) {
+  const url = `https://api.countapi.xyz${path}`;
+  const res = await fetch(url);
+  if (!res.ok) throw new Error(`CountAPI ${res.status}`);
+  return res.json();
+}
+
+async function updateCounters() {
+  try {
+    // Total visits increments every page load.
+    const total = await callCountApi(`/hit/${COUNTER_NAMESPACE}/${TOTAL_KEY}`);
+    totalCountEl.textContent = Number(total.value || 0).toLocaleString();
+
+    // Unique increments once per browser profile (simple client-side uniqueness).
+    const seenUnique = localStorage.getItem(UNIQUE_SEEN_LOCAL_KEY) === '1';
+    if (!seenUnique) {
+      const uniq = await callCountApi(`/hit/${COUNTER_NAMESPACE}/${UNIQUE_KEY}`);
+      uniqueCountEl.textContent = Number(uniq.value || 0).toLocaleString();
+      localStorage.setItem(UNIQUE_SEEN_LOCAL_KEY, '1');
+    } else {
+      const uniq = await callCountApi(`/get/${COUNTER_NAMESPACE}/${UNIQUE_KEY}`);
+      uniqueCountEl.textContent = Number(uniq.value || 0).toLocaleString();
+    }
+  } catch {
+    uniqueCountEl.textContent = 'n/a';
+    totalCountEl.textContent = 'n/a';
+  }
+}
+
 render();
 tick();
 setInterval(tick, 1000);
 loadLiveFeed();
+updateCounters();

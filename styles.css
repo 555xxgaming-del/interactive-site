@@ -26,6 +26,15 @@ body {
 .hero h1 { margin: 0 0 .3rem; }
 .hero p { margin: .2rem 0 .7rem; color: var(--muted); }
 .now { color: #ffd8b8; font-weight: 600; }
+.counter-row { display: flex; gap: .5rem; flex-wrap: wrap; margin: .25rem 0 .75rem; }
+.pill {
+  display: inline-block;
+  padding: .35rem .65rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: rgba(0,0,0,.2);
+  font-size: .92rem;
+}
 .row { display: flex; gap: .5rem; flex-wrap: wrap; }
 input, button {
   border-radius: 10px;
