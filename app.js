@@ -65,6 +65,7 @@ const cards = document.getElementById('cards');
 const filter = document.getElementById('filter');
 const clearBtn = document.getElementById('clear');
 const now = document.getElementById('now');
+const liveFeed = document.getElementById('liveFeed');
 
 function render() {
   cards.innerHTML = '';
@@ -110,6 +111,37 @@ function tick() {
 filter.addEventListener('input', render);
 clearBtn.addEventListener('click', () => { filter.value = ''; render(); });
 
+async function loadLiveFeed() {
+  try {
+    const res = await fetch('dynamic-headlines.json?ts=' + Date.now());
+    if (!res.ok) throw new Error('feed unavailable');
+    const data = await res.json();
+    const items = (data.items || []).slice(0, 12);
+    if (!items.length) {
+      liveFeed.innerHTML = '<li>No live matches yet. Run crawler to refresh.</li>';
+      return;
+    }
+    liveFeed.innerHTML = '';
+    for (const item of items) {
+      const li = document.createElement('li');
+      const a = document.createElement('a');
+      a.href = item.link;
+      a.target = '_blank';
+      a.rel = 'noopener noreferrer';
+      a.textContent = item.title;
+      const source = document.createElement('small');
+      source.style.marginLeft = '.5rem';
+      source.style.opacity = '0.8';
+      source.textContent = item.source ? `(${item.source})` : '';
+      li.append(a, source);
+      liveFeed.appendChild(li);
+    }
+  } catch {
+    liveFeed.innerHTML = '<li>Live feed unavailable. Run crawler script and push update.</li>';
+  }
+}
+
 render();
 tick();
 setInterval(tick, 1000);
+loadLiveFeed();
