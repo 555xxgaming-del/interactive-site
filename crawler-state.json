@@ -212,14 +212,18 @@
     "7deb9ef66bc031c87a004dc2a0a3fed464acd648",
     "48ef1cdffa6cffd0a612d5d62af08c9aa4fe5a8d",
     "d61dc159290f5358325af7b1e54c896eb7b01481",
-    "b4e55a8b25d184d6e2f2cfdd82e6d3a1f4167cc0"
+    "b4e55a8b25d184d6e2f2cfdd82e6d3a1f4167cc0",
+    "9c66c3cf1e2a7fb7492beec8ae03b1f3c30f3e6c"
   ],
   "lastTraction": {
-    "energy": 4.47,
-    "oil": 3.49,
-    "natural gas": 0.87,
-    "geopolitics": 0.87
+    "energy": 22.91,
+    "oil": 14.07,
+    "shipping": 6.01,
+    "LNG": 4.87,
+    "sanctions": 3.93,
+    "natural gas": 1.7,
+    "geopolitics": 0.83
   },
-  "lastTopSignature": "{\"items\":[{\"h\":\"ca3689da20cb28ab784e94a61291e22b2da71d58\",\"s\":1.5},{\"h\":\"71407e0c1d607d7e4dfe4c60f17508fe52812b75\",\"s\":1.075},{\"h\":\"05bb8f91cca462cf82ccf313ac6c8ec496c82146\",\"s\":1.075},{\"h\":\"7deb9ef66bc031c87a004dc2a0a3fed464acd648\",\"s\":0.85},{\"h\":\"48ef1cdffa6cffd0a612d5d62af08c9aa4fe5a8d\",\"s\":0.675},{\"h\":\"d61dc159290f5358325af7b1e54c896eb7b01481\",\"s\":0.675},{\"h\":\"b4e55a8b25d184d6e2f2cfdd82e6d3a1f4167cc0\",\"s\":0.575}],\"trends\":[{\"k\":\"energy\",\"t\":4.47,\"d\":-7.58},{\"k\":\"oil\",\"t\":3.49,\"d\":-5.75},{\"k\":\"natural gas\",\"t\":0.87,\"d\":0},{\"k\":\"geopolitics\",\"t\":0.87,\"d\":-1.32}]}",
-  "updatedAt": "2026-03-08T05:01:33.226Z"
+  "lastTopSignature": "{\"items\":[{\"h\":\"9c66c3cf1e2a7fb7492beec8ae03b1f3c30f3e6c\",\"s\":0.85},{\"h\":\"42d57254514d026d5ae3e5a5259e041fecd5faa9\",\"s\":2.1775},{\"h\":\"7e8acac981489b5bc797023dc1324504dd926eb7\",\"s\":1.5863},{\"h\":\"7a6561a9b9d2a816e74ea28e5874279604dae181\",\"s\":1.5863},{\"h\":\"bda97ef3b2c72eafa83d6fe742d1ebc7c7914478\",\"s\":1.575},{\"h\":\"ca3689da20cb28ab784e94a61291e22b2da71d58\",\"s\":1.5},{\"h\":\"38ea25dafba1b9bff12d0cf289a0d9365d2239de\",\"s\":1.4512},{\"h\":\"f0e58e9c7b6fa4641cae747b7119ff9e7ff026a4\",\"s\":1.35}],\"trends\":[{\"k\":\"energy\",\"t\":22.91,\"d\":18.44},{\"k\":\"oil\",\"t\":14.07,\"d\":10.58},{\"k\":\"shipping\",\"t\":6.01,\"d\":6.01},{\"k\":\"LNG\",\"t\":4.87,\"d\":4.87},{\"k\":\"sanctions\",\"t\":3.93,\"d\":3.93},{\"k\":\"natural gas\",\"t\":1.7,\"d\":0.83},{\"k\":\"geopolitics\",\"t\":0.83,\"d\":-0.04}]}",
+  "updatedAt": "2026-03-08T05:02:59.673Z"
 }
