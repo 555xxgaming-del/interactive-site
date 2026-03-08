@@ -286,12 +286,20 @@
     "4ce9b249abfe07e17b3071260af69dca14b01526",
     "61551db2ae05b17d58c34596f24d196df1991d2a",
     "ba5dd47ee9334152a53f1a28a131c1cee92e25c1",
-    "7435a117bc00f64dc71adbccd974f78e350d1772"
+    "7435a117bc00f64dc71adbccd974f78e350d1772",
+    "a795dffe56391116fdd244b5650c333a520fdad9",
+    "720bbd50cd814106b7de327fafc05f0643e11557",
+    "c2b21d45f15aed03f213221773989466c509bae0"
   ],
   "lastTraction": {
-    "energy": 1.87,
-    "oil": 1
+    "energy": 15.58,
+    "oil": 8.63,
+    "LNG": 4.93,
+    "shipping": 4.23,
+    "geopolitics": 1.83,
+    "sanctions": 1.77,
+    "natural gas": 1.7
   },
-  "lastTopSignature": "{\"items\":[{\"h\":\"716da2c93fbd5ba38d5331e118fa17abc0ed8daf\",\"s\":1},{\"h\":\"c31b19c60847dacda7fd8cd79691c0a902ffb2ac\",\"s\":1},{\"h\":\"4ce9b249abfe07e17b3071260af69dca14b01526\",\"s\":0.675},{\"h\":\"61551db2ae05b17d58c34596f24d196df1991d2a\",\"s\":0.5},{\"h\":\"ba5dd47ee9334152a53f1a28a131c1cee92e25c1\",\"s\":0.35},{\"h\":\"7435a117bc00f64dc71adbccd974f78e350d1772\",\"s\":0.175}],\"trends\":[{\"k\":\"energy\",\"t\":1.87,\"d\":-21.75},{\"k\":\"oil\",\"t\":1,\"d\":-14.48}]}",
-  "updatedAt": "2026-03-08T22:52:38.228Z"
+  "lastTopSignature": "{\"items\":[{\"h\":\"a795dffe56391116fdd244b5650c333a520fdad9\",\"s\":0.675},{\"h\":\"720bbd50cd814106b7de327fafc05f0643e11557\",\"s\":0.35},{\"h\":\"c2b21d45f15aed03f213221773989466c509bae0\",\"s\":0.175},{\"h\":\"d5ee28c653b532fb1d2f2e495e8887e2bc0f2e8f\",\"s\":2.4975},{\"h\":\"42d57254514d026d5ae3e5a5259e041fecd5faa9\",\"s\":2.1775},{\"h\":\"daf62c68f142ee9a6cdaabf88a3e0cc5ce6587da\",\"s\":2},{\"h\":\"7e8acac981489b5bc797023dc1324504dd926eb7\",\"s\":1.5863},{\"h\":\"bda97ef3b2c72eafa83d6fe742d1ebc7c7914478\",\"s\":1.575}],\"trends\":[{\"k\":\"energy\",\"t\":15.58,\"d\":13.71},{\"k\":\"oil\",\"t\":8.63,\"d\":7.63},{\"k\":\"LNG\",\"t\":4.93,\"d\":4.93},{\"k\":\"shipping\",\"t\":4.23,\"d\":4.23},{\"k\":\"geopolitics\",\"t\":1.83,\"d\":1.83},{\"k\":\"sanctions\",\"t\":1.77,\"d\":1.77},{\"k\":\"natural gas\",\"t\":1.7,\"d\":1.7}]}",
+  "updatedAt": "2026-03-08T23:47:55.830Z"
 }
