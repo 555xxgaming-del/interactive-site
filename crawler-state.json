@@ -273,12 +273,21 @@
     "19c19334c1043f778cbf331dd4f3876e38c9399f",
     "875146cf8725002cedc610ca1236fab4d3fe2fb9",
     "77eef48fdeba55d8f7da2400b0e6db27c8164ba1",
-    "604fe23b36cb5d43faf8422a39f0e08f5d0971ea"
+    "604fe23b36cb5d43faf8422a39f0e08f5d0971ea",
+    "daf62c68f142ee9a6cdaabf88a3e0cc5ce6587da",
+    "bc37d530953092587a445c701a524442ec9ed95d",
+    "2de3f1a0f0d194073b6556a4551918814c7efa3c",
+    "398c3c8e42981b93f058f8f9cb15788351afc074"
   ],
   "lastTraction": {
-    "energy": 2.7,
-    "oil": 1
+    "energy": 14.68,
+    "oil": 9.69,
+    "LNG": 4.93,
+    "shipping": 4.27,
+    "geopolitics": 1.83,
+    "sanctions": 1.83,
+    "natural gas": 1.7
   },
-  "lastTopSignature": "{\"items\":[{\"h\":\"fc21e2fef6e19684348436445aa38a108388a80e\",\"s\":1},{\"h\":\"fef65bc849aa4fbcc2ad00741d42f05ceb243be3\",\"s\":1},{\"h\":\"19c19334c1043f778cbf331dd4f3876e38c9399f\",\"s\":0.675},{\"h\":\"875146cf8725002cedc610ca1236fab4d3fe2fb9\",\"s\":0.575},{\"h\":\"77eef48fdeba55d8f7da2400b0e6db27c8164ba1\",\"s\":0.5},{\"h\":\"604fe23b36cb5d43faf8422a39f0e08f5d0971ea\",\"s\":0.35}],\"trends\":[{\"k\":\"energy\",\"t\":2.7,\"d\":-11.72},{\"k\":\"oil\",\"t\":1,\"d\":-9.82}]}",
-  "updatedAt": "2026-03-08T20:52:55.437Z"
+  "lastTopSignature": "{\"items\":[{\"h\":\"daf62c68f142ee9a6cdaabf88a3e0cc5ce6587da\",\"s\":2},{\"h\":\"bc37d530953092587a445c701a524442ec9ed95d\",\"s\":0.675},{\"h\":\"2de3f1a0f0d194073b6556a4551918814c7efa3c\",\"s\":0.5},{\"h\":\"398c3c8e42981b93f058f8f9cb15788351afc074\",\"s\":0.35},{\"h\":\"d5ee28c653b532fb1d2f2e495e8887e2bc0f2e8f\",\"s\":2.7},{\"h\":\"42d57254514d026d5ae3e5a5259e041fecd5faa9\",\"s\":2.1775},{\"h\":\"7e8acac981489b5bc797023dc1324504dd926eb7\",\"s\":1.5863},{\"h\":\"bda97ef3b2c72eafa83d6fe742d1ebc7c7914478\",\"s\":1.575}],\"trends\":[{\"k\":\"energy\",\"t\":14.68,\"d\":11.98},{\"k\":\"oil\",\"t\":9.69,\"d\":8.69},{\"k\":\"LNG\",\"t\":4.93,\"d\":4.93},{\"k\":\"shipping\",\"t\":4.27,\"d\":4.27},{\"k\":\"geopolitics\",\"t\":1.83,\"d\":1.83},{\"k\":\"sanctions\",\"t\":1.83,\"d\":1.83},{\"k\":\"natural gas\",\"t\":1.7,\"d\":1.7}]}",
+  "updatedAt": "2026-03-08T21:44:51.854Z"
 }
