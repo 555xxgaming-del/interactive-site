@@ -410,14 +410,21 @@
     "8343965d444b618306e3314ffc42cb02a5f160b0",
     "cbc4eb325cdc901dac654235049e186a9e274383",
     "2a24ccd7d12c574a34ebb25e3848acfeb58da69f",
-    "d3ca54b1a63d63c0f3ebd6ccdcf600c964499456"
+    "d3ca54b1a63d63c0f3ebd6ccdcf600c964499456",
+    "782cfcee1f8106908f7c1647d556e716496d6d38",
+    "401e00d21ee7cd9d09d770761c2c43752b9d74f7",
+    "d3c4273b83231ce2a09ebe24c0916737a64e56c2",
+    "313d70b678b75a97cc64c240d2c2779f7cee336a",
+    "bbce53cebbb7e9ace5b162bdbd9099e266c9aa0e",
+    "cac68d17bd29b263f7b35e815367a0a60952e7da",
+    "ddaeb6e17577b7a89262b404a27ba32c98d54435"
   ],
   "lastTraction": {
-    "energy": 8.75,
-    "oil": 7.22,
-    "LNG": 1,
-    "sanctions": 1
+    "energy": 3.49,
+    "oil": 2.47,
+    "natural gas": 0.83,
+    "shipping": 0.83
   },
-  "lastTopSignature": "{\"items\":[{\"h\":\"f12dc388fdd0ea45d29a0d27a6004649f42e1f3c\",\"s\":1.5},{\"h\":\"b65d5777a6150b66a13ce48f5ddf181284030126\",\"s\":1.5},{\"h\":\"7f0c6e6a1010dee9a5316137464dfb9abd9669ad\",\"s\":1.485},{\"h\":\"65d8ce373983d1da4dd3fa8445c5d258751ae0c8\",\"s\":1.35},{\"h\":\"a0b7284e75591ffd6a2bb5c625ec61f727caa57d\",\"s\":1.35},{\"h\":\"b4b3b45e78a4b2462e09c421e8a3291f243d4ad1\",\"s\":1.1},{\"h\":\"ad301bc1710eb8220d86581fb2f703fc99d59bb2\",\"s\":1},{\"h\":\"f1fa20b34cd93c98f8492da3054d26d967ce7998\",\"s\":1}],\"trends\":[{\"k\":\"energy\",\"t\":8.75,\"d\":5.43},{\"k\":\"oil\",\"t\":7.22,\"d\":6.28},{\"k\":\"LNG\",\"t\":1,\"d\":0.17},{\"k\":\"sanctions\",\"t\":1,\"d\":0.17}]}",
-  "updatedAt": "2026-03-09T18:00:28.584Z"
+  "lastTopSignature": "{\"items\":[{\"h\":\"782cfcee1f8106908f7c1647d556e716496d6d38\",\"s\":2.0475},{\"h\":\"401e00d21ee7cd9d09d770761c2c43752b9d74f7\",\"s\":1.075},{\"h\":\"d3c4273b83231ce2a09ebe24c0916737a64e56c2\",\"s\":1},{\"h\":\"313d70b678b75a97cc64c240d2c2779f7cee336a\",\"s\":1},{\"h\":\"bbce53cebbb7e9ace5b162bdbd9099e266c9aa0e\",\"s\":0.85},{\"h\":\"cac68d17bd29b263f7b35e815367a0a60952e7da\",\"s\":0.575},{\"h\":\"ddaeb6e17577b7a89262b404a27ba32c98d54435\",\"s\":0.35}],\"trends\":[{\"k\":\"energy\",\"t\":3.49,\"d\":-5.26},{\"k\":\"oil\",\"t\":2.47,\"d\":-4.75},{\"k\":\"natural gas\",\"t\":0.83,\"d\":0.83},{\"k\":\"shipping\",\"t\":0.83,\"d\":0.83}]}",
+  "updatedAt": "2026-03-09T18:06:08.022Z"
 }
