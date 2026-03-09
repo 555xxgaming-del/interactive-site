@@ -327,13 +327,20 @@
     "7609fe03b05f04ba7094e51d836ae45fe67c3577",
     "bd9d4b688b4e8efbd537891df5d978b058dc2116",
     "54731a7e47edfa67083b0cb9d9f6e51ecdc8d4c9",
-    "457c4d1b61edb16a5618ca6468fead5d502d8adb"
+    "457c4d1b61edb16a5618ca6468fead5d502d8adb",
+    "4b8b5aa14024c673b2de544dc8d05d365eb877be",
+    "61a635d15afae3a24a9333aa7f39c7d1b1ccf207",
+    "8ef37c842b73e4d9f09852ba7f9bb531165a6038",
+    "2c82cd475cebddbcaae529f619a933be23cd9f22"
   ],
   "lastTraction": {
-    "energy": 3.4,
-    "oil": 2.94,
-    "shipping": 1
+    "energy": 22.22,
+    "oil": 16.09,
+    "LNG": 5.17,
+    "sanctions": 3.43,
+    "shipping": 2.7,
+    "geopolitics": 2.6
   },
-  "lastTopSignature": "{\"items\":[{\"h\":\"01c4d4724d7153340ba6024d4d6b13f1534121ab\",\"s\":1.5},{\"h\":\"4f94e716c63e474481cf8c970bbbedbace930e88\",\"s\":1},{\"h\":\"797aadcb92d1c98f1f3799c049a0f97c8318fdba\",\"s\":1},{\"h\":\"9599643c03d24a6224113bd5e63a89428f93b8aa\",\"s\":1},{\"h\":\"6a956f000d78365803c94624aaec21bb575a45c5\",\"s\":0.85},{\"h\":\"1561fe95d7e77b5051738c033479ab13f7147352\",\"s\":0.675},{\"h\":\"7609fe03b05f04ba7094e51d836ae45fe67c3577\",\"s\":0.575},{\"h\":\"bd9d4b688b4e8efbd537891df5d978b058dc2116\",\"s\":0.5}],\"trends\":[{\"k\":\"energy\",\"t\":3.4,\"d\":-5.17},{\"k\":\"oil\",\"t\":2.94,\"d\":1.28},{\"k\":\"shipping\",\"t\":1,\"d\":0.17}]}",
-  "updatedAt": "2026-03-09T07:57:13.965Z"
+  "lastTopSignature": "{\"items\":[{\"h\":\"4b8b5aa14024c673b2de544dc8d05d365eb877be\",\"s\":1},{\"h\":\"61a635d15afae3a24a9333aa7f39c7d1b1ccf207\",\"s\":0.675},{\"h\":\"8ef37c842b73e4d9f09852ba7f9bb531165a6038\",\"s\":0.5},{\"h\":\"2c82cd475cebddbcaae529f619a933be23cd9f22\",\"s\":0.35},{\"h\":\"d5ee28c653b532fb1d2f2e495e8887e2bc0f2e8f\",\"s\":2.4975},{\"h\":\"daf62c68f142ee9a6cdaabf88a3e0cc5ce6587da\",\"s\":1.85},{\"h\":\"7e8acac981489b5bc797023dc1324504dd926eb7\",\"s\":1.5863},{\"h\":\"191680fbf57cb5f00569b303b8916fa63424f08a\",\"s\":1.575}],\"trends\":[{\"k\":\"energy\",\"t\":22.22,\"d\":18.82},{\"k\":\"oil\",\"t\":16.09,\"d\":13.15},{\"k\":\"LNG\",\"t\":5.17,\"d\":5.17},{\"k\":\"sanctions\",\"t\":3.43,\"d\":3.43},{\"k\":\"shipping\",\"t\":2.7,\"d\":1.7},{\"k\":\"geopolitics\",\"t\":2.6,\"d\":2.6}]}",
+  "updatedAt": "2026-03-09T08:03:19.327Z"
 }
