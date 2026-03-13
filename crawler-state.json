@@ -776,13 +776,19 @@
     "9651435a5140947b99bede487df41ee173ff20ca",
     "724618e910e6c89296a187df9127f1eb7ca60623",
     "b8d02a3b8d769ee5bd47d9c9c86ca31e1f1dee69",
-    "9ce72d906aa2be49de0f3ffbc9129a6d62bfbe66"
+    "9ce72d906aa2be49de0f3ffbc9129a6d62bfbe66",
+    "a9f475b97453d4028beb2ef12673e10d75fa3ef5",
+    "c157ea55444ff79e9bde37a3c40f51b6363e59d5"
   ],
   "lastTraction": {
-    "energy": 3.88,
-    "oil": 2.88,
-    "sanctions": 0.94
+    "energy": 21.86,
+    "oil": 15.22,
+    "sanctions": 6.31,
+    "LNG": 4.48,
+    "natural gas": 2.71,
+    "geopolitics": 2.6,
+    "shipping": 1.77
   },
-  "lastTopSignature": "{\"items\":[{\"h\":\"7f597b7e755e6e55578c8bf35009516d0d9d54be\",\"s\":1.8225},{\"h\":\"41a755a60e4b9415e237eca4f06c354d5e3edfc9\",\"s\":1.35},{\"h\":\"1cdf80082f96bff5e59ca9f62c0404924cd106b6\",\"s\":1},{\"h\":\"9651435a5140947b99bede487df41ee173ff20ca\",\"s\":1},{\"h\":\"724618e910e6c89296a187df9127f1eb7ca60623\",\"s\":1},{\"h\":\"b8d02a3b8d769ee5bd47d9c9c86ca31e1f1dee69\",\"s\":0.85},{\"h\":\"9ce72d906aa2be49de0f3ffbc9129a6d62bfbe66\",\"s\":0.35}],\"trends\":[{\"k\":\"energy\",\"t\":3.88,\"d\":-18.59},{\"k\":\"oil\",\"t\":2.88,\"d\":-10.86},{\"k\":\"sanctions\",\"t\":0.94,\"d\":-3.6}]}",
-  "updatedAt": "2026-03-13T07:55:02.182Z"
+  "lastTopSignature": "{\"items\":[{\"h\":\"a9f475b97453d4028beb2ef12673e10d75fa3ef5\",\"s\":0.575},{\"h\":\"c157ea55444ff79e9bde37a3c40f51b6363e59d5\",\"s\":0.075},{\"h\":\"e908eb4926b9b11717197851508d2ae128564a9b\",\"s\":1.85},{\"h\":\"7f597b7e755e6e55578c8bf35009516d0d9d54be\",\"s\":1.8225},{\"h\":\"853a04e3eba75550fafe5f124a7b30a386fe7a4b\",\"s\":1.575},{\"h\":\"639935e4203eb2ffb7cbb27e175b690ef3afba09\",\"s\":1.5},{\"h\":\"00f79c32ac942a82667e9053841205c0747c2278\",\"s\":1.485},{\"h\":\"bf4f5ce93f63bf2e86bfb62bc50abcd250e1740a\",\"s\":1.35}],\"trends\":[{\"k\":\"energy\",\"t\":21.86,\"d\":17.98},{\"k\":\"oil\",\"t\":15.22,\"d\":12.34},{\"k\":\"sanctions\",\"t\":6.31,\"d\":5.37},{\"k\":\"LNG\",\"t\":4.48,\"d\":4.48},{\"k\":\"natural gas\",\"t\":2.71,\"d\":2.71},{\"k\":\"geopolitics\",\"t\":2.6,\"d\":2.6},{\"k\":\"shipping\",\"t\":1.77,\"d\":1.77}]}",
+  "updatedAt": "2026-03-13T08:01:48.505Z"
 }
