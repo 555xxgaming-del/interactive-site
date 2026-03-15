@@ -895,13 +895,19 @@
     "b595768509d6fefc95179c37ee8e63a8926b9534",
     "b2dab2223591d8adad1938e826c450b94fc83ccd",
     "feea5dcba3f94b7cd10705e93caa23965c7030ed",
-    "b40b8baf6bfaa86bddc9a82ab4042c79b07e93a0"
+    "b40b8baf6bfaa86bddc9a82ab4042c79b07e93a0",
+    "e2334f4337f579f114cff0477cde730f6e85bdba",
+    "21d78f4bcc18d6444a9010061d51cae90377614e"
   ],
   "lastTraction": {
-    "oil": 2.57,
-    "sanctions": 1.7,
-    "energy": 1.66
+    "energy": 23.54,
+    "oil": 16.06,
+    "sanctions": 6.84,
+    "geopolitics": 5.59,
+    "LNG": 3.36,
+    "natural gas": 3.14,
+    "shipping": 1.66
   },
-  "lastTopSignature": "{\"items\":[{\"h\":\"1656789016c4d03ed407c95dc7c27e6149bb2873\",\"s\":1.575},{\"h\":\"fc580b7d3c8d22de0cbd06be50a24a7d1f665563\",\"s\":1.175},{\"h\":\"c1cca616497be84fd05e731fcacbe71a309fa969\",\"s\":0.675},{\"h\":\"b595768509d6fefc95179c37ee8e63a8926b9534\",\"s\":0.575},{\"h\":\"b2dab2223591d8adad1938e826c450b94fc83ccd\",\"s\":0.175},{\"h\":\"feea5dcba3f94b7cd10705e93caa23965c7030ed\",\"s\":0.1013},{\"h\":\"b40b8baf6bfaa86bddc9a82ab4042c79b07e93a0\",\"s\":0.075}],\"trends\":[{\"k\":\"oil\",\"t\":2.57,\"d\":-8.69},{\"k\":\"sanctions\",\"t\":1.7,\"d\":-3.4},{\"k\":\"energy\",\"t\":1.66,\"d\":-11.19}]}",
-  "updatedAt": "2026-03-15T05:43:53.306Z"
+  "lastTopSignature": "{\"items\":[{\"h\":\"e2334f4337f579f114cff0477cde730f6e85bdba\",\"s\":0.675},{\"h\":\"21d78f4bcc18d6444a9010061d51cae90377614e\",\"s\":0.575},{\"h\":\"35859a41277b6fff821ad7c77d36cea245912fb0\",\"s\":2.075},{\"h\":\"cfb5857b3cd693c8fd60490caea471a08efc53a2\",\"s\":2.075},{\"h\":\"e908eb4926b9b11717197851508d2ae128564a9b\",\"s\":1.675},{\"h\":\"f7bd198ef3fda448d999fb4caa976b7ae57fadc1\",\"s\":1.575},{\"h\":\"853a04e3eba75550fafe5f124a7b30a386fe7a4b\",\"s\":1.575},{\"h\":\"d5640cc690ce28870ff1c82b1cfd7d812d82f57f\",\"s\":1.35}],\"trends\":[{\"k\":\"energy\",\"t\":23.54,\"d\":21.88},{\"k\":\"oil\",\"t\":16.06,\"d\":13.49},{\"k\":\"sanctions\",\"t\":6.84,\"d\":5.14},{\"k\":\"geopolitics\",\"t\":5.59,\"d\":5.59},{\"k\":\"LNG\",\"t\":3.36,\"d\":3.36},{\"k\":\"natural gas\",\"t\":3.14,\"d\":3.14},{\"k\":\"shipping\",\"t\":1.66,\"d\":1.66}]}",
+  "updatedAt": "2026-03-15T05:46:14.275Z"
 }
