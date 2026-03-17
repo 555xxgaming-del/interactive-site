@@ -1,6 +1,6 @@
 {
-  "mode": "enrich",
-  "generatedAt": "2026-03-17T05:20:51.247Z",
+  "mode": "fast",
+  "generatedAt": "2026-03-17T05:24:57.237Z",
   "keywords": [
     "energy",
     "oil",
@@ -12,10 +12,55 @@
     "sanctions",
     "shipping"
   ],
-  "count": 12,
+  "count": 24,
   "items": [
     {
       "id": 1,
+      "title": "Serbia's energy reliance on Russia comes unstuck facing US oil sanctions",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5pWDN4Wm10S0pkODRzWnBSdWZSdlB0M3FxTWo3UVFIcmRobkdtdUZLZ1VqcEZ3cFlDcTdRcUZVUHNkNDNTNklqWkVVNFdwMDNxMkc0am9ZUlY0QQ",
+      "pubDate": "Tue, 11 Nov 2025 08:00:00 GMT",
+      "source": "BBC",
+      "score": 1.7325,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "clusterSources": [
+        "BBC"
+      ],
+      "fetchedAt": "2026-03-17T05:24:57.236Z",
+      "hash": "c45613a8047b855994b3207572675824004a91c1"
+    },
+    {
+      "id": 2,
+      "title": "Cheniere Energy Received $370 Million IRS Windfall for Using LNG as ‘Alternative’ Fuel",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNOXkwcElZZV93SWx5b0d4Z3JZR05rc3dVRGZ6bTM2Tk5JRllSYUtmeFdlOUVocGxTVmNOWG93aG1NUW1kM0NWaC1xcE1iWlNwVWtkbWZEWXRvcU8tWkFyMmtObzZoOVZuZnlydUpsT0lhTkFvdlJmbmI0LVltUXI2Y0RGUk43YlEyTUdYWTBDV0tFaC1hS2J4d0tR",
+      "pubDate": "Fri, 27 Feb 2026 08:00:00 GMT",
+      "source": "Inside Climate News",
+      "score": 1.075,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "clusterSources": [
+        "Inside Climate News"
+      ],
+      "fetchedAt": "2026-03-17T05:24:57.236Z",
+      "hash": "8400897d205c1ace2e537c777e3a68e039314eef"
+    },
+    {
+      "id": 3,
+      "title": "Investing in energy infrastructure to boost the transition",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTWtQclNMSUFmbUY3aE1jUXJ2dnhtNzJTNFVNeEpqemNnNTg2NXRVX0pIUFlGRWlLRWdDbWRWOTNTUk9XNGxSa3FEQlpBN1ItT2k5U3l2LUFXUnNWSFNHV0tqbGJOX1l3Y3NfTS1ZQlRBODlqbmpzcGNxM1p6UUUyTlFBNl9vbVhIMFE",
+      "pubDate": "Mon, 12 Jan 2026 08:00:00 GMT",
+      "source": "The World Economic Forum",
+      "score": 0.575,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "clusterSources": [
+        "The World Economic Forum"
+      ],
+      "fetchedAt": "2026-03-17T05:24:57.236Z",
+      "hash": "71de40d3f216cab49680a166444f9dc0b37cd0db"
+    },
+    {
+      "id": 4,
       "title": "Iran hits neighbors and keeps stranglehold on oil shipping as energy fears rise",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOd2U0TUZ4SXplVkdnVXpLN1JkVnV1eGlEMjM2alJnaU5sUjluRHlXS2c4NkFsVXJIYm45dklHUW53NnVzWjZLWkozNjhQWEhOV0JxcUdHYU5VdnJsdU1kWmpQc2ZBck43ZXIxZnQ4bWtXaU1yZVNaTmZGVmhSTmJoVFZpV0hfN1M1UThUZWdnUks1bmpwTGtsZ3J2ajl0TWk3aW1qQWNlYWhfdnpFZDFqcUQ1ZGo2YjBvSmR6bUZB0gHDAUFVX3lxTE1scDBCclFYVlp2dUF1Y2w4V3hIamh0ZWxuaHp0aWRDdVEtOHdva3JqVkVwRXFTUDM1alJoQ04yTm9IYjl1SmlZNENmcnEzcVQ5S0ZQa2pXREtxZjBBU2tjN2UyQmw3MHNGa0FuWnROWWJFd1pUQkpYTGZJLW16WnBXbDBWajg0dnFTM01NLTFmT2QwX2t6WFRCbUNDRXRwR3QzLVdpcjlTeWUtVllsVUpBRUxrd2p4b1FacTExMjNkSWt3VQ",
       "pubDate": "Mon, 16 Mar 2026 10:33:26 GMT",
@@ -26,71 +71,236 @@
       "clusterSources": [
         "FOX 8 News"
       ],
-      "fetchedAt": "2026-03-17T05:20:51.247Z",
+      "fetchedAt": "2026-03-17T05:24:57.236Z",
       "hash": "730fb7c9a583614c222f8e256508129d8cf24867"
     },
     {
-      "id": 2,
-      "title": "Energy Transfer Subsidiary Launches Open Season for Desert Southwest Natural Gas Expansion Project",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQeEd6NW9wa2JOcHRhcUluMzhidkdCeW04ajA5UkVxMlRHTTIwTjVhOXpmal9TN1JrZmszZXJsX01HQzVDaHgzQm85N0l4NzN1UjBsRWFGQXFObm1YT2pkZnk0LVAtZmJHRlMtRzBmaWZhZ21LMGxKYVo5Y3FzSVFGa1Z0OWhnN0FVQVk0SlNZaw",
-      "pubDate": "Mon, 13 Oct 2025 07:00:00 GMT",
-      "source": "Yahoo Finance",
-      "score": 1.075,
-      "clusterSize": 1,
-      "sourceCount": 1,
-      "clusterSources": [
-        "Yahoo Finance"
-      ],
-      "fetchedAt": "2026-03-17T05:20:51.247Z",
-      "hash": "bb02d0331a7b77c7338e3ea6871dbbc3405f61ae"
-    },
-    {
-      "id": 3,
-      "title": "Cheniere Energy (LNG) Upgraded as Market Turns Overly Bearish on LNG",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNN3JVTnZveDFmZnIzZVdqOWxaYnFULVdkWGo0bm0wYmdJdEhEVFVoZWpqMnJFWGhyZ2xYSC1BRmhheHlOOUdxWXBSTFdFN3FhNjRLaEZ5VXlraWxGMXFvYzlkaC1OS2EyRGMzYlJSc1lNeUpRdzVjdklYX3BnYldNLVF6WUZvZGtm",
-      "pubDate": "Tue, 03 Feb 2026 08:00:00 GMT",
-      "source": "Yahoo Finance",
-      "score": 1.075,
-      "clusterSize": 1,
-      "sourceCount": 1,
-      "clusterSources": [
-        "Yahoo Finance"
-      ],
-      "fetchedAt": "2026-03-17T05:20:51.247Z",
-      "hash": "a3fe4a11cfbeb04be1a54570d74a08f7ce602a91"
-    },
-    {
-      "id": 4,
-      "title": "Vaca Muerta's oil and gas boom signals Argentina’s pivot towards LNG exports",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQY3F0NWdfQXR4WGhsVEFSQnVpMjhlMEkxZmFlUk5wRHhuYzNuQ2tHOVljcU9hVTBBZEllOFluWWxBSklWMGlfN2dnUkZPQXRyb2k4ZmZ4Z1lvZHFFd24wVVVvamt4d1lQamtmbkh6RHA0WXpJR0l2OXc4SF9ZZkp2aThpeEZjTFFjWTdscGROc0QtdjQ",
-      "pubDate": "Tue, 17 Jun 2025 07:00:00 GMT",
-      "source": "Rystad Energy",
-      "score": 1.075,
-      "clusterSize": 1,
-      "sourceCount": 1,
-      "clusterSources": [
-        "Rystad Energy"
-      ],
-      "fetchedAt": "2026-03-17T05:20:51.247Z",
-      "hash": "21e8d8afbe07bc8f3629e3a1ca599bacf38e64ad"
-    },
-    {
       "id": 5,
-      "title": "Tokenization News: Turbo Energy Taps Stellar (XLM), Taurus for Clean Energy Finance",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZVN5RExnM1hZQXhXT25KY0huWXpNY2I4cEtBXzJEVWs4ZjhUdEdXcUhObXVrNTVLV0tTRWlUSGNsNUFUbnl4dXJhajA1RGpZa1pLUFI5bkxZMmh2LW5CZUdvNXJ1cktvOXRkTVhsR2pZOGhLTkQ3UmpDSGlzSnNjSElxOEFBcDZENkJVRUdidl9iVG5mQTBKUjNfaEZmRGlZbjhtdmpuQlZFdEdSdDlCNXZuRTJWYUJrUTN5S3RmZTNadndWR3RZc3NHcw",
-      "pubDate": "Tue, 11 Nov 2025 08:00:00 GMT",
-      "source": "CoinDesk",
-      "score": 1.075,
+      "title": "Energy chief defends waiver on Russian oil sanctions, blames fear for higher gas prices",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxONGt5cG84dWtCYjFDVWFmZ1BIa1h4dGJzalF4TWlSWktkdDljODlTMUV1VTZwa191YWRHSW9vbW1IMkR2MVUxTDZlOE1tdEx5RFFEbWxuVFdUM2FyVXAzc2NJcXYwT041VV94LTJRMWxicXZJZHBLeDczTU1rMXNkdjEzVlowa3liYS1aM245bjZXTXpWRm9DOUFBYW9PSnQwbE9rb1ZGamg3bUM5TWFwcGNkYmVhcnZZT0RxeVF4enpJSWRVeU1fVkR4YzhzckhVNW1jU05tSzREcWFPckRSeGtRbjBJdXJw",
+      "pubDate": "Sun, 08 Mar 2026 08:00:00 GMT",
+      "source": "The Detroit News",
+      "score": 1.575,
       "clusterSize": 1,
       "sourceCount": 1,
       "clusterSources": [
-        "CoinDesk"
+        "The Detroit News"
       ],
-      "fetchedAt": "2026-03-17T05:20:51.247Z",
-      "hash": "7a3590ed35ad58e5a220a556c4642aa1760074d5"
+      "fetchedAt": "2026-03-17T05:24:57.236Z",
+      "hash": "853a04e3eba75550fafe5f124a7b30a386fe7a4b"
     },
     {
       "id": 6,
+      "title": "Exclusive: US firms to develop Syria energy masterplan after Trump lifts sanctions",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPdzNxa1RSR045QlpuV0oxbngyYmlmNTJ0OGFuejctLUc1RzVvXy1ZbDF0QmE2MFVKTU8tbV8yUDNoQ2RVZUJjTWNTUkpGc0pJOUNJMEI5eFRyUGEwQmtRRi14UksxTC1LS1FmX3RGQlVRYVF5YnMxdDZXd2I5dXpOdzZTYkVzSElKWmtWaUx4aHp3U3p5X3dSUkhEM04yTGJsWHlyZl9ScjVPOW9IZTA1QXk2WUJqdkJLcWlGTGFRMUlJZ1h6SncxRG5YX2c1ZmF5QkJaeUpFTzFRdzFQ",
+      "pubDate": "Fri, 18 Jul 2025 07:00:00 GMT",
+      "source": "Reuters",
+      "score": 1.4512,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "clusterSources": [
+        "Reuters"
+      ],
+      "fetchedAt": "2026-03-17T05:24:57.236Z",
+      "hash": "38ea25dafba1b9bff12d0cf289a0d9365d2239de"
+    },
+    {
+      "id": 7,
+      "title": "Hormuz Under Fire: LNG Disruption, Regional Exposure, and Energy Sovereignty in MENA",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTG9jQTdtdF9sMkNsMnU4aWRneDVZNkZURld4bnJzb3FmZFI1OU90SkczY3RaUG5obUd4U0tIbzA1eTgtaDg2YkxuYmJBc2lHOUtoblJlcEtFRzBLR2VoV3BtUmxwLVNTQ0RKNk4tSVlYM1JYcHVkMFloZXZobnJfcjNCUm9oU0pyNFR4X2MyVXpob0NUNVpMOXQ5Z0M4bmdPbjZiVnhzVVl3Nk90c0w4VTlvbDZOTHl5a3Q2bXJOYw",
+      "pubDate": "Mon, 16 Mar 2026 16:42:13 GMT",
+      "source": "Arab Reform Initiative",
+      "score": 1.35,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "clusterSources": [
+        "Arab Reform Initiative"
+      ],
+      "fetchedAt": "2026-03-17T05:24:57.236Z",
+      "hash": "8fc541c10c0b899a87981f2b45ca54ebf85e5ef1"
+    },
+    {
+      "id": 8,
+      "title": "Power Struggle: Cuba's Energy Crisis Amid U.S. Sanctions",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWHNESlR4VW9YemI0UFdGZklUUllhVlpDejY0cE10VW1maWhaMVN3eTBMRWJGS1ZQUFlGc3JCbFVTbkUwbHNNRXZ0c0RYYUhRclY0SjQwSzVpNnpfNVkyZ3pXazdFOXFRdkZUcUlzLUl0dzNicmNTb3V0UjNDUjJGaE9KejhFc1NNeVhUaDNwQUtyX3FqT0E0Y1hhYlczUWpuNUZPT3RvY1BqTU3SAbABQVVfeXFMT1hXaThwS1RSQXdoV2VodEN2WXdHSC1oc0Q5YjVRVG1yWHFYYkNrT0g3ZWh5TXhxcWlZX21oU2lPYTNrU2prR0tQZ28tN3dGTFd2MnZldTRSalFhTlZ0NW8tSE5iamN2U2xwUGNoMmJHbWpiZFRwZGE1TDRYWFpUeExZWEFfR2JVTDY1UjNpZm1zOUVhaDcxYVRUeTIyRDYtcklzcjF3NURjZTZidzRDOWU",
+      "pubDate": "Mon, 16 Mar 2026 18:34:14 GMT",
+      "source": "Devdiscourse",
+      "score": 1.35,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "clusterSources": [
+        "Devdiscourse"
+      ],
+      "fetchedAt": "2026-03-17T05:24:57.236Z",
+      "hash": "31d15198017009fbbd3f66f9b4a04739145042e6"
+    },
+    {
+      "id": 9,
+      "title": "Energy and Shipping Risks in the Iran War",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdXRoRE05WFlDSHo0WnhiY0RNVGxTZElmd3dKS0ZfWDBib3NmREVYaEhDTDVKQ0lxRlYtQW9RLXpQeXJIekpjRGZDb2p6WlpZaXpZck44M2xnY3FMSE0yaDg4cDlaNUVkZlVsUGhmTDRac2dZeVZ6T1NSdXljUDh2TmViVzR3eW5WdzluN2FWNA",
+      "pubDate": "Mon, 09 Mar 2026 07:00:00 GMT",
+      "source": "The Washington Institute",
+      "score": 1.075,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "clusterSources": [
+        "The Washington Institute"
+      ],
+      "fetchedAt": "2026-03-17T05:24:57.236Z",
+      "hash": "65052f28e33eddc85f09b3ca642bf209ec9c5672"
+    },
+    {
+      "id": 10,
+      "title": "How Trump and Erdoğan can turn US LNG energy dominance into Black Sea stability",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRDUzdnZDNkJXRTZXejFkOEJQbkN5ZVN3bGxCLTRyQ1VVNHFyMDFvbk9SWFp2d2xKQ3BESUJXVy1KQk5XUmdyWkhaRVhDOWxXLW03VVpnWUxKaTJ3dmdMelNVcndwdlBuc3UzMUZvbWFPODRaV24tb2JUd201YVpOSl9hQ0ZQcEh6RWRWYW1KdlZYSWhJZFVaS0xHalpQQ3ZrU2NDcmd3SEFJZ3hNcG1oNnhQNktjdDU2QVhweDhwcEo",
+      "pubDate": "Fri, 20 Feb 2026 08:00:00 GMT",
+      "source": "Atlantic Council",
+      "score": 1.075,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "clusterSources": [
+        "Atlantic Council"
+      ],
+      "fetchedAt": "2026-03-17T05:24:57.236Z",
+      "hash": "d43f6bee00a2467a1d434cb2fbc0607210bfe25e"
+    },
+    {
+      "id": 11,
+      "title": "Energy as Power: The New Geopolitics of the Global Energy Transition - Pressenza",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNcjZ5a3lobVlqSDBsYVJWYUhyZ1VHcUZkQW9kZjlvMk5LcHpmd0tyLVVpTG9xMG5Cb2h0eUxQdmR6eFVvNi1fZUpjdVJudzhUMmE3XzlTel9rbzlXSWp0NHBiQ0NDckFITUFzVUFEdE50WkVtdDhDRExBYzU2N29BX1B5VWRwM0otYU1hVTQwREJFZWpaN1h1RzdMdzI2YWpEMldIUw",
+      "pubDate": "Tue, 10 Mar 2026 02:08:56 GMT",
+      "source": "Pressenza - International Press Agency",
+      "score": 1.075,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "clusterSources": [
+        "Pressenza - International Press Agency"
+      ],
+      "fetchedAt": "2026-03-17T05:24:57.236Z",
+      "hash": "ce6f146c9c0bef8917a283330ae1f7cb4f81e647"
+    },
+    {
+      "id": 12,
+      "title": "Natrona County gas prices soar as Iran tensions, sanctions rock oil markets",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQNDFnWmtwSDVsc3hzODlOV1RYZVpuMUVZT0JtYjZLbXdYbGY0STFkWXFWMGlybG8tYWFPQVg2cmw0YU9DblhQbnRzUW5HTVVtMmhiTEo2dllRZnRnM3FndUpaS2ZsRm5uUHFqaGpRbkowRm9vZHBRM1BlQWN6NGFxY2o1dDhnRlB0aThrTTdScFY1REcxdzh2ZXBMTVBacXhiRFFCQlRXcXlNWmhIZkltU0xRMF9TUlV2Vk1DRXhIYlhFOXRjN2Uwek96aFJ5cE0",
+      "pubDate": "Mon, 26 Jan 2026 08:00:00 GMT",
+      "source": "Oil City News",
+      "score": 1.075,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "clusterSources": [
+        "Oil City News"
+      ],
+      "fetchedAt": "2026-03-17T05:24:57.236Z",
+      "hash": "82830e822fcf21a7574318121295e6a77debc78c"
+    },
+    {
+      "id": 13,
+      "title": "AI, power and the new geopolitics of energy",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQY0FWYmVfQmRiaDNRNl9OM1lWWDlWaFh5SHI5YjIwYW5ibGNoNmxMSTFxX29Jajh3UFNFd3VVUHNoRURWZ08wVzZGQnNlWjNhZG5JRlV3MldXeVQxcjN6amVQQkhyY2JqY0dCX2lYckhBUG9PckluaDF3MURMbGtyTG9na1Z2SE9W",
+      "pubDate": "Tue, 18 Nov 2025 08:00:00 GMT",
+      "source": "Wood Mackenzie",
+      "score": 1.075,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "clusterSources": [
+        "Wood Mackenzie"
+      ],
+      "fetchedAt": "2026-03-17T05:24:57.236Z",
+      "hash": "5d395f3bfcf386e2f7557d0b274fb8fd8a2f0862"
+    },
+    {
+      "id": 14,
+      "title": "Akin’s Energy & Infrastructure Team Shares Report on Oil & Gas Trends and Predictions for 2026",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNRkJndm9TZVc1bVNReHpfWVBqWFNSUnkzdXFuendpSTZObm5vNmFqSFUwWDhaejB6bF8yc09od0J0V0dYcTI1RGFHelFGcjc2NlQyV0JoaHo4ekNUNUVKM3JPaWpPQnJjOGQ1cUQ0Q3J1a0R5UWxLUUIzUUJaTkU3cDYwa3dZcFlTZFJQLWdDcS1NSkdDT3RXMXFnX3RMeFFhVkUyWllTWmpqUERFdGJHRGRKNThVUGVaN3F0QW5vOEhmNDJrV2QtREJXZjNlQ2VobEdGdGpHR2twLXFuelVDcy1UTE14R3J4c0otQw",
+      "pubDate": "Tue, 10 Feb 2026 08:00:00 GMT",
+      "source": "Akin",
+      "score": 1.075,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "clusterSources": [
+        "Akin"
+      ],
+      "fetchedAt": "2026-03-17T05:24:57.236Z",
+      "hash": "05bb8f91cca462cf82ccf313ac6c8ec496c82146"
+    },
+    {
+      "id": 15,
+      "title": "Insights Into Cheniere Energy (LNG) Q4: Wall Street Projections for Key Metrics",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZXRCOGFxNzVoOUlUTTVqVmtRVTktOHBGUmZRTzRmSHo3dzdaUjc4Q2ZiOUhMaGZFWWdwcGVIOFhUWkhtLU4xbEdVdVlmTi1PLUlUZVd6NllUZ3lxbU1JUzhwMnRlTkxUSlBNLU1jWjRYRTM5OGFZWkJxQjlseUZuWlNfTQ",
+      "pubDate": "Tue, 24 Feb 2026 08:00:00 GMT",
+      "source": "Yahoo Finance",
+      "score": 1.075,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "clusterSources": [
+        "Yahoo Finance"
+      ],
+      "fetchedAt": "2026-03-17T05:24:57.236Z",
+      "hash": "a4a65ad2e06e418275031dc4a1ca524b6ad3a3c3"
+    },
+    {
+      "id": 16,
+      "title": "Regional Energy, Shipping, and Aviation Disruptions Persist amid Possible Four to Five-Week Campaign",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPSFNoTERlZURHcklYX1FYNTJrZTJzck9iNnotNVpiRWF2Q19lT0lTdm5QT281Q1M2bjN6aHg5WUJsa3hXTkJ6dEZWa09NUHZycnZJdlUzY3hpTUNpZDR0dHE0T2NzQ3c3SkVsWU5RRzVHdGg5TGdBODZtZXZYR1B0LVY2SlBYQk95SmppVzdoSTItZnAweHlNcXdOQXQyRWRnT1dsNHdRNlRVbjJnLUpJX1BmbFI4a1daMlh1MS1BSkJNZFR6a0lWZUk2ajdnd2gyV1hGdw",
+      "pubDate": "Tue, 03 Mar 2026 19:06:00 GMT",
+      "source": "Global Guardian",
+      "score": 1.075,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "clusterSources": [
+        "Global Guardian"
+      ],
+      "fetchedAt": "2026-03-17T05:24:57.236Z",
+      "hash": "0ac91ebc220846cdc7ae778373dd35722b53bfde"
+    },
+    {
+      "id": 17,
+      "title": "Russia pushes back 100 Mt LNG target by several years amid sanctions",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNLW94eDY2RDBRRlQ1ODZ5X3pzNHhWa1QtLVVFcUJ0MDhDWTlpT1BMMVhoYVIzcW1JVHpKMy1aeGlmWk5sbTVkRDA3M2J5NHFMZEhpSTgyUExJLWVzby04Z18xQjNpVngtTEIxSjMyektYU0RCNmQ1bDlwNHN6bEJ5YlVVR3lzcldPeVdPZFU3blpsbnl3aDVCZ1FRSHdFYURNaWFTVkxGNjQzTDJ5UF9vRDFrUHNZMHJNVGFSb0VSMU5OV0xE",
+      "pubDate": "Tue, 30 Dec 2025 08:00:00 GMT",
+      "source": "Enerdata",
+      "score": 1.075,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "clusterSources": [
+        "Enerdata"
+      ],
+      "fetchedAt": "2026-03-17T05:24:57.236Z",
+      "hash": "1a7a80ef08da98db13cb6e0c4e80630563902929"
+    },
+    {
+      "id": 18,
+      "title": "Dykema Advises CPS Energy in its Acquisition of Four Natural Gas Power Generation Facilities",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPaUJhRmlySWFMZ2Zzd3dnc2NRdDBRWGpSQVNVdXh1V3dlQUd0NVVFak1SQkkyVGxETms2aVdjdTZVRlBpVXNfWDFpUzNWam9KSzdtU1BKekx1NVRqSk80SzZERG12ZDBuZ2ZuT3d4amQyNl81LTk5TWdoTW1TV3dCOGRROTlQNzFEcEJ6SDF3YV81RjAtb3pnX2JYT3F0TEYyUGhuX2FDRDJzX0poMkstb1Q2NVFJRlpzRVUxWWlGVmV1WHNmS0hwRlptdjFmMEk",
+      "pubDate": "Tue, 16 Sep 2025 07:00:00 GMT",
+      "source": "Dykema",
+      "score": 1.075,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "clusterSources": [
+        "Dykema"
+      ],
+      "fetchedAt": "2026-03-17T05:24:57.236Z",
+      "hash": "401e00d21ee7cd9d09d770761c2c43752b9d74f7"
+    },
+    {
+      "id": 19,
+      "title": "Cheniere Energy Dividend Highlights LNG Growth Plans And Cash Return Balance",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdUtLRzhsaVJsdVBjZkJReWhOYzhqc09tVUVLQUU4UmlYV1lxNUd1WXB1ZkNkV2NoNjczWGcwMXM3NHp4cGtjSjlCSFRnZlYzQjJkcmtzdFJiaVJyendxblU0WURDczdaTUF0S1NYM1pmVXRidVptcmszT2NZZW9ZemljbUJ6bVQxRzd1UnJB",
+      "pubDate": "Thu, 29 Jan 2026 08:00:00 GMT",
+      "source": "Yahoo Finance",
+      "score": 1.075,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "clusterSources": [
+        "Yahoo Finance"
+      ],
+      "fetchedAt": "2026-03-17T05:24:57.236Z",
+      "hash": "a1650982794bcaf3d14ac25f7eb3bdddd5bcb9dd"
+    },
+    {
+      "id": 20,
       "title": "Iran war pushes importers into energy triage as they conserve power and curb soaring prices",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOR0NORERBSlJYc2IxNnh6RUI0SU1SRTNvYmw2UzdMcUpXY3BUNHh0ejZaMFdxM3h6QkNHU0R3a25nM1dhVGo3eG85WVFhZzNNWExyQ1VFeHNsX1IxZmFKbVQ1dm52TFEzRG8zeHJSc1FKUWVGODBYSXNPbzg3U3FnVDhNeWdJVmFJ",
       "pubDate": "Tue, 17 Mar 2026 03:59:00 GMT",
@@ -101,11 +311,11 @@
       "clusterSources": [
         "Yahoo! Finance Canada"
       ],
-      "fetchedAt": "2026-03-17T05:20:51.247Z",
+      "fetchedAt": "2026-03-17T05:24:57.236Z",
       "hash": "d269c91251cfa710ff92dbebc9b4f3dee06118e3"
     },
     {
-      "id": 7,
+      "id": 21,
       "title": "Oil Tops $100 as Strait Disruptions Hit Supply",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNLU5qTllabjQ4YlNpb3ZBbDFtMEk1Qk5TLUJ2c1RzLV80em1QWjBFbHRpQ0tvX1hVTGRodG00eC13Wml4akE2YVlJS2V2Q0cwOERObWcwNFJkdVJZSmNRWjJKVk9QQm94ZlMtc1MwRmkyWG40ekZJLXBfeHBzdFVlSWZQeENZYnBDa0dTQWJvV0k5R0V3aHJkenhYTUxzOXZuMk52eXkxRVcwNEhweUlnLUxDYkxmTXpaNEE",
       "pubDate": "Tue, 17 Mar 2026 04:44:51 GMT",
@@ -116,128 +326,106 @@
       "clusterSources": [
         "Construction World"
       ],
-      "fetchedAt": "2026-03-17T05:20:51.247Z",
+      "fetchedAt": "2026-03-17T05:24:57.236Z",
       "hash": "40090db860fcce4e3c437c1e92923c2a4d3d4c19"
     },
     {
-      "id": 8,
-      "title": "Hochul offers solutions for high gas and energy costs",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1aWGZkWi1xdFo0Z2RrVWdQczJFRU03OW1mbGZpYVE3eTd6aVZwX2JGdFhna1pBNlowTGZ3a3A5cVhEQi1HRkRrbWlFa2FoaUgtTWlsc1BQWDV6WERrUEI0Slo1VGN0UXRNMkpFTXZQUnBUbzBuSG1QLU9GcElFNUE",
-      "pubDate": "Mon, 16 Mar 2026 22:10:00 GMT",
-      "source": "Spectrum News",
+      "id": 22,
+      "title": "Ships stranded at Hormuz, energy crunch at home: How India’s U.S.-Israel tilt is testing ties with Iran",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVEM2ajdzQ1liWkhGRHNFNGRudnpnNGVQbFByZW1ZWkF5VmNRQk5teFVtbG5RME9GN3ZGVEtOMjBGY2NTdjFZdU0wRjd4Z180ZmJpcEdDdWFBUDZ6NjZPbVJhdHh2c3owSW0wNEZ0QXhzSHdwdEJvVjFUUlBvWVpIV01LdVlFOUhzYktiTmlORETSAZYBQVVfeXFMTVMzN3NlTHZGQ0xtWkFUeFVJM24ta0lXcS03NFd3UjFDZ0FrellKTnRoTzZCd0htYU1OY3lxUUlZeDJNLTNad1ZWNUUtdG9wazBIWHFQSEtTNWdTNTBBNjBiM2Jmc3JVaHlyQWlDMEFaWFQyZ1BFSzYxMTN4OXRnVVR4Sk5DcUJSd3hNc0RDTExIOUVaRmVB",
+      "pubDate": "Mon, 16 Mar 2026 07:12:28 GMT",
+      "source": "CNBC",
+      "score": 0.935,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "clusterSources": [
+        "CNBC"
+      ],
+      "fetchedAt": "2026-03-17T05:24:57.236Z",
+      "hash": "cb88698ec5c91107fef05b511058ec127e0f298b"
+    },
+    {
+      "id": 23,
+      "title": "How much leverage does US energy give Washington over Europe?",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMGhmTFllaUItV3pvQnE1TkU2YWk3Z3lwd1JpR2RNc0ZNMEkxSnM1SkYycHJYakhoRjJ6cU9DY2tlQjVDblFYbU11SDdweGF0Zms2UEhrNTJFOFdQbHljeXFSNHRETG5zQ2tTUmRvR28yNXV4aFVrWTdXRTgwbURRQXRITWU3SUlzVXN4LWw0ZmNxdEtmYzJQRVYyVQ",
+      "pubDate": "Mon, 16 Mar 2026 08:16:52 GMT",
+      "source": "Bruegel",
       "score": 0.85,
       "clusterSize": 1,
       "sourceCount": 1,
       "clusterSources": [
-        "Spectrum News"
+        "Bruegel"
       ],
-      "fetchedAt": "2026-03-17T05:20:51.247Z",
-      "hash": "7fa6dc936cd1d4425b986c16882669bdde56769b"
+      "fetchedAt": "2026-03-17T05:24:57.236Z",
+      "hash": "4f60e9fb464f1fe0940d7710da3d129afc053dd5"
     },
     {
-      "id": 9,
-      "title": "Cuba hit by island-wide blackout as energy crisis deepens",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE13NHNhOHBiaHE4czRsWlo1elpYdHY2Z25XYmE2UkFzUWI1VXRUUE50OVVLbTlfWmJJc2Y2QUl1OW9palk4ZXNKX2dNLTVVdGZRdE91aktpb3NyWWJreVMtazBKTG14a1VVUmo0dG12a2tLMVBlNXFMT1VZYk8",
-      "pubDate": "Mon, 16 Mar 2026 19:50:42 GMT",
-      "source": "NPR",
+      "id": 24,
+      "title": "What technology, policy and energy-finance leaders all agree on",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZ2swcDZnVnVCYlhXZFZXbktVWFB6UE1MSzJ2UVNyZVJpR2QwWnh3SEx3Zl81eFhUX3pwZWx0Z3E4Tmd3T1otSW1nbWZHM0pOelRUNDhQTks0SC1XNXg1UTVPMnRsQkJlSDhkUUtyV1k0emgyOWU1TnA5RXJVRThaSlRvSHFUa21BVHNON2lNOHd0RVhrdXVpLUhaaU5vb0dKU3FpeEJR",
+      "pubDate": "Mon, 16 Mar 2026 14:50:10 GMT",
+      "source": "Utility Dive",
       "score": 0.85,
       "clusterSize": 1,
       "sourceCount": 1,
       "clusterSources": [
-        "NPR"
+        "Utility Dive"
       ],
-      "fetchedAt": "2026-03-17T05:20:51.247Z",
-      "hash": "0ac97825722a9d00a070b51728016db0b9df894b"
-    },
-    {
-      "id": 10,
-      "title": "Nuclear Energy Stocks Rise on Increasing Clean Power Demand",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQT2NCRVZ2YkR6NEh0WHc1THVfXzVNNG1rYlJNQzAwMjRQWlZpVU1tUzJYcVhTTzctbXc0anVBcWRqbWpBWXVBd2pJSFlmci1NTVAySXAyUy1HZFRGX3RmRm5wVnYxNjBsdUFXaUF3eWlJeVA0WUVBUlA2YkZDektZT2JRSnFnTC1DNHNR",
-      "pubDate": "Thu, 15 Jan 2026 08:00:00 GMT",
-      "source": "Yahoo Finance",
-      "score": 0.575,
-      "clusterSize": 1,
-      "sourceCount": 1,
-      "clusterSources": [
-        "Yahoo Finance"
-      ],
-      "fetchedAt": "2026-03-17T05:20:51.247Z",
-      "hash": "cf984a9bc513e9f83053e67f5f98a56c9d3559dd"
-    },
-    {
-      "id": 11,
-      "title": "How mega batteries are unlocking an energy revolution",
-      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9BelhZbE9mRmlKN1lfM3VIZFh5TFlwMG9HTmhzbnBNaFJobWxJa1FQaTJKT0JERFpZejlqalFQY19ha1otWFlv",
-      "pubDate": "Sun, 12 Oct 2025 07:00:00 GMT",
-      "source": "Financial Times",
-      "score": 0.575,
-      "clusterSize": 1,
-      "sourceCount": 1,
-      "clusterSources": [
-        "Financial Times"
-      ],
-      "fetchedAt": "2026-03-17T05:20:51.247Z",
-      "hash": "6f85d5d6cdeee6b48a94cfe0fd50cafb88e1ccf8"
-    },
-    {
-      "id": 12,
-      "title": "EU agrees to gradually end Russian gas imports by January 1, 2028",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQS2RQLW9QVG5lQW1BSUw5a2pFNm1FYWdSMFg2M3liY3JIUC1rbHNjcDRYaVEyUjlGcmlIaE4wZFJjN2NQRFhPcl9JdE9OTHlRc1MycXVJRVF2NkNhVkgtMEliaXoxNHFyaVhLUU96Q1Z1Wk0yVkI4WTh1Y2s1MjBlV0FaSXZpamxGOEJuMmtSLThHRjRvNlBxcGs1aE9zTFptUVNaLTNRUGxOTUtXTEotSWFOSlpoYmtVSFFZWk9UMGRsM1VpYVE",
-      "pubDate": "Mon, 20 Oct 2025 07:00:00 GMT",
-      "source": "Reuters",
-      "score": 0.1013,
-      "clusterSize": 1,
-      "sourceCount": 1,
-      "clusterSources": [
-        "Reuters"
-      ],
-      "fetchedAt": "2026-03-17T05:20:51.247Z",
-      "hash": "2e767972add18955e078e3d66a29ba023b5dde4a"
+      "fetchedAt": "2026-03-17T05:24:57.236Z",
+      "hash": "dbdec624233c81045c5a712190a250596120534b"
     }
   ],
   "trendingSubjects": [
     {
       "keyword": "energy",
-      "mentions": 10,
-      "sourceDiversity": 8,
-      "tractionScore": 8.2,
-      "delta": -8.23,
-      "trend": "down"
+      "mentions": 21,
+      "sourceDiversity": 20,
+      "tractionScore": 17.96,
+      "delta": 9.76,
+      "trend": "up"
     },
     {
       "keyword": "oil",
-      "mentions": 3,
-      "sourceDiversity": 3,
-      "tractionScore": 2.77,
-      "delta": -1.55,
-      "trend": "down"
+      "mentions": 6,
+      "sourceDiversity": 6,
+      "tractionScore": 5.26,
+      "delta": 2.49,
+      "trend": "up"
+    },
+    {
+      "keyword": "sanctions",
+      "mentions": 6,
+      "sourceDiversity": 6,
+      "tractionScore": 5.09,
+      "delta": 5.09,
+      "trend": "up"
     },
     {
       "keyword": "LNG",
-      "mentions": 2,
-      "sourceDiversity": 2,
-      "tractionScore": 1.66,
-      "delta": -4.6,
-      "trend": "down"
+      "mentions": 6,
+      "sourceDiversity": 5,
+      "tractionScore": 4.79,
+      "delta": 3.13,
+      "trend": "up"
     },
     {
       "keyword": "shipping",
-      "mentions": 1,
-      "sourceDiversity": 1,
-      "tractionScore": 0.94,
-      "delta": 0.11,
-      "trend": "flat"
+      "mentions": 3,
+      "sourceDiversity": 3,
+      "tractionScore": 2.6,
+      "delta": 1.66,
+      "trend": "up"
+    },
+    {
+      "keyword": "geopolitics",
+      "mentions": 2,
+      "sourceDiversity": 2,
+      "tractionScore": 1.66,
+      "delta": 1.66,
+      "trend": "up"
     },
     {
       "keyword": "natural gas",
-      "mentions": 1,
-      "sourceDiversity": 1,
-      "tractionScore": 0.83,
-      "delta": -1.66,
-      "trend": "down"
-    },
-    {
-      "keyword": "energy finance",
       "mentions": 1,
       "sourceDiversity": 1,
       "tractionScore": 0.83,
