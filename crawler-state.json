@@ -1317,12 +1317,20 @@
     "ceb3ff51676f5ed0dd1282d4afbc246ba3eb513a",
     "f34b23874d4a0b60bba5bf3f3da8e324382102bb",
     "c41850c8ebc34af8074ba1f064b32024661873e3",
-    "4b7372986a26e290a0a7e5ff0597c151e0de91b9"
+    "4b7372986a26e290a0a7e5ff0597c151e0de91b9",
+    "c154adc93f5c2a7f75176ab286bc2f729d24e29d",
+    "f7f7cdf114b18004ca42f3374608991093ba434e"
   ],
   "lastTraction": {
-    "energy": 3.7,
-    "LNG": 1
+    "energy": 21.88,
+    "oil": 13.13,
+    "LNG": 9.66,
+    "sanctions": 6.07,
+    "shipping": 2.57,
+    "geopolitics": 2.53,
+    "natural gas": 2.49,
+    "power markets": 0.87
   },
-  "lastTopSignature": "{\"items\":[{\"h\":\"abe4da12291ede645272d1f1cd99f8b4543e30db\",\"s\":1.5},{\"h\":\"0579dc4f350e928f0885d472b6a367ed8dd7e740\",\"s\":0.675},{\"h\":\"ceb3ff51676f5ed0dd1282d4afbc246ba3eb513a\",\"s\":0.575},{\"h\":\"f34b23874d4a0b60bba5bf3f3da8e324382102bb\",\"s\":0.5},{\"h\":\"c41850c8ebc34af8074ba1f064b32024661873e3\",\"s\":0.1925},{\"h\":\"4b7372986a26e290a0a7e5ff0597c151e0de91b9\",\"s\":0.175}],\"trends\":[{\"k\":\"energy\",\"t\":3.7,\"d\":-18.01},{\"k\":\"LNG\",\"t\":1,\"d\":-5.19}]}",
-  "updatedAt": "2026-03-20T17:11:14.227Z"
+  "lastTopSignature": "{\"items\":[{\"h\":\"c154adc93f5c2a7f75176ab286bc2f729d24e29d\",\"s\":0.675},{\"h\":\"f7f7cdf114b18004ca42f3374608991093ba434e\",\"s\":0.575},{\"h\":\"d32a0157240840ca9a6ab34b7fa773290d8b6404\",\"s\":2.175},{\"h\":\"853a04e3eba75550fafe5f124a7b30a386fe7a4b\",\"s\":1.575},{\"h\":\"029268ac3c8f900cb8b0d96bd55a9f784e3ca72b\",\"s\":1.575},{\"h\":\"f236acc3319b9bbfd1c551a111741568b06cf5c2\",\"s\":1.5},{\"h\":\"abe4da12291ede645272d1f1cd99f8b4543e30db\",\"s\":1.5},{\"h\":\"5ab1f9b8495361ad0bf0835da8e3f449c6f13ece\",\"s\":1.35}],\"trends\":[{\"k\":\"energy\",\"t\":21.88,\"d\":18.18},{\"k\":\"oil\",\"t\":13.13,\"d\":13.13},{\"k\":\"LNG\",\"t\":9.66,\"d\":8.66},{\"k\":\"sanctions\",\"t\":6.07,\"d\":6.07},{\"k\":\"shipping\",\"t\":2.57,\"d\":2.57},{\"k\":\"geopolitics\",\"t\":2.53,\"d\":2.53},{\"k\":\"natural gas\",\"t\":2.49,\"d\":2.49},{\"k\":\"power markets\",\"t\":0.87,\"d\":0.87}]}",
+  "updatedAt": "2026-03-20T17:25:14.728Z"
 }
