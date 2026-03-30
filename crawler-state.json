@@ -1914,12 +1914,20 @@
     "15b78ea0bbff08d292680f5db03fcd61c7617c2d",
     "2a5af4bcb6f74caf0902d03c7dc67b944dcf21ae",
     "92a4a73fbd762b1df95e65404baf49f4fb4c32af",
-    "517ea797c2441e5b19babd5d168e5e4f4a4fb723"
+    "517ea797c2441e5b19babd5d168e5e4f4a4fb723",
+    "f63709300e79d14689583b2dc49c5b6d0ffb88c0",
+    "15c3ae682b9c7d653c25ca5dd9531887472910cb"
   ],
   "lastTraction": {
-    "energy": 4.83,
-    "oil": 1.83
+    "energy": 23.98,
+    "oil": 10.73,
+    "LNG": 9.53,
+    "natural gas": 5.51,
+    "geopolitics": 4.32,
+    "sanctions": 4.15,
+    "shipping": 3.32,
+    "energy finance": 0.83
   },
-  "lastTopSignature": "{\"items\":[{\"h\":\"bb928d3449684b6f840ff8f3c325154bf153f629\",\"s\":1.5},{\"h\":\"08743c77408d4b746a7de54f51d3b742a4f9ec36\",\"s\":1.35},{\"h\":\"15b78ea0bbff08d292680f5db03fcd61c7617c2d\",\"s\":1.075},{\"h\":\"2a5af4bcb6f74caf0902d03c7dc67b944dcf21ae\",\"s\":1},{\"h\":\"92a4a73fbd762b1df95e65404baf49f4fb4c32af\",\"s\":1},{\"h\":\"517ea797c2441e5b19babd5d168e5e4f4a4fb723\",\"s\":0.075}],\"trends\":[{\"k\":\"energy\",\"t\":4.83,\"d\":-20.38},{\"k\":\"oil\",\"t\":1.83,\"d\":-9.05}]}",
-  "updatedAt": "2026-03-30T18:05:43.752Z"
+  "lastTopSignature": "{\"items\":[{\"h\":\"f63709300e79d14689583b2dc49c5b6d0ffb88c0\",\"s\":1.1475},{\"h\":\"15c3ae682b9c7d653c25ca5dd9531887472910cb\",\"s\":0.075},{\"h\":\"14771b0d80a373c8106e4c32d75f9875c7d9458c\",\"s\":2.025},{\"h\":\"c723a97f3b88398ec52dbfe451bc817f450186e9\",\"s\":1.575},{\"h\":\"853a04e3eba75550fafe5f124a7b30a386fe7a4b\",\"s\":1.575},{\"h\":\"231084677901f150db02c8f251b3a6706a253b47\",\"s\":1.575},{\"h\":\"029268ac3c8f900cb8b0d96bd55a9f784e3ca72b\",\"s\":1.575},{\"h\":\"9af4e51422daa96d08af9d0faa28cac5e19e0d6c\",\"s\":1.5}],\"trends\":[{\"k\":\"energy\",\"t\":23.98,\"d\":19.15},{\"k\":\"oil\",\"t\":10.73,\"d\":8.9},{\"k\":\"LNG\",\"t\":9.53,\"d\":9.53},{\"k\":\"natural gas\",\"t\":5.51,\"d\":5.51},{\"k\":\"geopolitics\",\"t\":4.32,\"d\":4.32},{\"k\":\"sanctions\",\"t\":4.15,\"d\":4.15},{\"k\":\"shipping\",\"t\":3.32,\"d\":3.32},{\"k\":\"energy finance\",\"t\":0.83,\"d\":0.83}]}",
+  "updatedAt": "2026-03-30T20:07:04.402Z"
 }
