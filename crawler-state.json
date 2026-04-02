@@ -2033,13 +2033,18 @@
     "b3226ad7b8cf0b0ebeec26cc0447ca386d5d43d9",
     "8ed6972cc71f69aec66a2b7155def321adab985b",
     "124e72f4f5a9d5db675fc95e05cdfb8072e31da7",
-    "af590d9f8a0bad2765ca75b678c7838c537cd37b"
+    "af590d9f8a0bad2765ca75b678c7838c537cd37b",
+    "b4f8796580e4d807d741d9b236eb2c764bc6adfc"
   ],
   "lastTraction": {
-    "energy": 4.4,
-    "LNG": 2.7,
-    "natural gas": 0.83
+    "energy": 25.34,
+    "oil": 12.01,
+    "LNG": 9.5,
+    "shipping": 5.13,
+    "natural gas": 3.96,
+    "sanctions": 3.32,
+    "geopolitics": 1.77
   },
-  "lastTopSignature": "{\"items\":[{\"h\":\"ee39acc9d69103cf9fe7be9b7ddbe4d9808276fa\",\"s\":1.5},{\"h\":\"76ee381b681100a9992a1ee506aba2d3c4371e6b\",\"s\":1.35},{\"h\":\"bde149d4c953054a8d01788432566e0e9a3762ef\",\"s\":1.1825},{\"h\":\"04eedf4a53178832e4209fb93d85f9b05ffee908\",\"s\":1},{\"h\":\"736ea1d4717dba24664d5583615fc6ce0db58d6d\",\"s\":0.9113},{\"h\":\"b3226ad7b8cf0b0ebeec26cc0447ca386d5d43d9\",\"s\":0.675},{\"h\":\"8ed6972cc71f69aec66a2b7155def321adab985b\",\"s\":0.35},{\"h\":\"124e72f4f5a9d5db675fc95e05cdfb8072e31da7\",\"s\":0.175}],\"trends\":[{\"k\":\"energy\",\"t\":4.4,\"d\":-11.67},{\"k\":\"LNG\",\"t\":2.7,\"d\":-1.49},{\"k\":\"natural gas\",\"t\":0.83,\"d\":-2.3}]}",
-  "updatedAt": "2026-04-02T05:51:32.153Z"
+  "lastTopSignature": "{\"items\":[{\"h\":\"b4f8796580e4d807d741d9b236eb2c764bc6adfc\",\"s\":0.675},{\"h\":\"5fc43cbed0dd004a0436953278316c7decf72f1a\",\"s\":1.85},{\"h\":\"853a04e3eba75550fafe5f124a7b30a386fe7a4b\",\"s\":1.575},{\"h\":\"231084677901f150db02c8f251b3a6706a253b47\",\"s\":1.575},{\"h\":\"029268ac3c8f900cb8b0d96bd55a9f784e3ca72b\",\"s\":1.575},{\"h\":\"ee39acc9d69103cf9fe7be9b7ddbe4d9808276fa\",\"s\":1.5},{\"h\":\"3408245a3e0f9c4311c46b576ab8a6683f3aa97e\",\"s\":1.4512},{\"h\":\"6a34de48387b27e3ec63d7ff75fa5009c4b46f78\",\"s\":1.3975}],\"trends\":[{\"k\":\"energy\",\"t\":25.34,\"d\":20.94},{\"k\":\"oil\",\"t\":12.01,\"d\":12.01},{\"k\":\"LNG\",\"t\":9.5,\"d\":6.8},{\"k\":\"shipping\",\"t\":5.13,\"d\":5.13},{\"k\":\"natural gas\",\"t\":3.96,\"d\":3.13},{\"k\":\"sanctions\",\"t\":3.32,\"d\":3.32},{\"k\":\"geopolitics\",\"t\":1.77,\"d\":1.77}]}",
+  "updatedAt": "2026-04-02T05:53:11.649Z"
 }
