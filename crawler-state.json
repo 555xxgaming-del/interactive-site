@@ -2076,13 +2076,18 @@
     "e96a7dc85a234f92a59b3bd3c4c9b5f47eccfeca",
     "9db99ffbe89e1fcf18dedda4b06067fbd9f4442a",
     "335c0fdf84ab2e55198757d87c1945b04401ca94",
-    "962383bfdaa3a98a4012e7a11edeeb394813b420"
+    "962383bfdaa3a98a4012e7a11edeeb394813b420",
+    "99280a6d4cd93838aeef6d4a4748e3ad315a0510"
   ],
   "lastTraction": {
-    "energy": 5.37,
-    "oil": 0.83,
-    "natural gas": 0.83
+    "energy": 27.76,
+    "oil": 7.21,
+    "LNG": 5.96,
+    "natural gas": 4.79,
+    "shipping": 3.4,
+    "geopolitics": 2.6,
+    "sanctions": 2.49
   },
-  "lastTopSignature": "{\"items\":[{\"h\":\"ea056dae074cb175ed13382df075df00e1e934e6\",\"s\":1.575},{\"h\":\"45baf9975be22d45c89e8211288fc7ecedecf26c\",\"s\":1},{\"h\":\"e96a7dc85a234f92a59b3bd3c4c9b5f47eccfeca\",\"s\":0.85},{\"h\":\"9db99ffbe89e1fcf18dedda4b06067fbd9f4442a\",\"s\":0.85},{\"h\":\"335c0fdf84ab2e55198757d87c1945b04401ca94\",\"s\":0.7475},{\"h\":\"962383bfdaa3a98a4012e7a11edeeb394813b420\",\"s\":0.69}],\"trends\":[{\"k\":\"energy\",\"t\":5.37,\"d\":-12.67},{\"k\":\"oil\",\"t\":0.83,\"d\":-5.92},{\"k\":\"natural gas\",\"t\":0.83,\"d\":-1.7}]}",
-  "updatedAt": "2026-04-03T08:35:37.228Z"
+  "lastTopSignature": "{\"items\":[{\"h\":\"99280a6d4cd93838aeef6d4a4748e3ad315a0510\",\"s\":1},{\"h\":\"853a04e3eba75550fafe5f124a7b30a386fe7a4b\",\"s\":1.575},{\"h\":\"231084677901f150db02c8f251b3a6706a253b47\",\"s\":1.575},{\"h\":\"ea056dae074cb175ed13382df075df00e1e934e6\",\"s\":1.575},{\"h\":\"c92a68e61b68ed38ab7741b12bcd258d03077bb8\",\"s\":1.4512},{\"h\":\"4cd82d55989182fabbfab857a800c7fb6474f568\",\"s\":1.35},{\"h\":\"3f1140ec0efa7dd256a332280cfca5c870b49c86\",\"s\":1.35},{\"h\":\"06fca31fc68e5857d7882bbc365fda40b79f8d58\",\"s\":1.29}],\"trends\":[{\"k\":\"energy\",\"t\":27.76,\"d\":22.39},{\"k\":\"oil\",\"t\":7.21,\"d\":6.38},{\"k\":\"LNG\",\"t\":5.96,\"d\":5.96},{\"k\":\"natural gas\",\"t\":4.79,\"d\":3.96},{\"k\":\"shipping\",\"t\":3.4,\"d\":3.4},{\"k\":\"geopolitics\",\"t\":2.6,\"d\":2.6},{\"k\":\"sanctions\",\"t\":2.49,\"d\":2.49}]}",
+  "updatedAt": "2026-04-03T09:12:26.855Z"
 }
