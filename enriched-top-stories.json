@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-04T19:48:06.773Z",
+  "generatedAt": "2026-04-04T21:59:03.591Z",
   "mode": "enrich",
   "items": [
     {
@@ -9,8 +9,8 @@
       "source": "Reuters",
       "pubDate": "Sat, 04 Apr 2026 15:32:39 GMT",
       "topic": "oil",
-      "urgency": 0.8,
-      "score": 2.7,
+      "urgency": 0.65,
+      "score": 2.4975,
       "clusterSize": 3,
       "sourceCount": 3,
       "whyItMatters": "oil story with 3 matching headline(s) across 3 source(s)."
@@ -19,7 +19,7 @@
       "rank": 2,
       "title": "Energy chief defends waiver on Russian oil sanctions, blames fear for higher gas prices",
       "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxONGt5cG84dWtCYjFDVWFmZ1BIa1h4dGJzalF4TWlSWktkdDljODlTMUV1VTZwa191YWRHSW9vbW1IMkR2MVUxTDZlOE1tdEx5RFFEbWxuVFdUM2FyVXAzc2NJcXYwT041VV94LTJRMWxicXZJZHBLeDczTU1rMXNkdjEzVlowa3liYS1aM245bjZXTXpWRm9DOUFBYW9PSnQwbE9rb1ZGamg3bUM5TWFwcGNkYmVhcnZZT0RxeVF4enpJSWRVeU1fVkR4YzhzckhVNW1jU05tSzREcWFPckRSeGtRbjBJdXJw",
-      "source": "detroitnews.com",
+      "source": "The Detroit News",
       "pubDate": "Sun, 08 Mar 2026 08:00:00 GMT",
       "topic": "oil",
       "urgency": 0.175,
@@ -43,58 +43,32 @@
     },
     {
       "rank": 4,
-      "title": "Global oil and gas prices soar as Iran crisis disrupts shipping, production",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdkpYeWluSExzU0hENHpicjVNZDFwYlFpMnBYeXU1N2NnOE9abzRhMW5zZXRuM2VIR19aajQ4SS1hRGlnVDBtQnBoZy1XSG9kdDlrVzhNQnRYV243a3lMQThsd1BSSzktVFI5SHgxLTJDZVQtemZCWWp4TFFOTnQ3cTRqNlROMV8xdXNLU1lGcW5UczhfQ05wZ1BIenhWRzNkdDhzelA5eTlKLTNsWEx5MW5lSGxJX2RoSkhJVEhoYl9GVU0",
-      "source": "Reuters",
-      "pubDate": "Tue, 03 Mar 2026 08:00:00 GMT",
-      "topic": "oil",
-      "urgency": 0.175,
-      "score": 1.4512,
+      "title": "Slovakian premier urges EU to reconsider Russian energy sanctions amid supply crisis",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQTE1QlFmM1VQQnlWcndKZmtCc1JIVXNoWmJ4RDRCaUZfcVlCaHV2SVF1OVVwNkN2eVhHbU9wUHZKQl9ISkRueEJFU2dRMWdEYk43ck1fcS1GU0VnanNDX1VxdVQtREFsaGpnNll2dWlIYU5XSVllSUtGZS1rZ0RMWm5tb0FJa2V2SmNWTTE5WkNHV2hLd3A5dGNUYW5WRzFHM25VXzVYY2NaVjRoMURjTDNwbGhJM0RqZG1paHVyQUNCUQ",
+      "source": "aa.com.tr",
+      "pubDate": "Sat, 04 Apr 2026 20:29:22 GMT",
+      "topic": "general-energy",
+      "urgency": 0.6,
+      "score": 1.5,
       "clusterSize": 1,
       "sourceCount": 1,
-      "whyItMatters": "oil story with 1 matching headline(s) across 1 source(s)."
+      "whyItMatters": "general-energy story with 1 matching headline(s) across 1 source(s)."
     },
     {
       "rank": 5,
-      "title": "The Russia‑Ukraine energy shock: Why geopolitics demands a clean energy shift",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNOU9UQktHeXFPdmVYTDhUMTRDUDI0OXVPai1jSm0tZWRDZHpudlMzM1hPOU9vRWZKSTVYNFZNdUJrQkhjcHhHTlVJUklnNjlBNDVHUGIxa0t4NWlyMzdydVNqaTdpRC1BY1FxU2tWcjB5Nzh1YnEtU0FnVndMTWtLSjBUaW9SZzRpSWxROHA5eTE5M2p5QWk2bXpPT1JvLVdENXpPMG42TlhRUm56XzFsMlBqLVpPTURjOHFoTXRpdHpQRnNsQ3R3RFJ3OGJXYkdxdmFZRHhLbmo1UQ",
-      "source": "Reuters",
-      "pubDate": "Mon, 16 Feb 2026 08:00:00 GMT",
-      "topic": "general-energy",
-      "urgency": 0.175,
-      "score": 1.4512,
-      "clusterSize": 1,
-      "sourceCount": 1,
-      "whyItMatters": "general-energy story with 1 matching headline(s) across 1 source(s)."
+      "title": "Cheniere Energy, Inc. (LNG) Stock Price, News, Quote & History",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5BQVd3bXh5d0t0S3kwX2dpQmtfa0Fpamh3bDhOTlVNYmdJWEgwVnlwVEE2RVVPUUY3aDZubEhwWEt5TkEwSkFJTmdQRWdQbnQ1",
+      "source": "Yahoo! Finance Canada",
+      "pubDate": "Sat, 04 Apr 2026 01:47:41 GMT",
+      "topic": "gas-lng",
+      "urgency": 0.55,
+      "score": 1.35,
+      "clusterSize": 2,
+      "sourceCount": 2,
+      "whyItMatters": "gas-lng story with 2 matching headline(s) across 2 source(s)."
     },
     {
       "rank": 6,
-      "title": "Laramie County gas prices soar as Iran tensions, sanctions rock oil markets",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNcUxLbnB2Yk1tTUx1VC1MSERrN1VwX2JEY1hnUUNZdjN3anZtb0RGYVZXc0JUUEZXUGJmMTE1bWVRclFreC1oTDNXVjhsbkZmQmRLTFJFdEhlVlFqVXFlU3VmU1NRaHJlTGRpczlkeUxyTGlrUTN2UVZQMThxeldEcEdnaS1lZWJxUVJsRHJUdnlxeVhqaWpZbzVQZGFNcGM1WjJ0RTlqWWt0dTRmMlM4eTlUUFhBVlE4Zll5c1BxbTJTbllLYUc5UXdaaWlWcGc",
-      "source": "Cap City News",
-      "pubDate": "Mon, 26 Jan 2026 08:00:00 GMT",
-      "topic": "oil",
-      "urgency": 0.175,
-      "score": 1.3975,
-      "clusterSize": 1,
-      "sourceCount": 1,
-      "whyItMatters": "oil story with 1 matching headline(s) across 1 source(s)."
-    },
-    {
-      "rank": 7,
-      "title": "Exclusive: Five EU countries call for windfall tax on energy companies",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQM3NQM0lpZExNQ1ZqalgwbzU2c1EyV0RJaGNsQ1ZiZDNYLVJWb0JOY0xYMzgzZjJ0aERhUVNITnV2TU83V3NGOEZNYnNYbmZ3dUtqSm4yTnE1aWtudF9aTE54b2FTWUM4ZkFEaklQN1hINWZtLVhLczNsMjZMVEgtaWNpdjl3Xzk5S3FKaG1TRXJGSjQ4cHZBSE1zWHVQS2VLOWRuWGlwYW1oUVdZYmlfbG1nb0Z6MUh5Z3Zmb2dhLTdRamZ1RUpyN1lXSTlfd2lCMDhDdmNCZ2s4QkU",
-      "source": "Reuters",
-      "pubDate": "Sat, 04 Apr 2026 15:42:47 GMT",
-      "topic": "general-energy",
-      "urgency": 0.6,
-      "score": 1.35,
-      "clusterSize": 1,
-      "sourceCount": 1,
-      "whyItMatters": "general-energy story with 1 matching headline(s) across 1 source(s)."
-    },
-    {
-      "rank": 8,
       "title": "U.S. allows temporary purchases of Russian oil already at sea to stabilize energy markets",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWEM1VXU3UDJTM3lNbnVIUXhzWU5oV05lSmlnclpMVC1iOUVxX3pwWENjOHBjRlpQQnRZek40QkdJQXVSdHBWcTEtTWNyd3VuVG9Wd3gwdndWamhOLUs0R0RlblM0aGo2M0poaUdkTExOUXk1YkpFYzNUSWo0cUNjeVp1OXdkalJ3RGw5bnpqTUpxdVlKam80bGdVNndxWEJLYU80RDZ30gGrAUFVX3lxTFB0bmdoYVZfSG5kYVZ3YzJOclB6c3gxTzZDVjlTZW9FS0tjSExkbkNueDlDdzVobnVQaXhjdmZEeThxX01iSUl2bEFlX0R0YmZoUGpFNTFGY1JnRzBnQU5yam5qbXM1NlNtVE5uTlhGQU50aFZpMDNRU1R2V1I5bllnNTdfV1pjYkNoT2FjcXZPS0ptRWNDMk82UjFiUlNTMDN6R2V6MzMxM0RnSQ",
       "source": "CNBC",
@@ -107,7 +81,7 @@
       "whyItMatters": "oil story with 1 matching headline(s) across 1 source(s)."
     },
     {
-      "rank": 9,
+      "rank": 7,
       "title": "Renewable energy transition could accelerate as Iran war shocks oil and gas supply",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTy1nN2lyTFBQM2NBVzVGckJOeGNqTVlCcXZtSDQ0OGxzeVFqWEtBN3A1bll2MnZIY0FVemdtN3k1LUd5ejk5MXU3NTUwdU1kQnJZTTRPTHA1NTBnWVFlZmVHSGtrNWNVWEltdDBSNTlrZVVPcUFTQ0tjdzZuZXRRUE5KRlEzaUJpTnVaS0kwMTRqZEd5ZUE0alR3SnY",
       "source": "Fortune",
@@ -120,7 +94,7 @@
       "whyItMatters": "oil story with 1 matching headline(s) across 1 source(s)."
     },
     {
-      "rank": 10,
+      "rank": 8,
       "title": "TC Energy LNG Push To Asia Meets Rich Valuation And Coverage Risks",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNWdsMUZnSVg0UnpTcGJqb3JIZ1VYbU1kdTFUQkRVYTlyWTQ2OEt3VmtuT2NUNGpCci0wNlpFUFFhUEJJbDc5WnFXWTREbU5ES2wteTFsYldDS0VWYTJ5bDZObTloVmRBYTllSEEweUtERDZERjU0Z2VQdWRBTm9WV1o3SHdKM1hJS1cwYlhxdzU3QQ",
       "source": "Yahoo Finance",
@@ -133,10 +107,10 @@
       "whyItMatters": "gas-lng story with 1 matching headline(s) across 1 source(s)."
     },
     {
-      "rank": 11,
+      "rank": 9,
       "title": "AI's $1T Energy Surge: Betting on Natural Gas",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE51QWJndTZNeHFqcnE5UG94REZkemc1NndVZlZhUlZ6WFNjb0taSmhXSGZkZWJBV2JWVjBTQXZieDFmRVRmZk51WWNweElaR2xIdDlkQkxFdUdGZEVxdHfSAWNBVV95cUxOVnlsVnFYS2dCLWtYQXdTekQtbkx2eTR3LWY1dWFZNVlXUnd3dWxvUnFkajJEcnlTajlKdjg2cVp3RHdFWXVnVWF3aFRCbTVVTFdoakxiNWJDZkNGNkhaMHlvcm8",
-      "source": "Bitget",
+      "source": "bitget.com",
       "pubDate": "Fri, 03 Apr 2026 06:18:52 GMT",
       "topic": "gas-lng",
       "urgency": 0.275,
@@ -146,7 +120,7 @@
       "whyItMatters": "gas-lng story with 1 matching headline(s) across 1 source(s)."
     },
     {
-      "rank": 12,
+      "rank": 10,
       "title": "Significant Food Security Risks of Persian Gulf Energy Disruption: How Global Nitrogen Fertilizer Economics Mirror LNG Volatility",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPaHh5Vi0tMHBiUFVhZUsyLVJXbHJxbGlQUjZMZHNOSzh6THpaRVdTSkJWaUtrUHF0eW5vUUNoMVZHaVZ4NHkyVWFQYloweXpHeDVZZzBwU29UUkppcjdacW9ENTk3RV9rMUhFWEZpUmt1UHllNkI4bUFGV21QWkxFNw",
       "source": "Intelligent Living",
@@ -157,6 +131,32 @@
       "clusterSize": 1,
       "sourceCount": 1,
       "whyItMatters": "gas-lng story with 1 matching headline(s) across 1 source(s)."
+    },
+    {
+      "rank": 11,
+      "title": "Exclusive: Five EU countries call for windfall tax on energy companies",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQM3NQM0lpZExNQ1ZqalgwbzU2c1EyV0RJaGNsQ1ZiZDNYLVJWb0JOY0xYMzgzZjJ0aERhUVNITnV2TU83V3NGOEZNYnNYbmZ3dUtqSm4yTnE1aWtudF9aTE54b2FTWUM4ZkFEaklQN1hINWZtLVhLczNsMjZMVEgtaWNpdjl3Xzk5S3FKaG1TRXJGSjQ4cHZBSE1zWHVQS2VLOWRuWGlwYW1oUVdZYmlfbG1nb0Z6MUh5Z3Zmb2dhLTdRamZ1RUpyN1lXSTlfd2lCMDhDdmNCZ2s4QkU",
+      "source": "Reuters",
+      "pubDate": "Sat, 04 Apr 2026 15:42:47 GMT",
+      "topic": "general-energy",
+      "urgency": 0.45,
+      "score": 1.1475,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "whyItMatters": "general-energy story with 1 matching headline(s) across 1 source(s)."
+    },
+    {
+      "rank": 12,
+      "title": "Iran conflict disrupts oil and gas supply – and more top energy stories",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQOFdmUlRXS3lIU1hrZ2E1em5KSGpoVUxwLW1NSWhCNWR2aXliTUZMaUp2dkRCRmE0Q1NiV0hfUGhVRWgyZUdEejM2RmxyRlBoNlRxSXNyQ3M0S0k1VXZyd25pcmNDemI5bzZ5Z0NILTVGbE9sWkhLWjZlTWZ4TVhOeTFCbkVLWE1mWnNpcl9PS0FkamdVcGdGREY5RG51RVhJZlMxMGhFckVLanYxN2hNQ0hB",
+      "source": "The World Economic Forum",
+      "pubDate": "Fri, 20 Mar 2026 07:00:00 GMT",
+      "topic": "oil",
+      "urgency": 0.175,
+      "score": 1.075,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "whyItMatters": "oil story with 1 matching headline(s) across 1 source(s)."
     }
   ]
 }
