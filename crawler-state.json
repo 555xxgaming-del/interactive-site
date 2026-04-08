@@ -2242,13 +2242,19 @@
     "4703a310ee3648461e3b0f5f8cbd99cffff3e8fd",
     "eb32b8ac8fd488714193000b18b684a5dd7dfc73",
     "737daea1369f4b9996d5ddfde2bbbb2d95e7b7a4",
-    "d5102f3d272924cbf4feb7f1b7dc030022242320"
+    "d5102f3d272924cbf4feb7f1b7dc030022242320",
+    "2a3df69d434338de150fa4e3bd9f0488d7338fd8"
   ],
   "lastTraction": {
-    "energy": 3.7,
-    "oil": 1.66,
-    "geopolitics": 1
+    "energy": 23.54,
+    "oil": 12.18,
+    "LNG": 11.85,
+    "shipping": 4.72,
+    "natural gas": 4.68,
+    "sanctions": 3.43,
+    "geopolitics": 2.66,
+    "energy finance": 0.83
   },
-  "lastTopSignature": "{\"items\":[{\"h\":\"a782b816ac0a7c20a8dc94a46e50f549156e93f6\",\"s\":1.5},{\"h\":\"002fb86b861c1ae794e2d21af860ab821e6b41c6\",\"s\":1.075},{\"h\":\"4703a310ee3648461e3b0f5f8cbd99cffff3e8fd\",\"s\":1},{\"h\":\"eb32b8ac8fd488714193000b18b684a5dd7dfc73\",\"s\":0.9113},{\"h\":\"737daea1369f4b9996d5ddfde2bbbb2d95e7b7a4\",\"s\":0.575},{\"h\":\"d5102f3d272924cbf4feb7f1b7dc030022242320\",\"s\":0.075}],\"trends\":[{\"k\":\"energy\",\"t\":3.7,\"d\":-13.81},{\"k\":\"oil\",\"t\":1.66,\"d\":-7.2},{\"k\":\"geopolitics\",\"t\":1,\"d\":0.17}]}",
-  "updatedAt": "2026-04-08T16:11:38.720Z"
+  "lastTopSignature": "{\"items\":[{\"h\":\"2a3df69d434338de150fa4e3bd9f0488d7338fd8\",\"s\":0.85},{\"h\":\"853a04e3eba75550fafe5f124a7b30a386fe7a4b\",\"s\":1.575},{\"h\":\"231084677901f150db02c8f251b3a6706a253b47\",\"s\":1.575},{\"h\":\"37987bab270c9e085ca85331c3cb98bbad0d4d25\",\"s\":1.575},{\"h\":\"a782b816ac0a7c20a8dc94a46e50f549156e93f6\",\"s\":1.5},{\"h\":\"6a34de48387b27e3ec63d7ff75fa5009c4b46f78\",\"s\":1.3975},{\"h\":\"797660762b7f76661957dafa9c54b4f9c325df51\",\"s\":1.35},{\"h\":\"d072d996d6dc10e35c966a493a69f65a2c9e1af0\",\"s\":1.3438}],\"trends\":[{\"k\":\"energy\",\"t\":23.54,\"d\":19.84},{\"k\":\"oil\",\"t\":12.18,\"d\":10.52},{\"k\":\"LNG\",\"t\":11.85,\"d\":11.85},{\"k\":\"shipping\",\"t\":4.72,\"d\":4.72},{\"k\":\"natural gas\",\"t\":4.68,\"d\":4.68},{\"k\":\"sanctions\",\"t\":3.43,\"d\":3.43},{\"k\":\"geopolitics\",\"t\":2.66,\"d\":1.66},{\"k\":\"energy finance\",\"t\":0.83,\"d\":0.83}]}",
+  "updatedAt": "2026-04-08T16:20:42.318Z"
 }
