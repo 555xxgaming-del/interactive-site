@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-04-10T16:06:51.896Z",
+  "generatedAt": "2026-04-10T19:10:47.737Z",
   "mode": "enrich",
   "items": [
     {
       "rank": 1,
-      "title": "Global energy stocks plunge as US-Iran ceasefire hits oil",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWnJ6SjZaRWFydzFkR0o4dkpGcC1PdnJLTWsyM090VXE2QllhNmtYSjJvSUhjQ0pMaktYdTFBYkhOa2ZWS3dyaWFId2dlMkVzRHMzN2s3Q1AyV2JhaWkyRVU1SkRGMkEwU0oydE1Da0QzSkZxOGdvTGVodVd2NVI5MkhYaF9VLUJ2Vlc3cm5FR2VlMGRLcDhvZTFka0swYTFlZGJDTWxXblJ3Zw",
-      "source": "Reuters",
-      "pubDate": "Wed, 08 Apr 2026 15:08:39 GMT",
+      "title": "How the big oil and gas CEOs think the Iran war supply disruption will play out",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQOHd0d3YzbzE5LUlBUWZXVnZZTXprc0ExcnBoV21nLTdGS2h5d0kxdmpMLVBrUFh6dkgxNXNncUtvTy1JTnZHQjlIVmdOMFhiaEtFTDF0eVRpZDhLVGd2UXRTUDhFWkU1NURxM1R2UXhvVm16anNyWWpUa3RYVzFnRHRZNld4LTEyZXZiLVNraE5CWTBj",
+      "source": "CNBC",
+      "pubDate": "Sat, 28 Mar 2026 07:00:00 GMT",
       "topic": "oil",
-      "urgency": 0.275,
-      "score": 1.5863,
+      "urgency": 0.175,
+      "score": 0.6325,
       "clusterSize": 1,
       "sourceCount": 1,
       "whyItMatters": "oil story with 1 matching headline(s) across 1 source(s)."
@@ -43,6 +43,19 @@
     },
     {
       "rank": 4,
+      "title": "Russia's options to reroute LNG from Europe limited by high shipping costs, contract structure",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQTnRLWEJjWk5FazZGbEU5OE93TEhHRGN2bkxhX0MzMjhqZnVBeFNrVnlsdDktU2R1RUQ4TGxPSUFQaFZLR3dLMHV5NW94WFBiX1otdHI3bkxVcVF1TENEX2JoQk1ZQUY5WFlWNlVPaWFaajlYODZ1NWhkQWw3WE9sQ0VtZkJLYlNfWGFJV1BOSDEyZkEtajFCSTVKcEFRWktRRWZuLXRnUWFVLWFhck8zWmFaTml6SUU0WFB4SjhrX1QxTF9S",
+      "source": "Reuters",
+      "pubDate": "Fri, 27 Mar 2026 07:00:00 GMT",
+      "topic": "gas-lng",
+      "urgency": 0.175,
+      "score": 1.4512,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "whyItMatters": "gas-lng story with 1 matching headline(s) across 1 source(s)."
+    },
+    {
+      "rank": 5,
       "title": "Global oil and gas prices soar as Iran crisis disrupts shipping, production",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdkpYeWluSExzU0hENHpicjVNZDFwYlFpMnBYeXU1N2NnOE9abzRhMW5zZXRuM2VIR19aajQ4SS1hRGlnVDBtQnBoZy1XSG9kdDlrVzhNQnRYV243a3lMQThsd1BSSzktVFI5SHgxLTJDZVQtemZCWWp4TFFOTnQ3cTRqNlROMV8xdXNLU1lGcW5UczhfQ05wZ1BIenhWRzNkdDhzelA5eTlKLTNsWEx5MW5lSGxJX2RoSkhJVEhoYl9GVU0",
       "source": "Reuters",
@@ -55,20 +68,46 @@
       "whyItMatters": "oil story with 1 matching headline(s) across 1 source(s)."
     },
     {
-      "rank": 5,
-      "title": "Hungary limits fuel prices, asks EU to suspend sanctions on Russian energy",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdzVjcWhIRmh4MUlsTS1tOW5pZk1EaHFadU9HZUNCMU4zbExkcTc3bWhZWGVqR0lMQlhoM2ZPTzFxUExJYnBEUFBiYkNmQTBZTnlYUmZOWUZnb21Dd1lHMHd5elhXUFFUakhfQ2l0OUxWeGwtT283VVVxVURndE5Cb3VPUjZSeWpsVjlub3hBNmFUT3hUSEpCM3E0eU1RaGtmRV9MY0wtbU1rVHowaUE",
+      "rank": 6,
+      "title": "Oil jumps to 2022 high on Iran war, falls after close as Russia sanctions in doubt",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSW4zRHJ6c00zS0xXbUQ0MWhUdDQ4dGt3R2xTM1VNdkRLQVNpT0JWOTBxeVI5ajlZMno2cmNCTGs2MmlQdzhheVQ4enk4VUs3MGc5WF9JMWZQejhDd19EUTZQZGNBdjRJb1Zuc3lmR2ctMHJZT0tNU2RaVUJxSDZuN3dNOXdfTVBqdFQxU3JiNmlxX3hESS1rMVhaYWFYUnUySzlESmFWZWpBaGhOYlRmdnM0OVRqajhHT2p3ZnR6akI",
       "source": "Reuters",
-      "pubDate": "Mon, 09 Mar 2026 07:00:00 GMT",
-      "topic": "general-energy",
+      "pubDate": "Tue, 10 Mar 2026 07:00:00 GMT",
+      "topic": "oil",
       "urgency": 0.175,
       "score": 1.4512,
       "clusterSize": 1,
       "sourceCount": 1,
-      "whyItMatters": "general-energy story with 1 matching headline(s) across 1 source(s)."
+      "whyItMatters": "oil story with 1 matching headline(s) across 1 source(s)."
     },
     {
-      "rank": 6,
+      "rank": 7,
+      "title": "Global oil and gas shipping costs surge as Iran vows to close Strait of Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNLUFFX3dLNzdVaThlTjBZWkVFaGYyellDVjd2aGE5OHB4RTUwekJNbWNqcUVVUW93clNKSzRLM2dzaDJrQndYV09YVTNZOE5OMjVVTjd6WURNQjRwMFV0NXBXMEczdklQTks2dWUyVFQ1WnREU1VBcDJJc1EtS2pEeVg4cmY5aEJ1UWxEM2lUbU04R1dDUGl2dVZSZTVNdklVelNnc2pXcTk4RmUyaVpDUDZITHlOb1hLYXRwTG5aenlHX2lua1J1Y1pVRGMxZw",
+      "source": "Reuters",
+      "pubDate": "Wed, 04 Mar 2026 08:00:00 GMT",
+      "topic": "oil",
+      "urgency": 0.175,
+      "score": 1.4512,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "whyItMatters": "oil story with 1 matching headline(s) across 1 source(s)."
+    },
+    {
+      "rank": 8,
+      "title": "Laramie County gas prices soar as Iran tensions, sanctions rock oil markets",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNcUxLbnB2Yk1tTUx1VC1MSERrN1VwX2JEY1hnUUNZdjN3anZtb0RGYVZXc0JUUEZXUGJmMTE1bWVRclFreC1oTDNXVjhsbkZmQmRLTFJFdEhlVlFqVXFlU3VmU1NRaHJlTGRpczlkeUxyTGlrUTN2UVZQMThxeldEcEdnaS1lZWJxUVJsRHJUdnlxeVhqaWpZbzVQZGFNcGM1WjJ0RTlqWWt0dTRmMlM4eTlUUFhBVlE4Zll5c1BxbTJTbllLYUc5UXdaaWlWcGc",
+      "source": "Cap City News",
+      "pubDate": "Mon, 26 Jan 2026 08:00:00 GMT",
+      "topic": "oil",
+      "urgency": 0.175,
+      "score": 1.3975,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "whyItMatters": "oil story with 1 matching headline(s) across 1 source(s)."
+    },
+    {
+      "rank": 9,
       "title": "Russia Offers Discounted LNG to Energy-Hungry South Asian Markets",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9HbWowMTktTlFvOWRncVAwQmJZdEtHVzh3SHNmNzZnLTVaSGxqY25NR1lETm1GWmlOcTVab3gtZXk1aHZ6WWFxMS1vY1Z3TEQ4WFh2U01kVVVndThoYVA3QTZxOWNmaTRFTWZQZnM3cE85MDZNM3NF",
       "source": "Discovery Alert",
@@ -81,20 +120,7 @@
       "whyItMatters": "gas-lng story with 1 matching headline(s) across 1 source(s)."
     },
     {
-      "rank": 7,
-      "title": "Oil and Gas Energy Solutions",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8ybHJ5bklkRVFvWUR3ZjU3VDB6V28yd3pkQU05SnlLdzVURFNqRGhFeTFzVVBFQWhabWJ2QzhWQ3k4LUlKNWg5VWM2SlRQN2Rmdk5fZUtVZDBrQUIxT2pEaTVfQ0NvSk9ZaEtN",
-      "source": "Microsoft",
-      "pubDate": "Thu, 11 Dec 2025 19:42:35 GMT",
-      "topic": "oil",
-      "urgency": 0.175,
-      "score": 1.29,
-      "clusterSize": 1,
-      "sourceCount": 1,
-      "whyItMatters": "oil story with 1 matching headline(s) across 1 source(s)."
-    },
-    {
-      "rank": 8,
+      "rank": 10,
       "title": "U.S. allows temporary purchases of Russian oil already at sea to stabilize energy markets",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWEM1VXU3UDJTM3lNbnVIUXhzWU5oV05lSmlnclpMVC1iOUVxX3pwWENjOHBjRlpQQnRZek40QkdJQXVSdHBWcTEtTWNyd3VuVG9Wd3gwdndWamhOLUs0R0RlblM0aGo2M0poaUdkTExOUXk1YkpFYzNUSWo0cUNjeVp1OXdkalJ3RGw5bnpqTUpxdVlKam80bGdVNndxWEJLYU80RDZ30gGrAUFVX3lxTFB0bmdoYVZfSG5kYVZ3YzJOclB6c3gxTzZDVjlTZW9FS0tjSExkbkNueDlDdzVobnVQaXhjdmZEeThxX01iSUl2bEFlX0R0YmZoUGpFNTFGY1JnRzBnQU5yam5qbXM1NlNtVE5uTlhGQU50aFZpMDNRU1R2V1I5bllnNTdfV1pjYkNoT2FjcXZPS0ptRWNDMk82UjFiUlNTMDN6R2V6MzMxM0RnSQ",
       "source": "CNBC",
@@ -107,20 +133,20 @@
       "whyItMatters": "oil story with 1 matching headline(s) across 1 source(s)."
     },
     {
-      "rank": 9,
-      "title": "Trump gives Hungary one-year exemption from Russian energy sanctions",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE02WFZ6a3ZBVk8yTTduenJlbUxCdV93VktpU1FxX0cwVlpPZGpRQ1puVVdDOERocndZei1iYmZMYTAtbWktWG1GNE03bkI5SkdBeGw1T0JhbkgzQQ",
-      "source": "BBC",
-      "pubDate": "Fri, 07 Nov 2025 08:00:00 GMT",
-      "topic": "general-energy",
+      "rank": 11,
+      "title": "These U.S. natural gas exporters benefit from disruption to Qatar LNG supply in Iran war",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4wUXJ2dlJ5MVpmSlNTX0ppNnR6amw2ekRTR0Zpa2huczJpY0paVk1XMWw1OWpCYktMeXdCVXgzTnFNbXpqNjU1dHhTOUFxZVRuU01jb2FkdXozVXRYNUpOX1lSTUtHSk9JUDFLbVF5bTd5WUlhM2UxdlVR",
+      "source": "CNBC",
+      "pubDate": "Tue, 03 Mar 2026 08:00:00 GMT",
+      "topic": "gas-lng",
       "urgency": 0.175,
       "score": 1.1825,
       "clusterSize": 1,
       "sourceCount": 1,
-      "whyItMatters": "general-energy story with 1 matching headline(s) across 1 source(s)."
+      "whyItMatters": "gas-lng story with 1 matching headline(s) across 1 source(s)."
     },
     {
-      "rank": 10,
+      "rank": 12,
       "title": "Geopolitics, Energy Prices, and Carbon Policy: Will Conflict with Iran Reshape U.S. Climate Strategy?",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPeVRqek5Qek9VWkJvbEIwcE9WYmltQ052OFZ2bkQ4M2xPTEEzQmVkaU1kUnZrRXNQRkM3OGJkdWpRT3RuTzRFemNnZDhxaTR4a3E1ZEMteXhOTTBpcGxmNTRRTXlHUEo2cThmWmQ4N24xV0VPQXUtTkszbi1XQnJuS3FORklGR1ljQ1pOaEs5NlIyUXNkZHo3d1hiMmMwd0FxSk5nWmVHZjMzR01HNHZHRHJQTlgydzNKQWFr",
       "source": "Bergeson & Campbell",
@@ -131,32 +157,6 @@
       "clusterSize": 1,
       "sourceCount": 1,
       "whyItMatters": "geopolitics story with 1 matching headline(s) across 1 source(s)."
-    },
-    {
-      "rank": 11,
-      "title": "Will shipping in the strait of Hormuz – and oil prices – return to normal?",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZlRaOE9Vam5oVzVTTDZJS2Y4Yk41Qk1uQ3hMVVQtOU9IUkxMSG5Jb0x2ejlUVTV0NXVRckUyT21YLUhpQUJOc1pDU25Ia1ZONXZDcHZ6dGdMOFoxbm4tZ2Z0TXNlSGxvWVFVNFNfOFNRUVp6Nnc5OXFrelVPTEpsV210Vks0TkZHVDBuT2lRUWJ0TGdqaTVDbFVGd0ZjVDBVMDR5enZQeW9WWGtEblN0eWxQMWJNUQ",
-      "source": "The Guardian",
-      "pubDate": "Wed, 08 Apr 2026 16:23:00 GMT",
-      "topic": "oil",
-      "urgency": 0.275,
-      "score": 1.175,
-      "clusterSize": 1,
-      "sourceCount": 1,
-      "whyItMatters": "oil story with 1 matching headline(s) across 1 source(s)."
-    },
-    {
-      "rank": 12,
-      "title": "Draining Fuel from the Russian War Machine: Oil, Gas, and Sanctions Outlook",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVlIwRXhqOU44WG9tcmZ5Zm5UOE1zTUZVSHZpTEc1clJWa1lJRFI4QjFtQ1daSzk1N3Y5czMxcUhHRzZ4NXBkUm5EcUdHN3NSVm95aFVlSmZfeDZXajFmd1k3TklDWFBNS2prdUhNdlJRR0RObmdXWGV2UHVGZnE5MnVfemxibzJzUEFnb1k1bnVMQUdzNzRKZjNfWWhlblNnU0xyTkt3",
-      "source": "ERR",
-      "pubDate": "Wed, 08 Apr 2026 06:54:00 GMT",
-      "topic": "oil",
-      "urgency": 0.275,
-      "score": 1.175,
-      "clusterSize": 1,
-      "sourceCount": 1,
-      "whyItMatters": "oil story with 1 matching headline(s) across 1 source(s)."
     }
   ]
 }
