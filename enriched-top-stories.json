@@ -1,35 +1,61 @@
 {
-  "generatedAt": "2026-04-13T14:06:52.385Z",
+  "generatedAt": "2026-04-13T16:38:04.249Z",
   "mode": "enrich",
   "items": [
     {
       "rank": 1,
-      "title": "Current price of oil as of April 13, 2026",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBxSEhNSzJsV3RXMnJNcmxfOFZzTGRrdVgxeFY3cUxuTGNXRHRPd0RxbjMzOGx6TXY2MzBSU2d4ZW9oLW9uSWl0VHFzbG1iendHN0FJaGpxQTlrSVNXc1lNMkdn",
-      "source": "Fortune",
-      "pubDate": "Mon, 13 Apr 2026 12:53:00 GMT",
+      "title": "Oil back above $100 as US to blockade Iran's ports after peace talks fail",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5EYlhRdTlzeWl3YWp6ZEo2eUJtdUJNeUI5YndBOThfRThxUUxOTGJKWTU5ZjQwT3l2SVpWRnVaZ3BBU3F0SFBkUkE3OFZtWHJJRk5yR2lDWkNiZw",
+      "source": "BBC",
+      "pubDate": "Mon, 13 Apr 2026 13:56:20 GMT",
       "topic": "oil",
       "urgency": 0.6,
-      "score": 1,
+      "score": 1.1,
       "clusterSize": 1,
       "sourceCount": 1,
       "whyItMatters": "oil story with 1 matching headline(s) across 1 source(s)."
     },
     {
       "rank": 2,
-      "title": "US energy chief defends waiver on Russian oil sanctions, blames fear for higher gas prices",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQemZ0a3J3WDVOUGY1bXBQNVhiYjNwdWstWmpWOEpXd2NodG03Y29CeXdNcXpRTVUxblltVjQ0bzVCekk2OWZGTGdpT3otNnZ5QkdmaElwdHA5ZmFQb3hlQUYyT0M0RWYxODd5aGpkVXpwQzNrQUhiN2QzeWJPVEtRVUNaRW1MMGhRS01BTkZfamNyTDdnSVlXRVFVcmxack9SOUdjUWU4SlNZbE9sTGtHOG9TbW5TU0xYNTdUSjh3NExDdG4tQlE",
-      "source": "Reuters",
+      "title": "Why Cheniere Energy Partners (CQP) Is Up 5.9% After New LNG Capacity And CPC Contract – And What's Next",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaFpua0QyWGY5UlFQaTM1QVlIakR6VGpZTy1XdUxyb05kV3ZiZ3psX3ZBcC1rU1JHbElMVFJwcDdRUlFqZ1Jzck5jaFlTSjFWOEdpUjNaTzFBekRfNlZ5Z0ZJUGozVzlnLTktdEdYSmN5Z25JTnh6UFFRaC1aM0lDQXFWVmhoYkVDTzFrNm5NTkZXa2FHa1BGOG9YbjBwQQ",
+      "source": "Yahoo Finance",
+      "pubDate": "Thu, 26 Mar 2026 07:00:00 GMT",
+      "topic": "gas-lng",
+      "urgency": 0.175,
+      "score": 1.075,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "whyItMatters": "gas-lng story with 1 matching headline(s) across 1 source(s)."
+    },
+    {
+      "rank": 3,
+      "title": "US attack in Iran poses bigger risk to energy market than Venezuela",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTVE4UjY5UUZ0MXo5YTNZdmVQUVZsdk5XTFhUcmtWbVlOeHVWcTBvcWdVWFVQZEZoaWwzSDNBSEhnSU1kTWJBdUEtNlprWk1IR01TMnNmcXhaSWNjQXVCQ00zaDJGLUxzVHBsYUFrdHlabzhBX3FhNTFNVmJQblhkQWJDdWxiMVZfdWNZaVFpaHY3QQ",
+      "source": "Politico",
+      "pubDate": "Sat, 28 Feb 2026 08:00:00 GMT",
+      "topic": "financials",
+      "urgency": 0.175,
+      "score": 0.575,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "whyItMatters": "financials story with 1 matching headline(s) across 1 source(s)."
+    },
+    {
+      "rank": 4,
+      "title": "U.S. energy chief defends waiver on Russian oil sanctions as gas rises - Honolulu Star",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORi1nWVVXSnk1bFBYNTU0akwtT09OU2FfRWVUalZWdGc0VTlpQlJ4NFFTNENpdlJ3aE1HRGg5dTk3SnZrWVZJTGtRZkZwRGJFSWZqbFBHMzNlWkRtTHBmbGRoNXpCNjJBYlFkTzZ0M29ORDlPOTFTSThiOXUyY0szS0lFc1RBVXAxQy10cDNmM3I1ZTg0VW1qNkl3cjEyX2JNRm5WSE56azBQTVkwYU1LSWVzWWlpUXN5RFpqay1iM1FnTFlQ",
+      "source": "Honolulu Star-Advertiser",
       "pubDate": "Mon, 09 Mar 2026 07:00:00 GMT",
       "topic": "oil",
       "urgency": 0.175,
-      "score": 2.1263,
+      "score": 1.575,
       "clusterSize": 1,
       "sourceCount": 1,
       "whyItMatters": "oil story with 1 matching headline(s) across 1 source(s)."
     },
     {
-      "rank": 3,
+      "rank": 5,
       "title": "Op-Ed: LNG is the Future of Shipping's Energy Transition",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcHZHaWFOUUptTXl3ekRlcFZOZGs1emVpSW1ObVU2V0tKWC1xZlVub2JQZHpqSlVoX1p4YmU3WHdiSkVfYzVTS21IdGRXc0YtM0tIV0FONDdUcXB2QWxveHVlYWJyMzNJb0xhcUZuMWNTM1RiUGR3WmpxWHJ6MjFOdXVOVWZyd3FIWDNybGZkSG9vOXZ6ZHc4NVVkTFBGdw",
       "source": "The Maritime Executive",
@@ -42,7 +68,7 @@
       "whyItMatters": "gas-lng story with 1 matching headline(s) across 1 source(s)."
     },
     {
-      "rank": 4,
+      "rank": 6,
       "title": "India's GAIL charters LNG carrier Energy Fidelity from Alpha Gas",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOLS1UbFdJZ0I4VmN6c2d2SkozWlB0YUZTb1VLRlBBU2ViRnlKZ1FWTHExNXBlZktlQW1idHB5U2RCNzJCd3dSTExHSGdEcER4WHlIdHhuR0p6MWJWOGlUOUt6MlE4RTJ6U1RTd1ZZaVpwcUNWQzY5aXpBU19VcnRtNndEdF93WVU2N2Q3VVJOSjl2MzFFQnltRmE2X3FsbjZablEwWlY5UXJiVU94aFBTY2lHYUZCLVRYaDJ3R2YxS1dIbXlHSk55TXpISWN1QQ",
       "source": "ALCHEMPro",
@@ -55,7 +81,7 @@
       "whyItMatters": "gas-lng story with 1 matching headline(s) across 1 source(s)."
     },
     {
-      "rank": 5,
+      "rank": 7,
       "title": "Global oil and gas prices soar as Iran crisis disrupts shipping, production",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdkpYeWluSExzU0hENHpicjVNZDFwYlFpMnBYeXU1N2NnOE9abzRhMW5zZXRuM2VIR19aajQ4SS1hRGlnVDBtQnBoZy1XSG9kdDlrVzhNQnRYV243a3lMQThsd1BSSzktVFI5SHgxLTJDZVQtemZCWWp4TFFOTnQ3cTRqNlROMV8xdXNLU1lGcW5UczhfQ05wZ1BIenhWRzNkdDhzelA5eTlKLTNsWEx5MW5lSGxJX2RoSkhJVEhoYl9GVU0",
       "source": "Reuters",
@@ -68,7 +94,7 @@
       "whyItMatters": "oil story with 1 matching headline(s) across 1 source(s)."
     },
     {
-      "rank": 6,
+      "rank": 8,
       "title": "Laramie County gas prices soar as Iran tensions, sanctions rock oil markets",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNcUxLbnB2Yk1tTUx1VC1MSERrN1VwX2JEY1hnUUNZdjN3anZtb0RGYVZXc0JUUEZXUGJmMTE1bWVRclFreC1oTDNXVjhsbkZmQmRLTFJFdEhlVlFqVXFlU3VmU1NRaHJlTGRpczlkeUxyTGlrUTN2UVZQMThxeldEcEdnaS1lZWJxUVJsRHJUdnlxeVhqaWpZbzVQZGFNcGM1WjJ0RTlqWWt0dTRmMlM4eTlUUFhBVlE4Zll5c1BxbTJTbllLYUc5UXdaaWlWcGc",
       "source": "Cap City News",
@@ -81,7 +107,7 @@
       "whyItMatters": "oil story with 1 matching headline(s) across 1 source(s)."
     },
     {
-      "rank": 7,
+      "rank": 9,
       "title": "Alpha Gas Signs Multi-Year Charter with GAIL for LNG Carrier \"Energy Fidelity\" at High-$70,000 Daily Rate",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB4S3hkNFJUeVBKSV9qY0VDV0xQQ0U0ekJzRlp5Z2o0djVDTzA1Z09sYm9IZ1BEWHdvRG55WFBNYmRXVkVkSjU3b3hDM0UyZm8",
       "source": "imarinenews.com",
@@ -94,7 +120,7 @@
       "whyItMatters": "gas-lng story with 1 matching headline(s) across 1 source(s)."
     },
     {
-      "rank": 8,
+      "rank": 10,
       "title": "Oil and Gas Energy Solutions",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8ybHJ5bklkRVFvWUR3ZjU3VDB6V28yd3pkQU05SnlLdzVURFNqRGhFeTFzVVBFQWhabWJ2QzhWQ3k4LUlKNWg5VWM2SlRQN2Rmdk5fZUtVZDBrQUIxT2pEaTVfQ0NvSk9ZaEtN",
       "source": "Microsoft",
@@ -107,7 +133,7 @@
       "whyItMatters": "oil story with 1 matching headline(s) across 1 source(s)."
     },
     {
-      "rank": 9,
+      "rank": 11,
       "title": "U.S. allows temporary purchases of Russian oil already at sea to stabilize energy markets",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWEM1VXU3UDJTM3lNbnVIUXhzWU5oV05lSmlnclpMVC1iOUVxX3pwWENjOHBjRlpQQnRZek40QkdJQXVSdHBWcTEtTWNyd3VuVG9Wd3gwdndWamhOLUs0R0RlblM0aGo2M0poaUdkTExOUXk1YkpFYzNUSWo0cUNjeVp1OXdkalJ3RGw5bnpqTUpxdVlKam80bGdVNndxWEJLYU80RDZ30gGrAUFVX3lxTFB0bmdoYVZfSG5kYVZ3YzJOclB6c3gxTzZDVjlTZW9FS0tjSExkbkNueDlDdzVobnVQaXhjdmZEeThxX01iSUl2bEFlX0R0YmZoUGpFNTFGY1JnRzBnQU5yam5qbXM1NlNtVE5uTlhGQU50aFZpMDNRU1R2V1I5bllnNTdfV1pjYkNoT2FjcXZPS0ptRWNDMk82UjFiUlNTMDN6R2V6MzMxM0RnSQ",
       "source": "CNBC",
@@ -120,7 +146,7 @@
       "whyItMatters": "oil story with 1 matching headline(s) across 1 source(s)."
     },
     {
-      "rank": 10,
+      "rank": 12,
       "title": "Here is why Vista Energy (VIST) Is Among the Most Profitable Natural Gas Stocks to Buy Now",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNODlRZE8xWDJJdndNX1hfRl9EUml1VEhPSFBFZ3hWQ1pKS0VLX044aGZybTVwRS16dzVsRVpLTkhxMmdpZVBRWDR6cndiTFJNbGd5bW9lWkVUa092Y1pvR1hLTUp0NXJYcldmX2lIeVdRak5jOUJVVVRraXZhWFc0RWhYS3BlUkNXQ2puUWhKaEQwSmhHRHk0",
       "source": "Yahoo Finance",
@@ -131,32 +157,6 @@
       "clusterSize": 1,
       "sourceCount": 1,
       "whyItMatters": "gas-lng story with 1 matching headline(s) across 1 source(s)."
-    },
-    {
-      "rank": 11,
-      "title": "Iran conflict disrupts oil and gas supply – and more top energy stories",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQOFdmUlRXS3lIU1hrZ2E1em5KSGpoVUxwLW1NSWhCNWR2aXliTUZMaUp2dkRCRmE0Q1NiV0hfUGhVRWgyZUdEejM2RmxyRlBoNlRxSXNyQ3M0S0k1VXZyd25pcmNDemI5bzZ5Z0NILTVGbE9sWkhLWjZlTWZ4TVhOeTFCbkVLWE1mWnNpcl9PS0FkamdVcGdGREY5RG51RVhJZlMxMGhFckVLanYxN2hNQ0hB",
-      "source": "The World Economic Forum",
-      "pubDate": "Fri, 20 Mar 2026 07:00:00 GMT",
-      "topic": "oil",
-      "urgency": 0.175,
-      "score": 1.075,
-      "clusterSize": 1,
-      "sourceCount": 1,
-      "whyItMatters": "oil story with 1 matching headline(s) across 1 source(s)."
-    },
-    {
-      "rank": 12,
-      "title": "Energy Finance Is Making The Fuel Crisis Worse",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxONXphdFE1NVBiX292RjNwZ3pIQTdLQjlQbWNFUHBWdGZnYi00M0JwbVRfZnZYM3lFWVUxeGlEaElicXJmYm5BV2pQZGRqNWVKdXF1NTZaWnptZll5ODhnM2g0UGp6QWJDeGJXeU5sSDBER3V5QTNiYTB6Ujh4ZlZOOXoxUXZkcmF0V0QzQmF5dDdrbE9rQU9n",
-      "source": "Center for International Policy",
-      "pubDate": "Tue, 24 Mar 2026 13:04:01 GMT",
-      "topic": "financials",
-      "urgency": 0.175,
-      "score": 1.075,
-      "clusterSize": 1,
-      "sourceCount": 1,
-      "whyItMatters": "financials story with 1 matching headline(s) across 1 source(s)."
     }
   ]
 }
