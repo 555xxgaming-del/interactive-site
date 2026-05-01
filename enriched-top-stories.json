@@ -1,22 +1,61 @@
 {
-  "generatedAt": "2026-05-01T13:53:30.350Z",
+  "generatedAt": "2026-05-01T16:07:20.456Z",
   "mode": "enrich",
   "items": [
     {
       "rank": 1,
-      "title": "Op-Ed: LNG is the Future of Shipping's Energy Transition",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcHZHaWFOUUptTXl3ekRlcFZOZGs1emVpSW1ObVU2V0tKWC1xZlVub2JQZHpqSlVoX1p4YmU3WHdiSkVfYzVTS21IdGRXc0YtM0tIV0FONDdUcXB2QWxveHVlYWJyMzNJb0xhcUZuMWNTM1RiUGR3WmpxWHJ6MjFOdXVOVWZyd3FIWDNybGZkSG9vOXZ6ZHc4NVVkTFBGdw",
-      "source": "The Maritime Executive",
-      "pubDate": "Sun, 15 Feb 2026 08:00:00 GMT",
+      "title": "Oil Companies’ Huge Profits Revive Calls for Temporary Windfall Taxes",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQ3JaWE5tV1d6dm5QYm41QmxsZnc1cng5SjVCUnVfWHpibGc1eDhqVGxBbGppaVMyd1BpWkl6TlRNX0lwLUFXN2ZYQWtOLTdUazBsckVkS3pzQm1URDV4SXpZTFhwZktEZEJjTE9CS19iTVBOWS1adU5PRFZtdVI5cGVKUlZwQjZH",
+      "source": "The New York Times",
+      "pubDate": "Fri, 01 May 2026 15:32:23 GMT",
+      "topic": "oil",
+      "urgency": 0.6,
+      "score": 1,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "whyItMatters": "oil story with 1 matching headline(s) across 1 source(s)."
+    },
+    {
+      "rank": 2,
+      "title": "why-us-LNG-wont-stop-flowing",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1xMkVQdGpjbWVpVS1RODFlMl93ZDZUQVdVeTQ1RHA0VkJybEpYVTFoSjFzSTVLLTVmLUNOODd1dEkxNURRTEYydDlhQVBYRnVJc3A3VVpDM2wxUlo3ZEtLMVpOZEx5VTdQTjRaRm1NN2JfWWU0",
+      "source": "Rystad Energy",
+      "pubDate": "Sun, 08 Feb 2026 08:00:00 GMT",
       "topic": "gas-lng",
       "urgency": 0.175,
-      "score": 1.575,
+      "score": 0.575,
       "clusterSize": 1,
       "sourceCount": 1,
       "whyItMatters": "gas-lng story with 1 matching headline(s) across 1 source(s)."
     },
     {
-      "rank": 2,
+      "rank": 3,
+      "title": "Shell LNG Outlook 2025",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOYTNiRlZhTDZkalFMZHFSaE5qQ1ZRMFB1NUNYTVI5cFpzX2ZaaF9LSGxYaFNReTk2VTI3RGFJZUNqd2l2Zk1WaTdieHBocG5YdWU3SHFOaFJlV3llN2xHTzJwTG5EWUJ1bE9wYklfX3NNLUs5enBSZ3N5WktfTlRRb2FnX0pTVnhMWl9HRTNGTnNKQnJzNWhxcEZtTGNyc2tORWc",
+      "source": "Shell Global",
+      "pubDate": "Fri, 31 Oct 2025 07:00:00 GMT",
+      "topic": "gas-lng",
+      "urgency": 0.175,
+      "score": 0.575,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "whyItMatters": "gas-lng story with 1 matching headline(s) across 1 source(s)."
+    },
+    {
+      "rank": 4,
+      "title": "BP p.l.c. Announces Leadership Transition | News and insights | Home",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVlc5RDlFUXB5ZUN6bGd3Mk5DSDJxUjhLYlVtel9PM2VrcV9MbWl5bnctVFdfWXp4NTkzNFd0c0VFZWF5T0JHQ1lLa19iNjRPWS11SVl6bDBjUm82Q2dWUllRRkZzaHF0Rkgwd1BPV0dfX0g2NVR3emU2M28wSGtTVEFDSFRhWWZOSEJ6TVpBT0lwTlN3Zkt4bE0tZ0FwaEVXa1lXYnVURV9RM2V0Nk4tM3lUUFJVZw",
+      "source": "BP",
+      "pubDate": "Wed, 17 Dec 2025 08:00:00 GMT",
+      "topic": "general-energy",
+      "urgency": 0.175,
+      "score": 0.075,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "whyItMatters": "general-energy story with 1 matching headline(s) across 1 source(s)."
+    },
+    {
+      "rank": 5,
       "title": "U.S. energy chief defends waiver on Russian oil sanctions as gas rises - Honolulu Star",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORi1nWVVXSnk1bFBYNTU0akwtT09OU2FfRWVUalZWdGc0VTlpQlJ4NFFTNENpdlJ3aE1HRGg5dTk3SnZrWVZJTGtRZkZwRGJFSWZqbFBHMzNlWkRtTHBmbGRoNXpCNjJBYlFkTzZ0M29ORDlPOTFTSThiOXUyY0szS0lFc1RBVXAxQy10cDNmM3I1ZTg0VW1qNkl3cjEyX2JNRm5WSE56azBQTVkwYU1LSWVzWWlpUXN5RFpqay1iM1FnTFlQ",
       "source": "Honolulu Star-Advertiser",
@@ -29,7 +68,7 @@
       "whyItMatters": "oil story with 1 matching headline(s) across 1 source(s)."
     },
     {
-      "rank": 3,
+      "rank": 6,
       "title": "Global oil and gas prices soar as Iran crisis disrupts shipping, production",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdkpYeWluSExzU0hENHpicjVNZDFwYlFpMnBYeXU1N2NnOE9abzRhMW5zZXRuM2VIR19aajQ4SS1hRGlnVDBtQnBoZy1XSG9kdDlrVzhNQnRYV243a3lMQThsd1BSSzktVFI5SHgxLTJDZVQtemZCWWp4TFFOTnQ3cTRqNlROMV8xdXNLU1lGcW5UczhfQ05wZ1BIenhWRzNkdDhzelA5eTlKLTNsWEx5MW5lSGxJX2RoSkhJVEhoYl9GVU0",
       "source": "Reuters",
@@ -42,46 +81,20 @@
       "whyItMatters": "oil story with 1 matching headline(s) across 1 source(s)."
     },
     {
-      "rank": 4,
-      "title": "Oil jumps to 2022 high on Iran war, falls after close as Russia sanctions in doubt",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSW4zRHJ6c00zS0xXbUQ0MWhUdDQ4dGt3R2xTM1VNdkRLQVNpT0JWOTBxeVI5ajlZMno2cmNCTGs2MmlQdzhheVQ4enk4VUs3MGc5WF9JMWZQejhDd19EUTZQZGNBdjRJb1Zuc3lmR2ctMHJZT0tNU2RaVUJxSDZuN3dNOXdfTVBqdFQxU3JiNmlxX3hESS1rMVhaYWFYUnUySzlESmFWZWpBaGhOYlRmdnM0OVRqajhHT2p3ZnR6akI",
-      "source": "Reuters",
-      "pubDate": "Tue, 10 Mar 2026 07:00:00 GMT",
-      "topic": "oil",
-      "urgency": 0.175,
-      "score": 1.4512,
-      "clusterSize": 1,
-      "sourceCount": 1,
-      "whyItMatters": "oil story with 1 matching headline(s) across 1 source(s)."
-    },
-    {
-      "rank": 5,
-      "title": "U.S. allows temporary purchases of Russian oil already at sea to stabilize energy markets",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWEM1VXU3UDJTM3lNbnVIUXhzWU5oV05lSmlnclpMVC1iOUVxX3pwWENjOHBjRlpQQnRZek40QkdJQXVSdHBWcTEtTWNyd3VuVG9Wd3gwdndWamhOLUs0R0RlblM0aGo2M0poaUdkTExOUXk1YkpFYzNUSWo0cUNjeVp1OXdkalJ3RGw5bnpqTUpxdVlKam80bGdVNndxWEJLYU80RDZ30gGrAUFVX3lxTFB0bmdoYVZfSG5kYVZ3YzJOclB6c3gxTzZDVjlTZW9FS0tjSExkbkNueDlDdzVobnVQaXhjdmZEeThxX01iSUl2bEFlX0R0YmZoUGpFNTFGY1JnRzBnQU5yam5qbXM1NlNtVE5uTlhGQU50aFZpMDNRU1R2V1I5bllnNTdfV1pjYkNoT2FjcXZPS0ptRWNDMk82UjFiUlNTMDN6R2V6MzMxM0RnSQ",
-      "source": "CNBC",
-      "pubDate": "Thu, 12 Mar 2026 07:00:00 GMT",
-      "topic": "oil",
-      "urgency": 0.175,
-      "score": 1.1825,
-      "clusterSize": 1,
-      "sourceCount": 1,
-      "whyItMatters": "oil story with 1 matching headline(s) across 1 source(s)."
-    },
-    {
-      "rank": 6,
-      "title": "These U.S. natural gas exporters benefit from disruption to Qatar LNG supply in Iran war",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4wUXJ2dlJ5MVpmSlNTX0ppNnR6amw2ekRTR0Zpa2huczJpY0paVk1XMWw1OWpCYktMeXdCVXgzTnFNbXpqNjU1dHhTOUFxZVRuU01jb2FkdXozVXRYNUpOX1lSTUtHSk9JUDFLbVF5bTd5WUlhM2UxdlVR",
-      "source": "CNBC",
-      "pubDate": "Tue, 03 Mar 2026 08:00:00 GMT",
-      "topic": "gas-lng",
-      "urgency": 0.175,
-      "score": 1.1825,
-      "clusterSize": 1,
-      "sourceCount": 1,
-      "whyItMatters": "gas-lng story with 1 matching headline(s) across 1 source(s)."
-    },
-    {
       "rank": 7,
+      "title": "Trump gives Hungary one-year exemption from Russian energy sanctions",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE02WFZ6a3ZBVk8yTTduenJlbUxCdV93VktpU1FxX0cwVlpPZGpRQ1puVVdDOERocndZei1iYmZMYTAtbWktWG1GNE03bkI5SkdBeGw1T0JhbkgzQQ",
+      "source": "BBC",
+      "pubDate": "Fri, 07 Nov 2025 08:00:00 GMT",
+      "topic": "general-energy",
+      "urgency": 0.175,
+      "score": 1.1825,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "whyItMatters": "general-energy story with 1 matching headline(s) across 1 source(s)."
+    },
+    {
+      "rank": 8,
       "title": "Expand Energy hits projections, reveals new LNG deal in first quarter report",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPb1FQRlRuLXhGWkRkdVNOS2wzdVZHVVFGaW1QakFMU19fNkVpRllrWWRwX29aY2xJbS1adGFMTHlhM1o4aG0ycE04TE53UmVGT2F4YWtqR1NiTkhORGhhTUxjdkttQWxMNVhnR0QzMHZQYXdYXzZzM3lQMUVGVW1LNjMzRENreVRiU3pqeXNLVVhSeUN3RXlidUd1QmtPRVdDRTRmQjBtbzZQNnJTQ2pqNlVDUW9hMmstU2QtR3ZEcGI3SWhi",
       "source": "Upstream Online",
@@ -94,7 +107,7 @@
       "whyItMatters": "gas-lng story with 1 matching headline(s) across 1 source(s)."
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "LNG supply to fall 15% by 2030, but energy prices hold: analysts",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWFdibS10MlZtblJZM211VmF2aTdWellUQlo0NEFoaV90dFFmU0dTUS1JU0s4Z3hXSGJ3UHMteWlyb3M0U0t1dXRMYXlGelFESXNiR3dzTTlNVDlEZ0hINFJ1TzlvMWtqaWx3RzFLTEN5anlySUNaWjNZQXRwVlpCSW42dUFiTXp2YXJkWVByaHNOSWFEQmtEbDRzRnM1Zw",
       "source": "Global Trade Review (GTR)",
@@ -107,7 +120,7 @@
       "whyItMatters": "gas-lng story with 1 matching headline(s) across 1 source(s)."
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Cosco Shipping Energy Transportation Q1 profits up 207%",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQYzlWSC11MEY2RGlkZ00xak4yQzVQRjlpSm9KWUQyM3NXY09tR0RHVjBhUWVtMFd0LTZPaEdRcFpqZDZFcllqc1lFejQ0T1Z1Tk1rdFlYYS1xaGhJVEFDWFdYeV9sNVd4QTVUTmEtRE9VNzRmMTYxTzJqcmJZYUc5Q1ZkeUhkRUhKZ2RYd0pGQ3VyRlBRSnFZS3NZenZwdw",
       "source": "Seatrade Maritime News",
@@ -120,7 +133,7 @@
       "whyItMatters": "geopolitics story with 1 matching headline(s) across 1 source(s)."
     },
     {
-      "rank": 10,
+      "rank": 11,
       "title": "Clean Power Alliance Expands Access to Affordable Clean Energy for Disadvantaged Communities Across Southern California",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNemN1TE9sNTZJWXdLSnlmSHZ5TU5vcExuUHhURXFDZ1lVU0d2TWlJdVA5bl96NkdRVC03QWtlcVVrUkJ6eXE1THF4eERmRW1EOHhDc2Q3YlktU0IzUVRfa1l0RVdsTlE5TkF4eWRTZm9SWHVrTU1KWkNOcUdMSXIxUGFZWkM5UXMteno1Qw",
       "source": "Yahoo Finance Singapore",
@@ -133,7 +146,7 @@
       "whyItMatters": "power story with 1 matching headline(s) across 1 source(s)."
     },
     {
-      "rank": 11,
+      "rank": 12,
       "title": "Trump Extends Sanctions Exemption on Some Russian Oil as High Gas Prices Persist",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQcnU5YmFoZEQ5THFnbW9WelhQRWRlNGVPLTdmOFZ6ZjRzeTdTcU42T2hfcks0NzJVT01nNnNJNVNTdjA4VnNkRXhiQ20tcXRBSDJIUzF2ZjRncWwzeXdVN3Z0alUxeUtPWDBEa3kzRy0xYm00NHFLcjBZdTUtMHZncklDTWVoOUE",
       "source": "The New York Times",
@@ -144,19 +157,6 @@
       "clusterSize": 1,
       "sourceCount": 1,
       "whyItMatters": "oil story with 1 matching headline(s) across 1 source(s)."
-    },
-    {
-      "rank": 12,
-      "title": "Energy Finance Is Making The Fuel Crisis Worse",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxONXphdFE1NVBiX292RjNwZ3pIQTdLQjlQbWNFUHBWdGZnYi00M0JwbVRfZnZYM3lFWVUxeGlEaElicXJmYm5BV2pQZGRqNWVKdXF1NTZaWnptZll5ODhnM2g0UGp6QWJDeGJXeU5sSDBER3V5QTNiYTB6Ujh4ZlZOOXoxUXZkcmF0V0QzQmF5dDdrbE9rQU9n",
-      "source": "Center for International Policy",
-      "pubDate": "Tue, 24 Mar 2026 07:00:00 GMT",
-      "topic": "financials",
-      "urgency": 0.175,
-      "score": 1.075,
-      "clusterSize": 1,
-      "sourceCount": 1,
-      "whyItMatters": "financials story with 1 matching headline(s) across 1 source(s)."
     }
   ]
 }
