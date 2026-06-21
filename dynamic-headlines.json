@@ -1,6 +1,6 @@
 {
-  "mode": "fast",
-  "generatedAt": "2026-06-21T18:57:59.564Z",
+  "mode": "enrich",
+  "generatedAt": "2026-06-21T20:00:48.241Z",
   "keywords": [
     "energy",
     "oil",
@@ -12,7 +12,7 @@
     "sanctions",
     "shipping"
   ],
-  "count": 24,
+  "count": 40,
   "items": [
     {
       "id": 1,
@@ -26,7 +26,7 @@
       "clusterSources": [
         "Reuters"
       ],
-      "fetchedAt": "2026-06-21T18:57:59.563Z",
+      "fetchedAt": "2026-06-21T20:00:48.239Z",
       "hash": "d5ee28c653b532fb1d2f2e495e8887e2bc0f2e8f"
     },
     {
@@ -41,7 +41,7 @@
       "clusterSources": [
         "EnergyNow.com"
       ],
-      "fetchedAt": "2026-06-21T18:57:59.563Z",
+      "fetchedAt": "2026-06-21T20:00:48.240Z",
       "hash": "f7bd198ef3fda448d999fb4caa976b7ae57fadc1"
     },
     {
@@ -56,7 +56,7 @@
       "clusterSources": [
         "The National Bureau of Asian Research (NBR)"
       ],
-      "fetchedAt": "2026-06-21T18:57:59.563Z",
+      "fetchedAt": "2026-06-21T20:00:48.240Z",
       "hash": "25c47f13582e0fb344eb44296055b0810f72f8c1"
     },
     {
@@ -71,7 +71,7 @@
       "clusterSources": [
         "The National Bureau of Asian Research (NBR)"
       ],
-      "fetchedAt": "2026-06-21T18:57:59.563Z",
+      "fetchedAt": "2026-06-21T20:00:48.240Z",
       "hash": "c50775e6fb599b0fc998a8a21f81f0810aca7fcb"
     },
     {
@@ -86,7 +86,7 @@
       "clusterSources": [
         "Travel And Tour World"
       ],
-      "fetchedAt": "2026-06-21T18:57:59.563Z",
+      "fetchedAt": "2026-06-21T20:00:48.240Z",
       "hash": "0465f7947dd8a4617c6c9b2f396d8f845833d0a1"
     },
     {
@@ -101,7 +101,7 @@
       "clusterSources": [
         "Novogradac"
       ],
-      "fetchedAt": "2026-06-21T18:57:59.563Z",
+      "fetchedAt": "2026-06-21T20:00:48.240Z",
       "hash": "184e98d4210bd5eeebdeba2df9e7dfcf51f827b1"
     },
     {
@@ -116,7 +116,7 @@
       "clusterSources": [
         "Baird Maritime"
       ],
-      "fetchedAt": "2026-06-21T18:57:59.563Z",
+      "fetchedAt": "2026-06-21T20:00:48.240Z",
       "hash": "22455c5275600efd4b6ae1c8c607366b4e437b0b"
     },
     {
@@ -131,26 +131,11 @@
       "clusterSources": [
         "TradeWinds News"
       ],
-      "fetchedAt": "2026-06-21T18:57:59.563Z",
+      "fetchedAt": "2026-06-21T20:00:48.240Z",
       "hash": "e983795054dbb689c935c8203d8c2a9224f72c68"
     },
     {
       "id": 9,
-      "title": "Africa and China deepen energy ties as global instability reshapes power markets",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTE5pV3ZwbXpsd1gxRDBwMzZrdzRtZTVSYUUtUTA0X0hVY2NXcms1eEhPTGZKaWJFYzFhekJmcFhSbWtJTDZkYlRNelFRMVpmbS1HOU9lbFJqakcxVUNYSnBYYmhtZzdWSXZfUGJlaUJNSVJ4YW04VTBJTXE5ZS0xcFVmTTBhb2lrMndiMUpLLTcwRFE2T2p3LUxEbVB2LWdOWGhUYWNOT1hjb1h6NGowMV9LMnd0QkRBbktyM3hadEE",
-      "pubDate": "Sun, 21 Jun 2026 13:07:34 GMT",
-      "source": "The Kenyan Diaspora Media",
-      "score": 1.5,
-      "clusterSize": 1,
-      "sourceCount": 1,
-      "clusterSources": [
-        "The Kenyan Diaspora Media"
-      ],
-      "fetchedAt": "2026-06-21T18:57:59.563Z",
-      "hash": "da9168fa397542a774a76a7e4069a3db31abdef4"
-    },
-    {
-      "id": 10,
       "title": "Key energy and shipping trends after three months of Iran turmoil",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPTlFKbW5qV3ZmdlB0X1dmUndkeEowYWRrUzFJS3lCeVNKbDFqM3dzeEdTVzZBaXhUVmNWSWIxMHZmR1pFNTRLa0FrcENHYzNXLVA4RklKeEV4QUpFUEZfdzJfakV2MHpsaWNGeS10cVpXMVpieHE3blV1TnEzZ00tbXhfQWNiZTNrTHB0bU9sV2ZQWm5XVjR0NEV6V0JHMmxhMndtOFBBSlJSZmppMnA4MmVlTjZWTkFOaFZ4blppLTNoMnlxZEE",
       "pubDate": "Thu, 28 May 2026 07:00:00 GMT",
@@ -161,11 +146,11 @@
       "clusterSources": [
         "Reuters"
       ],
-      "fetchedAt": "2026-06-21T18:57:59.563Z",
+      "fetchedAt": "2026-06-21T20:00:48.240Z",
       "hash": "ce798dfb3164adbb1791f8703d26a665b2224552"
     },
     {
-      "id": 11,
+      "id": 10,
       "title": "Global oil and gas prices soar as Iran crisis disrupts shipping, production",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdkpYeWluSExzU0hENHpicjVNZDFwYlFpMnBYeXU1N2NnOE9abzRhMW5zZXRuM2VIR19aajQ4SS1hRGlnVDBtQnBoZy1XSG9kdDlrVzhNQnRYV243a3lMQThsd1BSSzktVFI5SHgxLTJDZVQtemZCWWp4TFFOTnQ3cTRqNlROMV8xdXNLU1lGcW5UczhfQ05wZ1BIenhWRzNkdDhzelA5eTlKLTNsWEx5MW5lSGxJX2RoSkhJVEhoYl9GVU0",
       "pubDate": "Tue, 03 Mar 2026 08:00:00 GMT",
@@ -176,8 +161,23 @@
       "clusterSources": [
         "Reuters"
       ],
-      "fetchedAt": "2026-06-21T18:57:59.563Z",
+      "fetchedAt": "2026-06-21T20:00:48.240Z",
       "hash": "3408245a3e0f9c4311c46b576ab8a6683f3aa97e"
+    },
+    {
+      "id": 11,
+      "title": "Africa and China deepen energy ties as global instability reshapes power markets",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTE5pV3ZwbXpsd1gxRDBwMzZrdzRtZTVSYUUtUTA0X0hVY2NXcms1eEhPTGZKaWJFYzFhekJmcFhSbWtJTDZkYlRNelFRMVpmbS1HOU9lbFJqakcxVUNYSnBYYmhtZzdWSXZfUGJlaUJNSVJ4YW04VTBJTXE5ZS0xcFVmTTBhb2lrMndiMUpLLTcwRFE2T2p3LUxEbVB2LWdOWGhUYWNOT1hjb1h6NGowMV9LMnd0QkRBbktyM3hadEE",
+      "pubDate": "Sun, 21 Jun 2026 13:24:17 GMT",
+      "source": "The Kenyan Diaspora Media",
+      "score": 1.35,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "clusterSources": [
+        "The Kenyan Diaspora Media"
+      ],
+      "fetchedAt": "2026-06-21T20:00:48.240Z",
+      "hash": "da9168fa397542a774a76a7e4069a3db31abdef4"
     },
     {
       "id": 12,
@@ -191,7 +191,7 @@
       "clusterSources": [
         "Kiplinger"
       ],
-      "fetchedAt": "2026-06-21T18:57:59.563Z",
+      "fetchedAt": "2026-06-21T20:00:48.240Z",
       "hash": "22811c9cababaefb4f266af60ea573bc40fefe54"
     },
     {
@@ -206,7 +206,7 @@
       "clusterSources": [
         "Oil & Gas 360"
       ],
-      "fetchedAt": "2026-06-21T18:57:59.563Z",
+      "fetchedAt": "2026-06-21T20:00:48.240Z",
       "hash": "1aeb630dd2d6bb616fc38fb91812ef9e097da362"
     },
     {
@@ -221,14 +221,14 @@
       "clusterSources": [
         "EU Today"
       ],
-      "fetchedAt": "2026-06-21T18:57:59.563Z",
+      "fetchedAt": "2026-06-21T20:00:48.240Z",
       "hash": "2cae12f854825ddb188bab598264a2f63f1a4649"
     },
     {
       "id": 15,
       "title": "Climate Power Plays: Energy, Geopolitics and the Repricing of Risk",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQRjJoTEhBOEpGLW00SVYtb3puaW9LSXRybWxYY180RTQtMF9GOUJYYmJJMGtMcjkzUzVKVk1PcXNSVURhNHFBdmJmZmxGaWFxdVFNOVltOU9URWFVSFotNFliNnFhVWoydFVxVjhIX0lKNzcwX2VLR0tCOVJ4SHVKVWdlekNYZmIwempWYzBJLWQwUV9qWVd4ZFYzU0RTclA2N2ZMaGNPODM2clBRS0VFUzB3VHc5WGRTU1BseGRvMXliYmczYnVUUDhxampEM3NUSWd4SEpmNWRKc1l1akxsYTU3cERheWtU",
-      "pubDate": "Wed, 03 Jun 2026 14:58:01 GMT",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQb0pidWZzNHVTLXFoWnYyQjRxekNJeGNfNWQ0eUd2U2NIZkFDVkNWSVZILXh4X2lRTk12U1hYaTd2b082WUEtQjJvc1puVnZBLXVMUjVlc2tEU2NNQlZZb3FhUC1uTEs3NmJ1TG1mUGRNblFjT1EwWDg5ZFJ6dDRuRjhUc1E2ZVJXYWFKQXZ2eEVtVGhoTUhYb2gxeV96RktBdXF6M19OZUl5TTNSN3V5V1VueHpJRkxBMXVQSXBaYk83WUdJY2dVNXNyNTU3ZjNxUTNsaEo4SF9QSjdPai1IMndpcDV4LU1F",
+      "pubDate": "Wed, 03 Jun 2026 07:00:00 GMT",
       "source": "AllianceBernstein",
       "score": 1.075,
       "clusterSize": 2,
@@ -237,8 +237,8 @@
         "AllianceBernstein",
         "Seeking Alpha"
       ],
-      "fetchedAt": "2026-06-21T18:57:59.563Z",
-      "hash": "c878aa4e6b3e2927f3bec042fcbf6a369f3e4926"
+      "fetchedAt": "2026-06-21T20:00:48.240Z",
+      "hash": "bad9d71dcd7606531dde5b18992b19f3b74c8c81"
     },
     {
       "id": 16,
@@ -252,7 +252,7 @@
       "clusterSources": [
         "International Atomic Energy Agency"
       ],
-      "fetchedAt": "2026-06-21T18:57:59.563Z",
+      "fetchedAt": "2026-06-21T20:00:48.240Z",
       "hash": "ccbe9f1b2e850784b61097d04f6af7aff6df492e"
     },
     {
@@ -267,7 +267,7 @@
       "clusterSources": [
         "Institute for Energy Economics and Financial Analysis (IEEFA)"
       ],
-      "fetchedAt": "2026-06-21T18:57:59.563Z",
+      "fetchedAt": "2026-06-21T20:00:48.240Z",
       "hash": "343adaf5fe7484f2d1dda4b0ba3c5330022c5615"
     },
     {
@@ -282,7 +282,7 @@
       "clusterSources": [
         "Center for International Policy"
       ],
-      "fetchedAt": "2026-06-21T18:57:59.563Z",
+      "fetchedAt": "2026-06-21T20:00:48.240Z",
       "hash": "44a83ea7bda2c1301f0b8799531b5c65690d610b"
     },
     {
@@ -297,7 +297,7 @@
       "clusterSources": [
         "The World Economic Forum"
       ],
-      "fetchedAt": "2026-06-21T18:57:59.563Z",
+      "fetchedAt": "2026-06-21T20:00:48.240Z",
       "hash": "88be90d7608ebe0e0c3f0cf76ad2b11248d014fe"
     },
     {
@@ -312,7 +312,7 @@
       "clusterSources": [
         "Baker Institute"
       ],
-      "fetchedAt": "2026-06-21T18:57:59.563Z",
+      "fetchedAt": "2026-06-21T20:00:48.240Z",
       "hash": "0fd6d01336bde4cbff0dc76b2694a5e5c60ace52"
     },
     {
@@ -327,7 +327,7 @@
       "clusterSources": [
         "Politico"
       ],
-      "fetchedAt": "2026-06-21T18:57:59.563Z",
+      "fetchedAt": "2026-06-21T20:00:48.240Z",
       "hash": "d267bb35e7c44d63387afe409dd866391f6d753a"
     },
     {
@@ -342,7 +342,7 @@
       "clusterSources": [
         "UN Trade and Development (UNCTAD)"
       ],
-      "fetchedAt": "2026-06-21T18:57:59.563Z",
+      "fetchedAt": "2026-06-21T20:00:48.240Z",
       "hash": "0876030e39569e1d5a422318d02e4b0c3ae52d53"
     },
     {
@@ -357,7 +357,7 @@
       "clusterSources": [
         "The Washington Institute"
       ],
-      "fetchedAt": "2026-06-21T18:57:59.563Z",
+      "fetchedAt": "2026-06-21T20:00:48.240Z",
       "hash": "65052f28e33eddc85f09b3ca642bf209ec9c5672"
     },
     {
@@ -372,25 +372,265 @@
       "clusterSources": [
         "Dentons"
       ],
-      "fetchedAt": "2026-06-21T18:57:59.563Z",
+      "fetchedAt": "2026-06-21T20:00:48.240Z",
       "hash": "88fcf5686ff0dab0772ef1607f7868cb023af3f6"
+    },
+    {
+      "id": 25,
+      "title": "What a Middle East oil and LNG crisis means for China and East Asia",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMG16MlBjdTFqdWZmYU54WWVDSkw3amt1b2s3S01xcUlYNlptbzFWM0EwX3N2SFF0VlgtRUU5MHBZUkdjakhIcl9heHB1dDdxVlN2b0o0N0hTWlRMY3dJbUFRMmFMTjkxM0JoYUgwREowSXg1d1loZkRNQmNqZjNSS1RPQm10ZEtyelcxSFdORXJFR1BLV1BJYzVtWk5ISVZOQXUzU2g1bHplRE5XaG9ObQ",
+      "pubDate": "Thu, 05 Mar 2026 08:00:00 GMT",
+      "source": "Atlantic Council",
+      "score": 1.075,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "clusterSources": [
+        "Atlantic Council"
+      ],
+      "fetchedAt": "2026-06-21T20:00:48.240Z",
+      "hash": "fd7d9c8965df0b7d781ad6b1db54cc55c488a819"
+    },
+    {
+      "id": 26,
+      "title": "Iran targets the global oil market: Gulf energy and the Strait of Hormuz are under fire",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWFZPektFQXRKZzFjQkRnUzhzSGFvbFJoMHd0UTNXNlVSQzFlRFhoQXBqaDFHTUVaVGVMVUdyWFRnTE1UU0pHOXZpeTFHNUQxSXRjRjBodGF2VnlXdDVUNTRoUXFHd3dwS1FUMzVOSVZTSnFjT1dJY3A0TW1zRlVNUkNTWUt4RFkwdjBJYjEtLXk1UjB1VUlYX3hvVWVTNDhOYlAxVmxBNA",
+      "pubDate": "Fri, 13 Mar 2026 17:27:03 GMT",
+      "source": "ACLED",
+      "score": 1.075,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "clusterSources": [
+        "ACLED"
+      ],
+      "fetchedAt": "2026-06-21T20:00:48.240Z",
+      "hash": "cfea24fe5b47b026822065e5ee9d0396dc890984"
+    },
+    {
+      "id": 27,
+      "title": "U.S. Eases Limits on Russian Energy as Oil Prices Soar",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNXzZsQmZHamt0dS1UdU90Zy1wZWZrY2k3T3BqSXV0RGZLVXVYSk82WDFVQWJHWkRYcFlkWHZmMlZsSWlyMmp6RmZQZzVFbWZnSjgzd2xKdVROOWVfYVA3UlZueU5pZmg5R29lZW1KU09KUXNtWWFUX29iVW5jY1ZTTVplcHBaVXJhS3dWb0tRY3U4enZQLTBKREJpdlU",
+      "pubDate": "Tue, 10 Mar 2026 07:00:00 GMT",
+      "source": "The New York Times",
+      "score": 1.075,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "clusterSources": [
+        "The New York Times"
+      ],
+      "fetchedAt": "2026-06-21T20:00:48.240Z",
+      "hash": "d14c1d04e9d7078aa0bf140f68dad4470596ca96"
+    },
+    {
+      "id": 28,
+      "title": "UAE exits OPEC reshaping global oil markets and geopolitics",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRUZIekM0MEdCMmFmSDF2dlM1Z3hybmlheXVzY2xGSVg4Z0dvZmQzYmdYWVI3YkVjcWoxSEZUbHJnQXVDSlhmMk5TZjRpRUhuYTFzN1YwY1BBWXd6TUlYOFoxUVNicXRkU3l2bDFLekFBakUxLVNQUUFxc05hM2QzQTdlUEFwOS0xMDB4ZjIwZTVtN3Y5cU9VUg",
+      "pubDate": "Wed, 29 Apr 2026 07:00:00 GMT",
+      "source": "Materia Rinnovabile | Renewable Matter",
+      "score": 1.075,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "clusterSources": [
+        "Materia Rinnovabile | Renewable Matter"
+      ],
+      "fetchedAt": "2026-06-21T20:00:48.240Z",
+      "hash": "5613871a59f55ca4bc7142ef3b334805aa477666"
+    },
+    {
+      "id": 29,
+      "title": "‘Clean energy, not LNG’ is Asia’s best hedge against energy shocks",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQOHJKRXdNa2FsS19uUnRCb2RXM2tpQUlYZi14c051S2wwdllqNkx6bVNrWjNUNUNpU0tBSFJrOFpSZXowdzl1ZkQtaTF1bS1ELXVSZE1uTzBLbmowTE03QlZ0REdRdnJ5b1d0M1c2M21pNW5wOG5UWmhDZGllSVRQUWx3S185RG1McUotWDlobk8taDdLVjJaR0hEMDVrSUZBNkNRczIzN0JsQQ",
+      "pubDate": "Mon, 09 Mar 2026 07:00:00 GMT",
+      "source": "Green Central Banking",
+      "score": 1.075,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "clusterSources": [
+        "Green Central Banking"
+      ],
+      "fetchedAt": "2026-06-21T20:00:48.240Z",
+      "hash": "de5b6f29d49bf6a7f7dc308705981dc7261ba341"
+    },
+    {
+      "id": 30,
+      "title": "3 Oil And Gas Stocks With Earnings Growth And Funding Risks",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTGtwZTVSVDRDNjhINnNUMUk1XzJ4aWo1ZHUxUGFNdVNiejdjMW5HYWx2MEJteVhMTkZGYnFOR0hYeTJfZm82WGwyblk5U21xc0pFREtlMEc0R3E0eVJfUS1ZcXEtOU9RdUVDSHhuY19Iel92VDBXcnZNSl84UXcxZDNuNWoyMDYxby03ekFOVkhxWXFESDBuWDItUnBNYlBibjd5QUg3LWdfYUVPM3Y3d3JKOVAxaHo3SXJwNmMxWHdvNnd3S3fSAcsBQVVfeXFMT0p6QVVFZlR3eWRIMl9nZTZydzFERTJ3VHVuYXJyaExBVndZb2diTVVlT1ZiWWR3NFRkZ05oLXVSODBrak1Iak12M0lvYTdMTzRRbmNrZGFqM0RlRDllZjlmOGpCYkJ2cWg5dXdfQkpQVEpYWERaQXpRUnhQZlRfd1NER1JZR1B0ZTBfb2VNZENuQ1RiTkVWUjhuM2VNTkJIWE1mdm1keVdSQ3JJMW5QTzZTUExucDZzNkNHVV8zTC15eUpacmFBcHVaMDQ",
+      "pubDate": "Sun, 21 Jun 2026 14:58:09 GMT",
+      "source": "simplywall.st",
+      "score": 1,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "clusterSources": [
+        "simplywall.st"
+      ],
+      "fetchedAt": "2026-06-21T20:00:48.240Z",
+      "hash": "efe70c0bde223cf65ac75185ccded299e065c6e3"
+    },
+    {
+      "id": 31,
+      "title": "FPIs sold finance, oil & gas stocks the most in June's first fortnight",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNeG9kdDBlM2dmeXdsRnl4X2h6RGg5X1NDNVJHX05GNmVWcW9LN1hDbDl2OHlpUl9xdDF0S0Zvb3Z2T0lzdGdOb0FZall0S2ZRclJNYVJqc204NE1UaWxkWXJzcU5BZUxrZF80Szg4Nm1FcGUxMHNjaUhsc3IySmZkUnltVnNTM1ZkR000b3BkS1N6R2lqSkpKT21LUVNSc2RaaHpLaFJENUNFWTViajVTaGtFVkhMemNmd2NCTk1PZ0Z6WVFKM3pyalc5cFBoTWPSAdQBQVVfeXFMTlhmM2dtSUNOLWl0M0NwZjNuUDRqdkIwckJpeVRlUmVZQzhBSVk2aHdaSjRGdEdFMVRvSTdSNGFsaUpTYkdGbXF4WnJ1X1dOa055djZ3TjE0c1RBZG1MR1BjSW9fZU05bWJQeldJWWJqWkY2TWI2NEJEX1ZrRVFpZnZmNVJIMllONGJzdHJkcDFhS2pKeExPeXhBRjkxY2FjMWpka0t2NnhQWEV0OEtzYVFIWTdvT2lxc1lLV0ZFcHUtLXZJOW0zRm1MSVJ3dXVFUGlvZGc",
+      "pubDate": "Sun, 21 Jun 2026 16:10:43 GMT",
+      "source": "Business Standard",
+      "score": 1,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "clusterSources": [
+        "Business Standard"
+      ],
+      "fetchedAt": "2026-06-21T20:00:48.240Z",
+      "hash": "4b4f902466fa2122149ec6699da8ea3b273f565a"
+    },
+    {
+      "id": 32,
+      "title": "KOTRA Targets North American AI Power, Energy Market With Gyeongnam Firms",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPelBwVjRHMzlkLVpNTjNfaDF4RXc0WE1ockVKZ3RhbXM3RFFjY1lKTW9lWmgtT2N6aHpGMHQyWXA5elZzYWw5UFE0ZDFXVUJqaVY5UFpNTUFvUzQ4RFNpNUZGbTNrYW9UcFpMdFdWZVk3SU9XOFdBNnFaMk1zNUdMeHpFSHFSUVc3UGNGeHl1Ym1nWHhxOGRMaFBnMVJtOGs",
+      "pubDate": "Sun, 21 Jun 2026 02:00:05 GMT",
+      "source": "Seoul Economic Daily",
+      "score": 0.85,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "clusterSources": [
+        "Seoul Economic Daily"
+      ],
+      "fetchedAt": "2026-06-21T20:00:48.240Z",
+      "hash": "7a84c08c1c67f964c1202124c02a7ac10ba820ed"
+    },
+    {
+      "id": 33,
+      "title": "Governments worldwide shield households from rising energy costs",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxORU91MkpmWnRWclFOb0RveVE1aVFmUlhIaG9ZdU5CUFV1MXptQzJNN2tHUHg0T1lBdU8xUFUyLUJxSUtrNjFlZDNfMXMtbnRiMDJNMGxnemctQUNHZXNlS09QRW9DRDFVZFFKWkdITC14X2YtaEVtdUJDajlfeXp1eXlmZi0wOVpDY1doem1YM1ZBaEpNVFZlVTc3TmlWMzJhNEdqcHljUWxIaGRnNUFsamdYVmp0Z19odGdFZUoxMGVmYWt6d2ZWT0N0V2I3dUNN",
+      "pubDate": "Thu, 11 Jun 2026 07:00:00 GMT",
+      "source": "Reuters",
+      "score": 0.7762,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "clusterSources": [
+        "Reuters"
+      ],
+      "fetchedAt": "2026-06-21T20:00:48.240Z",
+      "hash": "ee04783773a9e5dc5431600b12f46bea7cdead6c"
+    },
+    {
+      "id": 34,
+      "title": "How the US-Israeli war with Iran is disrupting oil and gas",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUTFPM0hZcmRnYUVYZ1hVT203X28wYWNBYXEzU3ZLNjJCZENJOUhtREVmNDNEOEROY3R0d3hUaFdfb1lfTEVHVy1iUld5bFc5ck9HblJBcWxwNlJ5bFRMcHlSLS00X0stUWRnSmtybklLM0VjcjE5eVNPdVZRRktFMktwV3dsMzVWZ3FtWFpzQXV2TDhMQUxTOTQtMlBicDFFZzJGTjNnYw",
+      "pubDate": "Tue, 07 Apr 2026 07:00:00 GMT",
+      "source": "Reuters",
+      "score": 0.7762,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "clusterSources": [
+        "Reuters"
+      ],
+      "fetchedAt": "2026-06-21T20:00:48.240Z",
+      "hash": "785355a03fe4798ec7556db35865a3c1e532dcbb"
+    },
+    {
+      "id": 35,
+      "title": "Iran war threatens prolonged hit to global energy markets",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNb05tQUczS3pRVDllRmdvTE9yZ0pmT2tFM1RYQTZyYm1DanAwVjJROWJ3UXV0NEhoZk5qeEN2b2lfOTIzZ1Q2M2szR2RVdl9RWVNhczlKT0RzNlVLWjlrdms3aDJWZk42cU5TNmRGUHQ0bUlHZFFabEU3ZFQyWTY0cU50alhrRUc0dzBOX20wYUpoN0xPMDVUVUhJcTNTNms5WGJZU2w2MGVSdw",
+      "pubDate": "Sun, 08 Mar 2026 08:00:00 GMT",
+      "source": "Reuters",
+      "score": 0.7762,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "clusterSources": [
+        "Reuters"
+      ],
+      "fetchedAt": "2026-06-21T20:00:48.240Z",
+      "hash": "839b526ed9fcc115ddd6846c81829c5a395b8512"
+    },
+    {
+      "id": 36,
+      "title": "Crude oil futures jump on reports of air attacks, Iran power struggle",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOT1IwS3YyMWFQOUNCSTBwNXJ3NGcxMlBKeUYtYWhtYmJZZmNRV0ZkOVllYVhsdkhiN3FUcXNpSzRHV1RNWm5nYW9sWFB4VWc4VWVmU2k3cHVRMFFXQjhyZ2poQ3U4SDZ0dmNKUU5wU3lsT1FRNlEtMy1TYmtaX0NacUUydEcyRkNSaXZmQ251ZElZU2lzUjdtSGE4N01uRjZiUlJDelk3aDZydnRVXzloOEE2WUpWOG1oN01aNWkxT3kzUFJs",
+      "pubDate": "Thu, 23 Apr 2026 07:00:00 GMT",
+      "source": "Reuters",
+      "score": 0.7762,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "clusterSources": [
+        "Reuters"
+      ],
+      "fetchedAt": "2026-06-21T20:00:48.240Z",
+      "hash": "0a1998368388ce2c63d1afe16f252e87a683743d"
+    },
+    {
+      "id": 37,
+      "title": "BloombergNEF’s New Energy Outlook 2026: Transition to Newer Technologies, Expanded Electrification to Strengthen Nations’ Energy Security",
+      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOUC1aQ1ZEaVFsS09YWmZCWGRqNy1LS2lWX0hxaFhkelRKczhTTWdmd1ZpSzJfMkw4amt0UDl0WGZBS0lwRlRnWm1tajJtYlZHbi1PUkp0ZjNQdjhmZGszNkJuam9sa2pkRDhhT3hVeVFxUDdrcFEtdmhvbEVyVDlyek5PRzdwM3hwcEFEVEJrUWxwMEZiMnAzNTl2V1h4VzkzQUZNQjBsWGhsckVpQTBMZHB6Z3VCUklFNTN5UGlGQ1BRckx3NkRxMGk2N2JTOUVZdTBMNG9jaFN0djRWeGY4LWtkUjJQWlBYUE9JRDY2TGlhWEhSMTlDcEx1STNEbXhmLWF2R3F4QWJ0NW8",
+      "pubDate": "Tue, 19 May 2026 07:00:00 GMT",
+      "source": "BloombergNEF",
+      "score": 0.7188,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "clusterSources": [
+        "BloombergNEF"
+      ],
+      "fetchedAt": "2026-06-21T20:00:48.240Z",
+      "hash": "13e29fb63fa4e70e708db4e0c47396895bff33cb"
+    },
+    {
+      "id": 38,
+      "title": "360 Energy Pulse: What mattered in energy this week",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVEktTzRaMlhobGkyWnBWaWdXbjZMdnhmRHYwM0R6U0hMU2stYXpLWWlOWmRVaGNveHRLQmJLYXo0dHNfTURTb2lER2wzUDV6dE9YN055YVh4U1pKQXJqb09TS3lVbjZiLXpkRjR0clVTYkdYVHJNZ2t5REQwenRtVVAxT2lpWHM",
+      "pubDate": "Fri, 19 Jun 2026 21:39:09 GMT",
+      "source": "Oil & Gas 360",
+      "score": 0.675,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "clusterSources": [
+        "Oil & Gas 360"
+      ],
+      "fetchedAt": "2026-06-21T20:00:48.240Z",
+      "hash": "f285a4a7a8e5cd81a6ee7b36a810f1093a995604"
+    },
+    {
+      "id": 39,
+      "title": "Energy Grab in the Eastern Mediterranean: Israel’s Move Against Lebanon’s Gas",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPY0xrb2dtYUlucWpnWS0yMWRmXzNZMmo1T0F3Z3E4UU1xdG5oclNScTlsd2JYVlF4MU9iNmhYNkhkdUIxMEwzTjVteHN1ZFRvOERvM3pEaUxHUU9mOGJ1bE51TGhBaEVhOThtcDFsVjF3cWJEZkpEUEs2bmJGTkctTk5FVlBRWGF2LUlveWVYN0JlTlk3TlFPMVE0aVdWRWlSWUhz",
+      "pubDate": "Fri, 19 Jun 2026 07:45:49 GMT",
+      "source": "Politics Today",
+      "score": 0.675,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "clusterSources": [
+        "Politics Today"
+      ],
+      "fetchedAt": "2026-06-21T20:00:48.240Z",
+      "hash": "1aaaa990bca253891064be97e56ac9ca3565e2ef"
+    },
+    {
+      "id": 40,
+      "title": "Iran's Qatar power link exposes a deeper energy dilemma",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE04VVljalBKUC1FWTNGcHc1VU1OV1gyUzN4S0JaaUJyWGdBTC1sTnlmZkRjclppSUx4Z0VGMFFRSEpUT1M4cGxscWRIX3NxTjlHcWc",
+      "pubDate": "Fri, 19 Jun 2026 10:46:47 GMT",
+      "source": "ایران اینترنشنال",
+      "score": 0.675,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "clusterSources": [
+        "ایران اینترنشنال"
+      ],
+      "fetchedAt": "2026-06-21T20:00:48.240Z",
+      "hash": "c6fe2a5abf838786f3f213932ae06cebd096c7f0"
     }
   ],
   "trendingSubjects": [
     {
       "keyword": "energy",
-      "mentions": 21,
-      "sourceDiversity": 19,
-      "tractionScore": 17.12,
-      "delta": 0.27,
+      "mentions": 31,
+      "sourceDiversity": 26,
+      "tractionScore": 24.69,
+      "delta": 7.57,
       "trend": "up"
     },
     {
       "keyword": "oil",
-      "mentions": 10,
-      "sourceDiversity": 9,
-      "tractionScore": 8.12,
-      "delta": 0.57,
+      "mentions": 19,
+      "sourceDiversity": 15,
+      "tractionScore": 15.07,
+      "delta": 6.95,
       "trend": "up"
     },
     {
@@ -398,31 +638,31 @@
       "mentions": 10,
       "sourceDiversity": 9,
       "tractionScore": 8.04,
-      "delta": 4.19,
+      "delta": 0,
+      "trend": "flat"
+    },
+    {
+      "keyword": "LNG",
+      "mentions": 8,
+      "sourceDiversity": 7,
+      "tractionScore": 6.38,
+      "delta": 1.66,
       "trend": "up"
     },
     {
       "keyword": "geopolitics",
-      "mentions": 6,
-      "sourceDiversity": 5,
-      "tractionScore": 4.76,
-      "delta": -1.13,
-      "trend": "down"
-    },
-    {
-      "keyword": "LNG",
-      "mentions": 6,
-      "sourceDiversity": 5,
-      "tractionScore": 4.72,
-      "delta": 1.36,
+      "mentions": 7,
+      "sourceDiversity": 6,
+      "tractionScore": 5.59,
+      "delta": 0.83,
       "trend": "up"
     },
     {
       "keyword": "power markets",
       "mentions": 1,
       "sourceDiversity": 1,
-      "tractionScore": 1,
-      "delta": 0,
+      "tractionScore": 0.94,
+      "delta": -0.06,
       "trend": "flat"
     },
     {
@@ -430,16 +670,16 @@
       "mentions": 1,
       "sourceDiversity": 1,
       "tractionScore": 0.83,
-      "delta": -1.66,
-      "trend": "down"
+      "delta": 0,
+      "trend": "flat"
     },
     {
       "keyword": "energy finance",
       "mentions": 1,
       "sourceDiversity": 1,
       "tractionScore": 0.83,
-      "delta": 0.83,
-      "trend": "up"
+      "delta": 0,
+      "trend": "flat"
     }
   ]
 }
