@@ -3002,10 +3002,15 @@
     "f7a0bbe45ebf9cbcb22655b87415dc0e47d6d98b"
   ],
   "lastTraction": {
-    "energy": 6.9,
-    "LNG": 0.94,
-    "natural gas": 0.87
+    "energy": 26.59,
+    "oil": 9.89,
+    "LNG": 9.53,
+    "shipping": 6.91,
+    "geopolitics": 3.85,
+    "sanctions": 1.77,
+    "natural gas": 1.66,
+    "energy finance": 0.83
   },
-  "lastTopSignature": "{\"items\":[{\"h\":\"5f61ef5a19f891c0f882cb6bfe948c2ead67995c\",\"s\":1.35},{\"h\":\"80a0fc7c0f39da3c3ec008e1130967bee5e8b17f\",\"s\":1},{\"h\":\"d64e28581a049e0966267dc6e5c18198f92385de\",\"s\":1},{\"h\":\"669e34eb1a2f6dba73e2549a2a4c785dc696172e\",\"s\":0.85},{\"h\":\"74aa9cf73c9cd097abdc3ecaa189a15783c8e82c\",\"s\":0.85},{\"h\":\"52d8f93e8c7f4a131c3811b48d170b7e5272b16d\",\"s\":0.85},{\"h\":\"2e6e820f271b266e7f3658660aa3839b043f163e\",\"s\":0.85},{\"h\":\"610654a49cd2c84be12e251e4fedf969055aac0c\",\"s\":0.675}],\"trends\":[{\"k\":\"energy\",\"t\":6.9,\"d\":-8.3},{\"k\":\"LNG\",\"t\":0.94,\"d\":-6.47},{\"k\":\"natural gas\",\"t\":0.87,\"d\":-0.79}]}",
-  "updatedAt": "2026-06-23T19:24:29.993Z"
+  "lastTopSignature": "{\"items\":[{\"h\":\"d5ee28c653b532fb1d2f2e495e8887e2bc0f2e8f\",\"s\":2.1263},{\"h\":\"f7bd198ef3fda448d999fb4caa976b7ae57fadc1\",\"s\":1.575},{\"h\":\"25c47f13582e0fb344eb44296055b0810f72f8c1\",\"s\":1.575},{\"h\":\"c50775e6fb599b0fc998a8a21f81f0810aca7fcb\",\"s\":1.575},{\"h\":\"184e98d4210bd5eeebdeba2df9e7dfcf51f827b1\",\"s\":1.575},{\"h\":\"ce798dfb3164adbb1791f8703d26a665b2224552\",\"s\":1.4512},{\"h\":\"3408245a3e0f9c4311c46b576ab8a6683f3aa97e\",\"s\":1.4512},{\"h\":\"bbaf8519b2a045ee6b2e1745ddb1c59ec767cc80\",\"s\":1.35}],\"trends\":[{\"k\":\"energy\",\"t\":26.59,\"d\":19.69},{\"k\":\"oil\",\"t\":9.89,\"d\":9.89},{\"k\":\"LNG\",\"t\":9.53,\"d\":8.59},{\"k\":\"shipping\",\"t\":6.91,\"d\":6.91},{\"k\":\"geopolitics\",\"t\":3.85,\"d\":3.85},{\"k\":\"sanctions\",\"t\":1.77,\"d\":1.77},{\"k\":\"natural gas\",\"t\":1.66,\"d\":0.79},{\"k\":\"energy finance\",\"t\":0.83,\"d\":0.83}]}",
+  "updatedAt": "2026-06-23T20:21:08.758Z"
 }
