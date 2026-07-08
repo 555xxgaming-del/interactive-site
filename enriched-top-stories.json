@@ -1,26 +1,65 @@
 {
-  "generatedAt": "2026-07-07T22:29:35.330Z",
+  "generatedAt": "2026-07-08T03:42:19.573Z",
   "mode": "enrich",
   "items": [
     {
       "rank": 1,
-      "title": "US reinstates sanctions on Iranian oil sales after LNG, oil tanker attacks",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRF9kZUxkQm9QMzgwTWI4c0hrMXRiWkdFWGNOZk9KSkxfcFplSUxKLWlwZGFRWTVCYnRSZzdBRU82eXJMRHduenF5RTF4bVBVSVNVMWcwNkdjUElzd05RcjVya2hsRkplYWhRcnR4ajBhVWphWW5rdS1UZlNBSjFPNUVzcXlxSHhrUWdkZC1pcHVjQUtLV0pzUFd5UXhoY01DaE9zYUQ0V3FqemM1UW8wTm9LUlpreFJfdnBj",
-      "source": "Reuters",
-      "pubDate": "Tue, 07 Jul 2026 21:06:09 GMT",
+      "title": "Natural gas demand set for contraction this year, as tighter supply impacts prices – IEA",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOaFJBVC02VmpfX1kzNzB2aDk0UEdHN1Q0RHBKR3F5S0VzNng3bS1RYUt0Y3E4ME93WEFyTXFUNDdremV3QWZUaEZBYzU1b01WOUl0Rm9feFh2NVpYbDN2RThHcXRaYnBDa3VNeG9CWTl1RkpaZWlvYndfTjJuaHduZi1LVHFrNm9GS21FeUpYYnZ3TzI1OG5kX05UazZoUEF3TVJWaUVlMThIaF85UnU3TTlEUHNqeDJMQzV2T3hCeDJaWjg4Z1pSNDhad0FTb081aDQxUg",
+      "source": "Engineering News",
+      "pubDate": "Tue, 07 Jul 2026 14:11:00 GMT",
+      "topic": "gas-lng",
+      "urgency": 0.45,
+      "score": 0.85,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "whyItMatters": "gas-lng story with 1 matching headline(s) across 1 source(s)."
+    },
+    {
+      "rank": 2,
+      "title": "Bloom Energy (BE) Faces Fresh AI Data Center Power Competition From Gas And Nuclear",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRDg1QXg1LXViTUlreWJuU0M1UHYxOTJ4WEk3bHZtR1RpU3ZjdDNjdWtaWlhZanVYTnIyWV9Ld3dPNDU0TWxydTdCNHlyVUxLeEl3N2lMYV9TalVwakhGQ2ZyenBvRnZKUHlQT1BKVEs5SEg1ZThEWWpERVNrZThldmdacUZ1TDhaNDM0ag",
+      "source": "Yahoo Finance",
+      "pubDate": "Wed, 24 Jun 2026 07:00:00 GMT",
+      "topic": "gas-lng",
+      "urgency": 0.175,
+      "score": 0.575,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "whyItMatters": "gas-lng story with 1 matching headline(s) across 1 source(s)."
+    },
+    {
+      "rank": 3,
+      "title": "Beyond oil: 9 commodities impacted by the Strait of Hormuz crisis",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdEFVRG85NHlQV0pOeDN2S0hidjdyN3E1T28xWTdmbHhDT3ZnTEVCUFdxa29NVnNUSlNRS2hSYlVKWHJJYno2R1dGcG5QRlVEWWl0QkhocDJwQW9sbXZEc2owV25MWkRMUlgzcDEzWURLWW5UTjBiMVVTNlhuQ2tTV21PMnN1d2gxZWwwZHRjVk1vSVVFaW9KY2tZUnhYNlozdThkRXpNNkZfMW5wQ2NFaFFoS3F1NDE2amRWck8tNno",
+      "source": "The World Economic Forum",
+      "pubDate": "Wed, 01 Apr 2026 07:00:00 GMT",
       "topic": "oil",
-      "urgency": 0.6,
-      "score": 2.7,
+      "urgency": 0.175,
+      "score": 0.575,
       "clusterSize": 1,
       "sourceCount": 1,
       "whyItMatters": "oil story with 1 matching headline(s) across 1 source(s)."
     },
     {
-      "rank": 2,
+      "rank": 4,
+      "title": "US reinstates sanctions on Iranian oil sales after LNG, oil tanker attacks",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRF9kZUxkQm9QMzgwTWI4c0hrMXRiWkdFWGNOZk9KSkxfcFplSUxKLWlwZGFRWTVCYnRSZzdBRU82eXJMRHduenF5RTF4bVBVSVNVMWcwNkdjUElzd05RcjVya2hsRkplYWhRcnR4ajBhVWphWW5rdS1UZlNBSjFPNUVzcXlxSHhrUWdkZC1pcHVjQUtLV0pzUFd5UXhoY01DaE9zYUQ0V3FqemM1UW8wTm9LUlpreFJfdnBj",
+      "source": "Reuters",
+      "pubDate": "Tue, 07 Jul 2026 21:06:09 GMT",
+      "topic": "oil",
+      "urgency": 0.45,
+      "score": 2.4975,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "whyItMatters": "oil story with 1 matching headline(s) across 1 source(s)."
+    },
+    {
+      "rank": 5,
       "title": "US energy chief defends waiver on Russian oil sanctions, blames fear for higher gas prices",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQemZ0a3J3WDVOUGY1bXBQNVhiYjNwdWstWmpWOEpXd2NodG03Y29CeXdNcXpRTVUxblltVjQ0bzVCekk2OWZGTGdpT3otNnZ5QkdmaElwdHA5ZmFQb3hlQUYyT0M0RWYxODd5aGpkVXpwQzNrQUhiN2QzeWJPVEtRVUNaRW1MMGhRS01BTkZfamNyTDdnSVlXRVFVcmxack9SOUdjUWU4SlNZbE9sTGtHOG9TbW5TU0xYNTdUSjh3NExDdG4tQlE",
       "source": "Reuters",
-      "pubDate": "Mon, 09 Mar 2026 07:00:00 GMT",
+      "pubDate": "Sun, 08 Mar 2026 08:00:00 GMT",
       "topic": "oil",
       "urgency": 0.175,
       "score": 2.1263,
@@ -29,7 +68,7 @@
       "whyItMatters": "oil story with 1 matching headline(s) across 1 source(s)."
     },
     {
-      "rank": 3,
+      "rank": 6,
       "title": "The New Geopolitics of LNG: Asia’s Energy Security in a Divided World",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaWtva1VKUUNZSGRHdXBhUGgwMlpYeU80ejZTbEs3TXR4ZHR2Ri1CakhGcEFEWGtQZTlUcTd3Rm1aWll3S014UXlfeVZHdjhHOEc5Y3NKS3BKMmtiWWJyaTFBREtoejVndXNoNlg4czNrRzVGNnJhM0haZDNoSG5qa0tvVHl6SWNiUFVyQnpiOWI3ZFNxSnhJSl9jSUpTazFoR3c",
       "source": "The National Bureau of Asian Research (NBR)",
@@ -42,20 +81,7 @@
       "whyItMatters": "gas-lng story with 1 matching headline(s) across 1 source(s)."
     },
     {
-      "rank": 4,
-      "title": "Oil prices jump 5% after U.S. revokes Iran oil sanctions waiver following ship attacks",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPY1BCTm1ITHZ6TFFsRUJKZ1RRTXJmVVZBZGdVSjRzVlVyc2kzNGJkanFHUXJKU3BkLTdEVm1zUWVrVVEtQktGcHpDNU9YLXJvUEJTUWxhd21Pbk1SR1BFMW9PLVdCV04yakprYTFPWktOR1c0OVVfSkxHNHhRT3VDcF90cTVENTlNUGhTZ1RlT01zZw",
-      "source": "NBC News",
-      "pubDate": "Tue, 07 Jul 2026 20:07:53 GMT",
-      "topic": "oil",
-      "urgency": 0.6,
-      "score": 1.5,
-      "clusterSize": 1,
-      "sourceCount": 1,
-      "whyItMatters": "oil story with 1 matching headline(s) across 1 source(s)."
-    },
-    {
-      "rank": 5,
+      "rank": 7,
       "title": "Middle East producers push on with oil and LNG loadings despite ship attacks",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQaXRmOXJlc21RaE15d095S1BmUzNld3VIT1dVbzV6YkpqT0N2elU5aUZ2MmpnelV2VnlNNmZScEkxWWNGUXU4bzBGYnlMQlVITlhJR1A4MzFJWnBRVWltTDhxNFFiNnNzT0FGN2xienl4VWxyaVFNc0hTX0JBV19GTTg0Q1VUZ2FrLU9TTE55SllpWlFNVnh0UzNFa2RwVnFiendwc05tSExzRHRSeDFSMFBiZnhSQndzV3RiU3Vn",
       "source": "Reuters",
@@ -68,7 +94,7 @@
       "whyItMatters": "oil story with 1 matching headline(s) across 1 source(s)."
     },
     {
-      "rank": 6,
+      "rank": 8,
       "title": "Key energy and shipping trends after three months of Iran turmoil",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPTlFKbW5qV3ZmdlB0X1dmUndkeEowYWRrUzFJS3lCeVNKbDFqM3dzeEdTVzZBaXhUVmNWSWIxMHZmR1pFNTRLa0FrcENHYzNXLVA4RklKeEV4QUpFUEZfdzJfakV2MHpsaWNGeS10cVpXMVpieHE3blV1TnEzZ00tbXhfQWNiZTNrTHB0bU9sV2ZQWm5XVjR0NEV6V0JHMmxhMndtOFBBSlJSZmppMnA4MmVlTjZWTkFOaFZ4blppLTNoMnlxZEE",
       "source": "Reuters",
@@ -81,7 +107,7 @@
       "whyItMatters": "geopolitics story with 1 matching headline(s) across 1 source(s)."
     },
     {
-      "rank": 7,
+      "rank": 9,
       "title": "Global oil and gas prices soar as Iran crisis disrupts shipping, production",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdkpYeWluSExzU0hENHpicjVNZDFwYlFpMnBYeXU1N2NnOE9abzRhMW5zZXRuM2VIR19aajQ4SS1hRGlnVDBtQnBoZy1XSG9kdDlrVzhNQnRYV243a3lMQThsd1BSSzktVFI5SHgxLTJDZVQtemZCWWp4TFFOTnQ3cTRqNlROMV8xdXNLU1lGcW5UczhfQ05wZ1BIenhWRzNkdDhzelA5eTlKLTNsWEx5MW5lSGxJX2RoSkhJVEhoYl9GVU0",
       "source": "Reuters",
@@ -94,7 +120,20 @@
       "whyItMatters": "oil story with 1 matching headline(s) across 1 source(s)."
     },
     {
-      "rank": 8,
+      "rank": 10,
+      "title": "Oil prices jump 5% after U.S. revokes Iran oil sanctions waiver following ship attacks",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPY1BCTm1ITHZ6TFFsRUJKZ1RRTXJmVVZBZGdVSjRzVlVyc2kzNGJkanFHUXJKU3BkLTdEVm1zUWVrVVEtQktGcHpDNU9YLXJvUEJTUWxhd21Pbk1SR1BFMW9PLVdCV04yakprYTFPWktOR1c0OVVfSkxHNHhRT3VDcF90cTVENTlNUGhTZ1RlT01zZw",
+      "source": "NBC News",
+      "pubDate": "Tue, 07 Jul 2026 20:07:53 GMT",
+      "topic": "oil",
+      "urgency": 0.45,
+      "score": 1.35,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "whyItMatters": "oil story with 1 matching headline(s) across 1 source(s)."
+    },
+    {
+      "rank": 11,
       "title": "ADNOC, XRG, and Mitsui Expand Energy Partnership Across LNG and Trading",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNc1BFaXJWeWpaYW1FNGdjUFJrS3p3MjN5VFBVeERwTU1sd0kzLXBpLUV0d0RZb3NPdzIwYUktUHlUWm1oUWQ3Y09qYm9ja1djdGlvcFhaYkhpZDVMUEdJcENHU0I0akdJSlBEdFZ5a2QwcnJPWFp5MEtXVG1sOGlMUmtOU0JvU1cxRTZZVFdwR1k",
       "source": "Yahoo Finance",
@@ -107,7 +146,7 @@
       "whyItMatters": "gas-lng story with 1 matching headline(s) across 1 source(s)."
     },
     {
-      "rank": 9,
+      "rank": 12,
       "title": "EagleRidge Energy, a Leading U.S. Natural Gas Operator, Announces Acquisition by Marubeni Corporation",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObktOdjJKdTVIN29qcnZYWmloeUZpVk1ndGhVNGo3NFdNQzdzSGV2YUhRSnEzRlpmUGVUcDEzNzFUbFljT1NVRVA4MHNJV1pYNjdTbTFuUEVOdll0M3V1bDBycS15R0xteFJxVFJtQTlOQ3pONHJkZlJzRVBOakIweFZpc2Y0SnEwdmVtaQ",
       "source": "Yahoo! Finance Canada",
@@ -118,45 +157,6 @@
       "clusterSize": 1,
       "sourceCount": 1,
       "whyItMatters": "gas-lng story with 1 matching headline(s) across 1 source(s)."
-    },
-    {
-      "rank": 10,
-      "title": "The 22nd Annual Energy Innovations: LDC Gas Forum Rockies & West takes place in San Diego, CA, August 10 – 12, 2026",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQUVBnYWpxejBPUG1admhuendZVllFLVd4bldsWkNjVkRzLUZ2YmJYTDB5VVA5Z3JGb29rRHc5M1RZRWstOVJvMGFidERYQXQ0SklyU3ByeF9TYWVKUWRJcDJFMkNzNFZOdUUtQjZmRWpNdDVRWUl5M3RDcmdTM3ZTdWRtUzhZNzdLN2Nv",
-      "source": "Yahoo Finance Singapore",
-      "pubDate": "Tue, 07 Jul 2026 17:58:00 GMT",
-      "topic": "gas-lng",
-      "urgency": 0.6,
-      "score": 1.3,
-      "clusterSize": 1,
-      "sourceCount": 1,
-      "whyItMatters": "gas-lng story with 1 matching headline(s) across 1 source(s)."
-    },
-    {
-      "rank": 11,
-      "title": "Liquefied Natural Gas (LNG)",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBDTGxHTmtSdzlpTHlHNWprdXltN1k4ZkgySWxIWk5qQ3l0ZTFQVEFVbjRNLXY4MUl6cXd0ZkhseEQyQjIyOTc5NS1vZE5SOEtvbmxfQ2RPZkhZNWJyVWJ0SWtxbw",
-      "source": "Department of Energy (.gov)",
-      "pubDate": "Tue, 30 Jun 2026 13:00:29 GMT",
-      "topic": "gas-lng",
-      "urgency": 0.175,
-      "score": 1.075,
-      "clusterSize": 1,
-      "sourceCount": 1,
-      "whyItMatters": "gas-lng story with 1 matching headline(s) across 1 source(s)."
-    },
-    {
-      "rank": 12,
-      "title": "Strait of Hormuz: Oil and gas supplies could take months to return to normal after Iran deal, energy experts say",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWG1nX1lhZG9PaTZYX0xtR3BxUnphbk9VSmw0cjJQZi1BTURVcVFzMEx2LUI5S3FMR2htYThkU0JCTmpEZUV3bUJ5Qlh0NE82ZU51MHVzSDhHOVZvMlFmVlJTZlpjSWw2YnlqVEtIM0xiczhfYnNfY2gyLXA3NlY2ZG9VRzR5cjkyNkZkWXRndWxsZWg0SGJGa3R6cnVsOUliZ0ZKSVZGVjg3QkhwUVc0cElZVjJGRFdjLVJaRGE3RzNJV29yakHSAcsBQVVfeXFMUENoRVRNZFNiSUxDNGN0VkRFdGI4NE9ad0E3c3Ztd0Zna0NnQ1ZRZ0VSSGk4R2dhaHJYNEpBZGVxRnpTbENBemt4Z0xRdldMR2Z4N3kwcnVSQXdRZC03V1V0Y2JuUXJFd2FNVlAyOG9uRXM2N2pYNjh0eHYyaXBjb1E2THF4WTlkWlM4ZWdsaEVuYmgxYXlFVnhiZ1Y2aExoczhpMmJESXJjLUt3WE1mUmZDcENaNmVsRm1XVUYtczlfUFpFaXp0NXVQUzQ",
-      "source": "ABC7 Bay Area",
-      "pubDate": "Mon, 15 Jun 2026 07:00:00 GMT",
-      "topic": "oil",
-      "urgency": 0.175,
-      "score": 1.075,
-      "clusterSize": 1,
-      "sourceCount": 1,
-      "whyItMatters": "oil story with 1 matching headline(s) across 1 source(s)."
     }
   ]
 }
