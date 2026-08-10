@@ -1,6 +1,5 @@
 {
   "seenHashes": [
-    "07cd718f55ca854c80a00ff69f129f23b9f34634",
     "1135926304784cac66e0d4e66aadbb26e081db69",
     "23372f0ac306a95671886ed55d4a3d26f7d383ff",
     "516927f851bdd72440c2c8197b98f85315ff4176",
@@ -2999,18 +2998,18 @@
     "78e39fe418da3015d7776cef7a2ab3bcaf5b487f",
     "48623a47d9bd2923a08ef2934349374ef6e16d06",
     "094a0ffbe797466cd58dfc3778b6c9ac91245561",
-    "02a512b0e79c76e029adc927376ae7e7bee90d4c"
+    "02a512b0e79c76e029adc927376ae7e7bee90d4c",
+    "ca5fa8d9dcb5f6c54b948b19ff6fd4ca424f3b3a"
   ],
   "lastTraction": {
-    "energy": 15.63,
-    "LNG": 6.08,
-    "oil": 5.81,
-    "sanctions": 5.14,
+    "energy": 14.8,
+    "oil": 6.75,
+    "sanctions": 5.97,
+    "LNG": 5.55,
     "shipping": 4.72,
     "natural gas": 3.32,
-    "geopolitics": 1.36,
-    "energy finance": 0.83
+    "geopolitics": 1.36
   },
-  "lastTopSignature": "{\"items\":[{\"h\":\"25c47f13582e0fb344eb44296055b0810f72f8c1\",\"s\":1.575},{\"h\":\"c50775e6fb599b0fc998a8a21f81f0810aca7fcb\",\"s\":1.575},{\"h\":\"184e98d4210bd5eeebdeba2df9e7dfcf51f827b1\",\"s\":1.575},{\"h\":\"ce798dfb3164adbb1791f8703d26a665b2224552\",\"s\":1.4512},{\"h\":\"3408245a3e0f9c4311c46b576ab8a6683f3aa97e\",\"s\":1.4512},{\"h\":\"33ddc68cbfaf3710d529960a20236e575491b8f9\",\"s\":1.175},{\"h\":\"fd9b4fe3da4f91bb723c70752c88e707f70645d0\",\"s\":1.175},{\"h\":\"0131720ea13194df0c05d5051e8c85fa91c4b31e\",\"s\":1.175}],\"trends\":[{\"k\":\"energy\",\"t\":15.63,\"d\":0},{\"k\":\"LNG\",\"t\":6.08,\"d\":0},{\"k\":\"oil\",\"t\":5.81,\"d\":0},{\"k\":\"sanctions\",\"t\":5.14,\"d\":0},{\"k\":\"shipping\",\"t\":4.72,\"d\":0},{\"k\":\"natural gas\",\"t\":3.32,\"d\":0},{\"k\":\"geopolitics\",\"t\":1.36,\"d\":0},{\"k\":\"energy finance\",\"t\":0.83,\"d\":0}]}",
-  "updatedAt": "2026-08-09T23:57:01.324Z"
+  "lastTopSignature": "{\"items\":[{\"h\":\"ca5fa8d9dcb5f6c54b948b19ff6fd4ca424f3b3a\",\"s\":0.85},{\"h\":\"25c47f13582e0fb344eb44296055b0810f72f8c1\",\"s\":1.575},{\"h\":\"c50775e6fb599b0fc998a8a21f81f0810aca7fcb\",\"s\":1.575},{\"h\":\"184e98d4210bd5eeebdeba2df9e7dfcf51f827b1\",\"s\":1.575},{\"h\":\"ce798dfb3164adbb1791f8703d26a665b2224552\",\"s\":1.4512},{\"h\":\"3408245a3e0f9c4311c46b576ab8a6683f3aa97e\",\"s\":1.4512},{\"h\":\"33ddc68cbfaf3710d529960a20236e575491b8f9\",\"s\":1.175},{\"h\":\"fd9b4fe3da4f91bb723c70752c88e707f70645d0\",\"s\":1.175}],\"trends\":[{\"k\":\"energy\",\"t\":14.8,\"d\":-0.83},{\"k\":\"oil\",\"t\":6.75,\"d\":0.94},{\"k\":\"sanctions\",\"t\":5.97,\"d\":0.83},{\"k\":\"LNG\",\"t\":5.55,\"d\":-0.53},{\"k\":\"shipping\",\"t\":4.72,\"d\":0},{\"k\":\"natural gas\",\"t\":3.32,\"d\":0},{\"k\":\"geopolitics\",\"t\":1.36,\"d\":0}]}",
+  "updatedAt": "2026-08-10T01:45:29.246Z"
 }
