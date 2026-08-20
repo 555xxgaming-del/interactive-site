@@ -3002,14 +3002,15 @@
     "572d3c857df452fa5ffbb43af7019e0a1f2b9582"
   ],
   "lastTraction": {
-    "energy": 16.99,
-    "oil": 9.33,
-    "LNG": 7.99,
+    "energy": 17.14,
+    "oil": 9.59,
+    "LNG": 7.42,
     "shipping": 4.4,
     "natural gas": 3.43,
     "geopolitics": 2.19,
-    "sanctions": 1.83
+    "sanctions": 1.83,
+    "energy finance": 0.83
   },
-  "lastTopSignature": "{\"items\":[{\"h\":\"e3d977d3ac3ee6065c588aa402139061cb1a16d6\",\"s\":2},{\"h\":\"f7bd198ef3fda448d999fb4caa976b7ae57fadc1\",\"s\":1.675},{\"h\":\"93cd5d532fff8f8be8e4086c59f233b32e81f2f1\",\"s\":1.675},{\"h\":\"25c47f13582e0fb344eb44296055b0810f72f8c1\",\"s\":1.575},{\"h\":\"c50775e6fb599b0fc998a8a21f81f0810aca7fcb\",\"s\":1.575},{\"h\":\"184e98d4210bd5eeebdeba2df9e7dfcf51f827b1\",\"s\":1.575},{\"h\":\"572d3c857df452fa5ffbb43af7019e0a1f2b9582\",\"s\":1.5},{\"h\":\"439186aee6126ff52dd6f111c742443581f1e3fe\",\"s\":1.4512}],\"trends\":[{\"k\":\"energy\",\"t\":16.99,\"d\":0},{\"k\":\"oil\",\"t\":9.33,\"d\":0},{\"k\":\"LNG\",\"t\":7.99,\"d\":0},{\"k\":\"shipping\",\"t\":4.4,\"d\":0},{\"k\":\"natural gas\",\"t\":3.43,\"d\":0},{\"k\":\"geopolitics\",\"t\":2.19,\"d\":0},{\"k\":\"sanctions\",\"t\":1.83,\"d\":0}]}",
-  "updatedAt": "2026-08-20T11:21:05.714Z"
+  "lastTopSignature": "{\"items\":[{\"h\":\"e3d977d3ac3ee6065c588aa402139061cb1a16d6\",\"s\":2},{\"h\":\"f7bd198ef3fda448d999fb4caa976b7ae57fadc1\",\"s\":1.675},{\"h\":\"25c47f13582e0fb344eb44296055b0810f72f8c1\",\"s\":1.575},{\"h\":\"c50775e6fb599b0fc998a8a21f81f0810aca7fcb\",\"s\":1.575},{\"h\":\"184e98d4210bd5eeebdeba2df9e7dfcf51f827b1\",\"s\":1.575},{\"h\":\"572d3c857df452fa5ffbb43af7019e0a1f2b9582\",\"s\":1.5},{\"h\":\"439186aee6126ff52dd6f111c742443581f1e3fe\",\"s\":1.4512},{\"h\":\"ce798dfb3164adbb1791f8703d26a665b2224552\",\"s\":1.4512}],\"trends\":[{\"k\":\"energy\",\"t\":17.14,\"d\":0.15},{\"k\":\"oil\",\"t\":9.59,\"d\":0.26},{\"k\":\"LNG\",\"t\":7.42,\"d\":-0.57},{\"k\":\"shipping\",\"t\":4.4,\"d\":0},{\"k\":\"natural gas\",\"t\":3.43,\"d\":0},{\"k\":\"geopolitics\",\"t\":2.19,\"d\":0},{\"k\":\"sanctions\",\"t\":1.83,\"d\":0},{\"k\":\"energy finance\",\"t\":0.83,\"d\":0.83}]}",
+  "updatedAt": "2026-08-20T11:50:51.559Z"
 }
