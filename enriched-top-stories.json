@@ -1,48 +1,22 @@
 {
-  "generatedAt": "2026-09-30T20:00:01.263Z",
+  "generatedAt": "2026-10-01T00:32:03.476Z",
   "mode": "enrich",
   "items": [
     {
       "rank": 1,
-      "title": "Bloom Energy CEO delivers stark warning on America's power demand",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWXFQRHIybkM5dXpzb0Q2SlNuYmZPVVZxQmw4OXhybnUtSEJWTkJzUk5GendWdThsWVZGUUdjSWl0YlRhODlPVDViREtwMWtqNmlnMDd2ZDRnN3VyMDdhRnNUQk9xYWFQMU9nYWZYcXd3bGttNVMweWJ1UVEwendpVS03T3ZhcjFCYkVlZGxVY1BNZw",
-      "source": "Yahoo Finance",
-      "pubDate": "Wed, 30 Sep 2026 18:47:00 GMT",
+      "title": "Bloom Energy CEO delivers stark warning on America’s power demand",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZU9weFlmTkdRSlBiUjRyaE9pdVhVWlBtLUpZM3JRc2JqSlBFaVBCME82c3VpOFZ5cXFUM1VYcHJ4N2piSW5lU3lXdWpVeVBmMTM5ekZzaXZvWlRqNTdiRWtQN1lfR05ZSU14MGY3MG5OcFIwQjdJUXdod1dQd2FJa2dxWnBadkRKMTJ2bzI5NzBmQk1mOVVLUkhnOFMwZ0tnaVU4UzJDMFRsYzI1TG1PZTFNMklIcVI5",
+      "source": "thestreet.com",
+      "pubDate": "Wed, 30 Sep 2026 15:47:00 GMT",
       "topic": "power",
-      "urgency": 0.6,
-      "score": 1,
+      "urgency": 0.45,
+      "score": 0.85,
       "clusterSize": 1,
       "sourceCount": 1,
       "whyItMatters": "power story with 1 matching headline(s) across 1 source(s)."
     },
     {
       "rank": 2,
-      "title": "The United States and South Korea May Finance Alaska LNG",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNS3pMbDI1S3NNaHdXMzFGZ2k5UDlULUZoQ2I5MGFBRnBMQmktS1ZoS3dqVlM4LW85ZDZPTWQ3WmpSZFliODV3TzNfVkk4WGxCazl5TkNtSkxGRVc5REZEVjVVVkZUQlAyVjRuempGeGVOTWY2OVZQY2t6XzVnazZQdUJSbzhwaEpiUUE",
-      "source": "energynews.pro",
-      "pubDate": "Wed, 30 Sep 2026 15:02:30 GMT",
-      "topic": "gas-lng",
-      "urgency": 0.6,
-      "score": 1,
-      "clusterSize": 1,
-      "sourceCount": 1,
-      "whyItMatters": "gas-lng story with 1 matching headline(s) across 1 source(s)."
-    },
-    {
-      "rank": 3,
-      "title": "Legal 500 Recognizes Hunton Among Top Law Firms in UK 2027 Guide",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUElFZ1Z3ZlBJQWNiTnY4WVZhNmJadnRVdlc3Q3o1b1VXQUtlRm1iUjdGRUhVVmR2eGhpX1pKNjg1ZEFzYUdZUFc3LTgzVnJqTDd2Y3pxTm9JRXdHTHl3UzA0VDhoZkd3anFqbjlucjVHQkF3YjZYRW5LX01YM0xhTGRVaUpXc3M2Z0pud2VQTXNlVk1mZDhR",
-      "source": "Hunton Andrews Kurth LLP",
-      "pubDate": "Wed, 30 Sep 2026 13:14:39 GMT",
-      "topic": "general-energy",
-      "urgency": 0.45,
-      "score": 0.35,
-      "clusterSize": 1,
-      "sourceCount": 1,
-      "whyItMatters": "general-energy story with 1 matching headline(s) across 1 source(s)."
-    },
-    {
-      "rank": 4,
       "title": "COSCO Shipping Energy Adds $253m to LNG Investment Vehicle",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPLWotQkVkNzRNZ1V6VGNjWk94Q0lWZHpseGZZb05HYXRha1Q2VWZPNEZvU1BucGk2aUpONm00b3l5TVg4MnB5ZktsVEx3Nk1zOVNnWVhTRGVmeXlfZzRqcXFsWDZHQmtvRE1wQzdPWVNnd2YtQ1FraklJQnhHMnZJcG5iTy1wbjZEeFpKeEhUNWQ",
       "source": "IndexBox",
@@ -55,7 +29,7 @@
       "whyItMatters": "gas-lng story with 1 matching headline(s) across 1 source(s)."
     },
     {
-      "rank": 5,
+      "rank": 3,
       "title": "UK Imposes New Sanctions on Iranian Shipping, Cargo Flights, Energy, and Finance",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNaFNUcHdFbkM3eWliSjBCcHB5ZnhCSTR2d2ZPdC1oQ2lFaUZ4UVNQYnZxQkpOT0NHWnlfcktvOWVOd3J6RHRSUk0ya3QyQV9pZHA0cmhsSVVCbi1SaXdISkU4RUhlSW00Q1lLNFpHMDZqWFJwc3c4ZTJSSnRJNmNiVUN5QjZNUDBFNTBscjFaa0ZZblppeFAybTZiUHFSSEFOT0hUQkpNT1ZNcHhqMjF4ZzUzRUQ",
       "source": "IranWire",
@@ -68,7 +42,7 @@
       "whyItMatters": "geopolitics story with 1 matching headline(s) across 1 source(s)."
     },
     {
-      "rank": 6,
+      "rank": 4,
       "title": "Hong Kong Stock Announcements: COSCO Shipping Energy Expands LNG Fleet; Sitoy Group Holdings Narrows Loss by 31%",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB0V0hxdy11bG9tYUZWMWsyMmF3ZnVYU21VanBOQW82Y0NRYlFuV1ZRMTdXQk4ydFpCUXZlQ2p0aDJVZ3pyOFk5TUNSOTYtVzN6Z3BMZURYQ0lrT1dXOGpQdGdzMEFhR0ZadkMtN1JyRHRIU2NvQXc",
       "source": "finance.biggo.com",
@@ -81,7 +55,7 @@
       "whyItMatters": "gas-lng story with 1 matching headline(s) across 1 source(s)."
     },
     {
-      "rank": 7,
+      "rank": 5,
       "title": "LNG resilience tested as geopolitics reshapes global energy security",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMUR6a2dMb2ROSFp0cEZrcWJTV1R0YVg5TjZ6STJ0V0YwLXJvaE81aEZJS01kTnk1eTRmRUNxNXhmcG90WkhaSFNacGZCMmt1MUZQaks5TldBX213eVFYdTFyLVBLM1dzQy1iOU5LSDZMaHUxQU1Ga2pnaTVxeDBzYldtNmxTNlBSQVFOVTdidUhuT0kya2FKYU5XRUlfUVZ5cXdGWE5sQkllSEFBOExBVTFn",
       "source": "CGEP",
@@ -94,7 +68,7 @@
       "whyItMatters": "gas-lng story with 1 matching headline(s) across 1 source(s)."
     },
     {
-      "rank": 8,
+      "rank": 6,
       "title": "The Geopolitics of LNG and the Implications for Japan’s Energy Security Strategy",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdzVoNlJUcmFoRktUaWkzQkxrbFJmdUM3TXNUSktfcklzN3Rmc2hwZjNMS0hlQldscG1BUWFSazdqN0VoWWV3YUYwblJGOFBXckFoOFJCaXo3c2lETmJlRUM4LXFONjc3NjRrNG5hZFVsdXo1R1hsbWp3Ni01VnN5cTJOenh5QnF5ZVRTRktqcFdVUjBZU0V4T1R1azM0dlJJSWZkb2YzbXkzUXlyRXFwaXNB",
       "source": "The National Bureau of Asian Research",
@@ -107,7 +81,7 @@
       "whyItMatters": "gas-lng story with 1 matching headline(s) across 1 source(s)."
     },
     {
-      "rank": 9,
+      "rank": 7,
       "title": "The New Geopolitics of LNG: Asia’s Energy Security in a Divided World",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaWtva1VKUUNZSGRHdXBhUGgwMlpYeU80ejZTbEs3TXR4ZHR2Ri1CakhGcEFEWGtQZTlUcTd3Rm1aWll3S014UXlfeVZHdjhHOEc5Y3NKS3BKMmtiWWJyaTFBREtoejVndXNoNlg4czNrRzVGNnJhM0haZDNoSG5qa0tvVHl6SWNiUFVyQnpiOWI3ZFNxSnhJSl9jSUpTazFoR3c",
       "source": "The National Bureau of Asian Research",
@@ -120,10 +94,10 @@
       "whyItMatters": "gas-lng story with 1 matching headline(s) across 1 source(s)."
     },
     {
-      "rank": 10,
+      "rank": 8,
       "title": "COMMENTARY: Key energy and shipping trends after three months of Iran turmoil",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPTlFKbW5qV3ZmdlB0X1dmUndkeEowYWRrUzFJS3lCeVNKbDFqM3dzeEdTVzZBaXhUVmNWSWIxMHZmR1pFNTRLa0FrcENHYzNXLVA4RklKeEV4QUpFUEZfdzJfakV2MHpsaWNGeS10cVpXMVpieHE3blV1TnEzZ00tbXhfQWNiZTNrTHB0bU9sV2ZQWm5XVjR0NEV6V0JHMmxhMndtOFBBSlJSZmppMnA4MmVlTjZWTkFOaFZ4blppLTNoMnlxZEE",
-      "source": "Reuters",
+      "source": "reuters.com",
       "pubDate": "Thu, 28 May 2026 07:00:00 GMT",
       "topic": "geopolitics",
       "urgency": 0.175,
@@ -133,10 +107,10 @@
       "whyItMatters": "geopolitics story with 1 matching headline(s) across 1 source(s)."
     },
     {
-      "rank": 11,
+      "rank": 9,
       "title": "Middle East producers push on with oil and LNG loadings despite ship attacks",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQaXRmOXJlc21RaE15d095S1BmUzNld3VIT1dVbzV6YkpqT0N2elU5aUZ2MmpnelV2VnlNNmZScEkxWWNGUXU4bzBGYnlMQlVITlhJR1A4MzFJWnBRVWltTDhxNFFiNnNzT0FGN2xienl4VWxyaVFNc0hTX0JBV19GTTg0Q1VUZ2FrLU9TTE55SllpWlFNVnh0UzNFa2RwVnFiendwc05tSExzRHRSeDFSMFBiZnhSQndzV3RiU3Vn",
-      "source": "Reuters",
+      "source": "reuters.com",
       "pubDate": "Mon, 29 Jun 2026 07:00:00 GMT",
       "topic": "oil",
       "urgency": 0.175,
@@ -146,10 +120,10 @@
       "whyItMatters": "oil story with 1 matching headline(s) across 1 source(s)."
     },
     {
-      "rank": 12,
+      "rank": 10,
       "title": "Oil and LNG tankers exit Hormuz, heading for Pakistan and China",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVVVSQnVDcHd0cUZHRnpsSjdXUUhHT0Q0eDVUNElUVTdhNml5WGVQWFBIVnBsVTM4RUZ1WWVhVHROVk9uaFNzbS1keFZWdW9jSDFXc0g3OWl1bmFVNUZZMW9kd2tHRDN1alFxWUM2RnBVZzM2Sk9fNTNtZXdrQ0lUblEySXBUVHpUa1lKbkNIemVJclh3dmEwdXNkTjRFR3NxQ0pkaUVDSTBjbHp0WHgxUUVnanVqaHkyRUJ6MQ",
-      "source": "Reuters",
+      "source": "reuters.com",
       "pubDate": "Mon, 25 May 2026 07:00:00 GMT",
       "topic": "oil",
       "urgency": 0.175,
@@ -157,6 +131,32 @@
       "clusterSize": 1,
       "sourceCount": 1,
       "whyItMatters": "oil story with 1 matching headline(s) across 1 source(s)."
+    },
+    {
+      "rank": 11,
+      "title": "Qatar Brings LNG Tankers Into Hormuz Despite Shipping Slowdown",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSVFmSDFRemJEREhkQVBYZzN6VUhYeEh3QUUtY1A0VVQzcS12RVhDb2pXYnp1dVMwdnFOVEhiVUw4QUVIalhLc1pQeXl4em5RTTJ1NHlfbnFtQlByTUtPc0xra0gxbUhjd0MxRGxSS25KejdoN1R4Y3JsRm9FRnhqSGQ2Tnhyc3Nsc21YNFdiRC1SOUpXa2c0Ug",
+      "source": "EnergyNow.com",
+      "pubDate": "Wed, 30 Sep 2026 17:43:05 GMT",
+      "topic": "gas-lng",
+      "urgency": 0.45,
+      "score": 1.35,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "whyItMatters": "gas-lng story with 1 matching headline(s) across 1 source(s)."
+    },
+    {
+      "rank": 12,
+      "title": "The 2.5X gamble: Nuclear-powered LNG carriers could upend maritime shipping",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNOER5TUY5RGlNeGdCMjNIVlBHS0pfZVRodGs2WHd0bm5IM3BCY0YtTVdPX1lOS0R3aHR3Wk5TV3g0VHlKZzFfVmZjVXdDaXl4U0JQV2dYbzh4VTc4SDYtWVk3bktaV29ycjZOenhBS0JtbjRQU0pVSkZra0FjaWJuaVEyWXFaNmFlNk4yTkx1U1VCc1lNc051c0VxSml2b2xNMWV3cHJodHAtQnBzck44bkt3",
+      "source": "Offshore Energy",
+      "pubDate": "Wed, 30 Sep 2026 06:55:16 GMT",
+      "topic": "gas-lng",
+      "urgency": 0.45,
+      "score": 1.35,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "whyItMatters": "gas-lng story with 1 matching headline(s) across 1 source(s)."
     }
   ]
 }
