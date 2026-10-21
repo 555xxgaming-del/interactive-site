@@ -1,13 +1,65 @@
 {
-  "generatedAt": "2026-10-21T04:42:22.248Z",
+  "generatedAt": "2026-10-21T11:45:00.832Z",
   "mode": "enrich",
   "items": [
     {
       "rank": 1,
-      "title": "Woodside Production Jumps 12% as Scarborough LNG Start Nears",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQT2VlMXloMzZtTWhOb1ZRaGFvTXo0VC1NNHE1YTFud0h1VVJUaFJOLVpGcW5uYXJHeDU4RmdlZ2tNT0Z3d19UZjJCNmMzSWNQSWNreXBxN3BDLXJZdTgxeUp5WmlWc25wOXNQdTRObDNwVGpjdnlvQnVmcTFlRXZhNlhVLWRQczVtYWRjblpTU21XNmhEOGFXRHRiZmdvdw",
-      "source": "Yahoo Finance",
-      "pubDate": "Wed, 21 Oct 2026 01:49:00 GMT",
+      "title": "Ithaca Energy and Jersey Oil and Gas shares surge as UK approves Jackdaw gasfield",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZWc4N2p1QTRyYnZVQjFxanNod1lkQ3V5OWhKemRIaEFzVFVmTDNMUFJvUUVUS042TVhOVE51Um1kbk45VDBoQ2VoaXRHV25tSHdtdUZqektkSnp0aENhenRyQ1MycUN1TC1nYi1URFdkdjItRm5FajZhSmNvam1MalZ2MA",
+      "source": "Yahoo Finance UK",
+      "pubDate": "Wed, 21 Oct 2026 07:37:00 GMT",
+      "topic": "oil",
+      "urgency": 0.6,
+      "score": 1.5,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "whyItMatters": "oil story with 1 matching headline(s) across 1 source(s)."
+    },
+    {
+      "rank": 2,
+      "title": "Woodside Energy cuts production outlook as Scarborough LNG start window tightens",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRHozZDZtY09hZmN4WW5Kb21GdE1kcFRrLTRlLU1yUDZrMzZhbjhOYUVxV3d2d3kyelVyR3MtY2JVNFFnV09sbHdnbG50MU43c0tpWW56Z2VGR1hDQTdyZWRDc0FpX0UyUWlwR0dxbFRNZHEyeUdMRjlSQ0pUbXpZMmNpV0gxMzZ2RzZhanQ5UFNoQQ",
+      "source": "Yahoo Finance UK",
+      "pubDate": "Wed, 21 Oct 2026 00:11:00 GMT",
+      "topic": "gas-lng",
+      "urgency": 0.45,
+      "score": 1.35,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "whyItMatters": "gas-lng story with 1 matching headline(s) across 1 source(s)."
+    },
+    {
+      "rank": 3,
+      "title": "Turning to Azerbaijani gas and US LNG, Turkey seeks to break its reliance on Russian energy",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcEp1MUNHZF9SbEY3enlxVzZGZkw2VHpGNHNEeGtaUEtraE1BTlEyMTJGbEZBcnNPNXhpYkNoaFc1eDc4VmtiVGVOdmRSOHRuR01qVjV6MnBuLVBpV0dkc3RnZUdwQWFQNW5KNVNuc0ROME9QRXIxakN3aExkZnE0UnduU0ZEX1RIR2VQZmstUkJsSm80MjRqeUZPZm5jWU0",
+      "source": "Atlantic Council",
+      "pubDate": "Fri, 24 Jul 2026 07:00:00 GMT",
+      "topic": "gas-lng",
+      "urgency": 0.175,
+      "score": 1.075,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "whyItMatters": "gas-lng story with 1 matching headline(s) across 1 source(s)."
+    },
+    {
+      "rank": 4,
+      "title": "Vaar Energi Doubles Profit, Raises Dividend on High Oil & Gas Prices",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOajdCeWFoa01aRjRlaVRxQ0w1empOVFByWFBYRGJzSlh4VDJobFAxTE02cDZFTjVuNzhwRURYUXRWN2lMT0xvY08waVlqYzFCTHgyaDNHM3AwRXpzeTh3aXlIRzY0ODJYakgtQXdlTG41eFd5Wld4d0NLZEtrTjZDNGt5d1l5dzJzVXZrd05LVzJuT0RiQjJtb0dlT3I",
+      "source": "Global Banking & Finance Review",
+      "pubDate": "Wed, 21 Oct 2026 05:47:30 GMT",
+      "topic": "oil",
+      "urgency": 0.6,
+      "score": 1,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "whyItMatters": "oil story with 1 matching headline(s) across 1 source(s)."
+    },
+    {
+      "rank": 5,
+      "title": "UK Clears Jackdaw Gas Field Project in North Sea to Boost Energy Security",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcm9XQjEwUzZJNEM4M1RoMjQtYS1lMmpXMmRaTkVrY1ktRmg5WlBFNXJGQXFiWGM2UXdScFBwVC03R0g4MTNCLUpiVldBcjlUZDl5V0NRMDRSbE9wbDZMMTJwVnU1cUZ0Q3c4dUJwSjBWdFU2VWNZcmRkTjNJaWY1NXFn",
+      "source": "Yahoo Finance UK",
+      "pubDate": "Wed, 21 Oct 2026 09:48:57 GMT",
       "topic": "gas-lng",
       "urgency": 0.6,
       "score": 1,
@@ -16,33 +68,20 @@
       "whyItMatters": "gas-lng story with 1 matching headline(s) across 1 source(s)."
     },
     {
-      "rank": 2,
-      "title": "Energy Costs Are Driving U.S. Inflation, and Wages Aren't Keeping Up",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObkxwaHAyVFdxSE81QlZGNEdWNWtheGZZeGRfQ19nYkd5YzhsV2FkSTdSR2ZaLTFQa2g5N3lvTGQxVWlEUlJDVWQ2NWJYZ3VkaUhLa0VrWnpnREE3eEg4dl9tNndFUWVZM0xkUm9MN1E4aU5EQjlsZVlMbGNtSExUUGp3dHlyaHRXS0oxTUN1dlpISnc",
-      "source": "Yahoo Finance",
-      "pubDate": "Tue, 20 Oct 2026 21:00:00 GMT",
-      "topic": "general-energy",
-      "urgency": 0.45,
-      "score": 0.85,
+      "rank": 6,
+      "title": "China Shenhua stock pre-market at EUR 4.58: integrated coal group",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONmQ2VTMzZmZuRzdDa3RhYV83c00zNXc1dTFURGdreld3RnlzWHhaakpWV0x2WGVNTm11Zjhpc091aGdNY2Nud0phYy12Y3NSUDMwbmdxaVFjNnJiYndxSmhXZTVGYVVuRjZndzA4UDRrOXVyWW1RbEVuQ3AxTGJISFh0LVFGa19iUW9JZEczR1VoQ01qMGV6bWYtMTNzN3MzaE51RURiR25hdzAwbzhCME50Tm1MRWhFOVNqWHplYw",
+      "source": "AD HOC NEWS",
+      "pubDate": "Wed, 21 Oct 2026 06:53:07 GMT",
+      "topic": "financials",
+      "urgency": 0.6,
+      "score": 0.5,
       "clusterSize": 1,
       "sourceCount": 1,
-      "whyItMatters": "general-energy story with 1 matching headline(s) across 1 source(s)."
+      "whyItMatters": "financials story with 1 matching headline(s) across 1 source(s)."
     },
     {
-      "rank": 3,
-      "title": "3 U.S. Energy Stocks With Direct Exposure to Higher Natural Gas and Oil Prices",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNG5vaDJVQzIxTjdTbnBQVE5rYjZEdkdieWdZRUEzQWhLU2RSbGlVNmJ2MFZ1SHBFb3hlQ3RJVmlEbE1KMks1WVN4MVo3LWNlbnBXUXA5cXRjb2Y1WWdOWDAzdnV3Sm5YdkxRNXJSUk93TEdVWTM5d3FNUzVNbmFQZTY3M3hmNUxi",
-      "source": "Yahoo Finance",
-      "pubDate": "Sun, 18 Oct 2026 11:09:32 GMT",
-      "topic": "oil",
-      "urgency": 0.275,
-      "score": 1.675,
-      "clusterSize": 1,
-      "sourceCount": 1,
-      "whyItMatters": "oil story with 1 matching headline(s) across 1 source(s)."
-    },
-    {
-      "rank": 4,
+      "rank": 7,
       "title": "Trump's Russia sanctions waiver eases India's energy woes, lifts trade deal chances",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPX1JDdGd6aEZHMGQ5OXppVnA5d3FlSzNmbDdjOURNajl2Sjg3T0VrRzRLSC1DdVpLekQ5ZHBVdjQ1eV9UcF81anZNVklVYjZnQlNfQUlWRVMtNzEwVVVDQWlYTmQtU29FOU5xTFlGYTFUVV90bXI3dXU5UU5IUG9ZNjNYVHNUdzNjT3JXb244bm84d240TG56ZDVLbXNhMWpucjVTZXdtaTZQYjViOFU3bDZnZlFEQjduUDBfMWdwMVBXUFl3VFRJ",
       "source": "Reuters",
@@ -55,7 +94,7 @@
       "whyItMatters": "general-energy story with 1 matching headline(s) across 1 source(s)."
     },
     {
-      "rank": 5,
+      "rank": 8,
       "title": "LNG - Cheniere Energy (LNG) — The Toll Road That Geopolitics Just Made More Valuable",
       "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQT3EzdnhsMVlZeWN0cGxUOGJwN0FDNjk1dnhoaEo4cUhjaVNTQ3NZOXFIXzVBTnl1eEc5X1E1RUZVNzBoNTRRM3dqU1BObFA5cS1CMVBxMmRoRWFjc1NLRFJzcmZaOW5mckppSWxNcHdjcVJFUTVORzVHS2Z1cUwxRmkzM2ZlbU11TUk3ZjJ3ekhGZE1YY3VNSHBFeV84bVQ5aXR1V1FHSUs1VXpCY2haWGpHUDhaYU9hRkNnblJkVmVFYkk1bThLaHVDcHhneGZ4ak42Z01EV2twN2w2bEpEX1lOSm5JRUx0UGZ4cUNnbXRQV3Q3NDg5NUNTOWQ",
       "source": "Simply Wall Street",
@@ -68,7 +107,20 @@
       "whyItMatters": "gas-lng story with 1 matching headline(s) across 1 source(s)."
     },
     {
-      "rank": 6,
+      "rank": 9,
+      "title": "3 U.S. Energy Stocks With Direct Exposure to Higher Natural Gas and Oil Prices",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNG5vaDJVQzIxTjdTbnBQVE5rYjZEdkdieWdZRUEzQWhLU2RSbGlVNmJ2MFZ1SHBFb3hlQ3RJVmlEbE1KMks1WVN4MVo3LWNlbnBXUXA5cXRjb2Y1WWdOWDAzdnV3Sm5YdkxRNXJSUk93TEdVWTM5d3FNUzVNbmFQZTY3M3hmNUxi",
+      "source": "Yahoo Finance",
+      "pubDate": "Sun, 18 Oct 2026 11:09:32 GMT",
+      "topic": "oil",
+      "urgency": 0.175,
+      "score": 1.575,
+      "clusterSize": 1,
+      "sourceCount": 1,
+      "whyItMatters": "oil story with 1 matching headline(s) across 1 source(s)."
+    },
+    {
+      "rank": 10,
       "title": "LNG resilience tested as geopolitics reshapes global energy security",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMUR6a2dMb2ROSFp0cEZrcWJTV1R0YVg5TjZ6STJ0V0YwLXJvaE81aEZJS01kTnk1eTRmRUNxNXhmcG90WkhaSFNacGZCMmt1MUZQaks5TldBX213eVFYdTFyLVBLM1dzQy1iOU5LSDZMaHUxQU1Ga2pnaTVxeDBzYldtNmxTNlBSQVFOVTdidUhuT0kya2FKYU5XRUlfUVZ5cXdGWE5sQkllSEFBOExBVTFn",
       "source": "Columbia University",
@@ -81,7 +133,7 @@
       "whyItMatters": "gas-lng story with 1 matching headline(s) across 1 source(s)."
     },
     {
-      "rank": 7,
+      "rank": 11,
       "title": "The Geopolitics of LNG and the Implications for Japan’s Energy Security Strategy",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdzVoNlJUcmFoRktUaWkzQkxrbFJmdUM3TXNUSktfcklzN3Rmc2hwZjNMS0hlQldscG1BUWFSazdqN0VoWWV3YUYwblJGOFBXckFoOFJCaXo3c2lETmJlRUM4LXFONjc3NjRrNG5hZFVsdXo1R1hsbWp3Ni01VnN5cTJOenh5QnF5ZVRTRktqcFdVUjBZU0V4T1R1azM0dlJJSWZkb2YzbXkzUXlyRXFwaXNB",
       "source": "The National Bureau of Asian Research",
@@ -94,7 +146,7 @@
       "whyItMatters": "gas-lng story with 1 matching headline(s) across 1 source(s)."
     },
     {
-      "rank": 8,
+      "rank": 12,
       "title": "The New Geopolitics of LNG: Asia’s Energy Security in a Divided World",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaWtva1VKUUNZSGRHdXBhUGgwMlpYeU80ejZTbEs3TXR4ZHR2Ri1CakhGcEFEWGtQZTlUcTd3Rm1aWll3S014UXlfeVZHdjhHOEc5Y3NKS3BKMmtiWWJyaTFBREtoejVndXNoNlg4czNrRzVGNnJhM0haZDNoSG5qa0tvVHl6SWNiUFVyQnpiOWI3ZFNxSnhJSl9jSUpTazFoR3c",
       "source": "The National Bureau of Asian Research",
@@ -105,58 +157,6 @@
       "clusterSize": 1,
       "sourceCount": 1,
       "whyItMatters": "gas-lng story with 1 matching headline(s) across 1 source(s)."
-    },
-    {
-      "rank": 9,
-      "title": "Middle East producers push on with oil and LNG loadings despite ship attacks",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQaXRmOXJlc21RaE15d095S1BmUzNld3VIT1dVbzV6YkpqT0N2elU5aUZ2MmpnelV2VnlNNmZScEkxWWNGUXU4bzBGYnlMQlVITlhJR1A4MzFJWnBRVWltTDhxNFFiNnNzT0FGN2xienl4VWxyaVFNc0hTX0JBV19GTTg0Q1VUZ2FrLU9TTE55SllpWlFNVnh0UzNFa2RwVnFiendwc05tSExzRHRSeDFSMFBiZnhSQndzV3RiU3Vn",
-      "source": "Reuters",
-      "pubDate": "Mon, 29 Jun 2026 07:00:00 GMT",
-      "topic": "oil",
-      "urgency": 0.175,
-      "score": 1.4512,
-      "clusterSize": 1,
-      "sourceCount": 1,
-      "whyItMatters": "oil story with 1 matching headline(s) across 1 source(s)."
-    },
-    {
-      "rank": 10,
-      "title": "Asian LNG Prices Surge Past $30 as Middle East Shipping Risks Escalate",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQY3RYQW9DS1prYXgxOXA1Y2Vld2xsbFpRNXZTUFh3cnQ2Z3JxYlRkaFlRQm5ReXR1emtUSnFVb2wxMWlnNFRITlVjQnFMVUhIcndPRTRENmc4am1sUDM1VGU2Z3NQVmo1ZlRVMm9PVlcwUXFJQVhEWXRpWi1QS2liSy1SRXc0SHlLWnd6V3FmNU84d0E0WUxlemVKMlJHbjFQaUx3RVBhc2NoXy1jTkRzLWVWdTM0bHFHRHlPdGZ1akw3dnPSAcgBQVVfeXFMTnE3dGg3Y0JDMVRRanV5TWtjVUNOTG4weGprVkZoOHJyUktQTFAyN0ZPUEp6bzFmanVjV2FaM2NTNy0zMkRPMnVHVnNUVnVYT3pBTktOc00ySGVQVXFERFd5NkNOR2RpNTBHWU5nWmlJMUZmTXVyMllIOFdnYzgyRktxeUJEeVpVdGc3YVlHT3cyd0NhTlppZFZtRUM3bXh1akFhQnhCNVdOeDk1MWRHRHZPLTg1d1p6b3g2TGJETWozSUNyZ29EVGc",
-      "source": "Crude Oil Prices Today | OilPrice.com",
-      "pubDate": "Tue, 20 Oct 2026 07:00:00 GMT",
-      "topic": "gas-lng",
-      "urgency": 0.45,
-      "score": 1.35,
-      "clusterSize": 1,
-      "sourceCount": 1,
-      "whyItMatters": "gas-lng story with 1 matching headline(s) across 1 source(s)."
-    },
-    {
-      "rank": 11,
-      "title": "Trump takes aim at Russia's energy sector with sanctions bill",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9vSHg0WFRlY1pCUkotVTE1N3pUOHdfak53ZVFjaVRUa3hpUEtKWTN5ZzBUOEpIQ25DQzJnZlVlM2JpU2tJcnVraG1rZkR2SUotSEEwNUxJMmRKT28",
-      "source": "BBC",
-      "pubDate": "Fri, 18 Sep 2026 07:00:00 GMT",
-      "topic": "general-energy",
-      "urgency": 0.175,
-      "score": 1.1825,
-      "clusterSize": 1,
-      "sourceCount": 1,
-      "whyItMatters": "general-energy story with 1 matching headline(s) across 1 source(s)."
-    },
-    {
-      "rank": 12,
-      "title": "Oil prices fall as U.S. rolls out global sanctions focused on Iran",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYmM1OWVNT01lQlNPWmo3Zk1RM1UtdE5HcXNBTHEtRFNNZS14b0prb2xkc1A3ZHNKY3pvR3dxcE5COWlFakFUSWM1SW5ldjhEYjNEY1Q5eUF6SEtXV1FYNGs4UzE5ajRBTGJpaG1scm9mOVZENzdVTUxVQ0RCTWNLaHcyZjFIQk3SAYwBQVVfeXFMTU9JYUFXTl91WGZhNXhua1hCZTF4ME5nc2hHRGVBVDJXYTVBMXlOLURJTG8teFdKRnhSTC1NdkVIM0FYU2xObWpPa2RMTEg5eS1vTHR4dmZuVkF5bUtLWmlDUHRXenQ5dVJ4QXZFODZKM3oyUlpraTJneVpGLUlyMFRYUEZKQTJTYVlTNEY",
-      "source": "CNBC",
-      "pubDate": "Tue, 25 Aug 2026 07:00:00 GMT",
-      "topic": "oil",
-      "urgency": 0.175,
-      "score": 1.1825,
-      "clusterSize": 1,
-      "sourceCount": 1,
-      "whyItMatters": "oil story with 1 matching headline(s) across 1 source(s)."
     }
   ]
 }
