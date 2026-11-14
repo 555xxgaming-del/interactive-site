@@ -1,13 +1,13 @@
 {
-  "mode": "enrich",
-  "generatedAt": "2026-11-13T23:30:22.767Z",
-  "durationMs": 390,
-  "totalParsed": 59,
-  "emitted": 40,
-  "clusteredFrom": 59,
+  "mode": "fast",
+  "generatedAt": "2026-11-14T02:52:10.369Z",
+  "durationMs": 533,
+  "totalParsed": 60,
+  "emitted": 24,
+  "clusteredFrom": 60,
   "dedupDropped": 0,
   "staleDropped": 59,
-  "freshnessRatio": 0.678,
+  "freshnessRatio": 0.4,
   "suggestedNextCrawlMinutes": 20,
   "changed": true
 }
